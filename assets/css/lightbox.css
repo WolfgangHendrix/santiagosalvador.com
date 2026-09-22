@@ -1,0 +1,102 @@
+/* Modern Lightbox Styles */
+.lightbox-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 5, 8, 0.96);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.lightbox-modal.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 92vw;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lightbox-img-wrap {
+  position: relative;
+  max-width: 100%;
+  max-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-img {
+  max-width: 92vw;
+  max-height: 78vh;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.9);
+  transition: transform 0.2s ease;
+}
+
+.lightbox-caption {
+  margin-top: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.lightbox-title {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  color: var(--text-bright);
+  font-weight: 700;
+}
+.lightbox-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.lightbox-btn {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  backdrop-filter: blur(10px);
+}
+.lightbox-btn:hover {
+  background: var(--accent-gold);
+  color: #000;
+  transform: scale(1.1);
+}
+.lightbox-btn-close { top: 24px; right: 24px; }
+.lightbox-btn-prev { left: 24px; top: 50%; transform: translateY(-50%); }
+.lightbox-btn-next { right: 24px; top: 50%; transform: translateY(-50%); }
+
+@media (max-width: 768px) {
+  .lightbox-btn-prev { left: 10px; }
+  .lightbox-btn-next { right: 10px; }
+  .lightbox-btn-close { top: 12px; right: 12px; }
+}

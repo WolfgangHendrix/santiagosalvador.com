@@ -1,0 +1,22 @@
+# Photoshop & Master Working Files (Keep working files on local disk)
+*.psd
+*.psb
+PSD_Masters/
+Art/PSD_Masters/
+motu/*.psd
+
+# Large 1-Click Zip Packs (Exceeds GitHub's 100MB single-file hard limit)
+Labels/packs/*.zip
+
+# Archived audio & SFX
+_archive*/
+Art/Music_Audio/_archive_sfx_and_public_domain/
+
+# OS & Editor temp files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.tmp
+*.bak
+* - Copy.html
+* - Copy (2).html

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santiago Salvador — Artist, Game Developer, Sound Designer & Creator</title>
+  <meta name="description" content="Official personal portfolio of Santiago Salvador. Original artwork, custom figures, 1,350+ free game cartridge replacement labels, and SpaceChakra indie game development.">
+  <meta name="keywords" content="Santiago Salvador, SpaceChakra, retro game labels, free SNES labels, NES labels, N64 labels, custom MOTU, indie game dev, pixel art, original music">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Santiago Salvador — Art, Games, Music & Free Retro Labels">
+  <meta property="og:description" content="Explore original paintings, custom figures, 1,350+ free downloadable cartridge labels, and indie games by Santiago Salvador.">
+  <meta property="og:image" content="images/avatar.gif">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+  <link rel="stylesheet" href="assets/css/lightbox.css">
+  <link rel="icon" href="images/avatar.gif" type="image/gif">
+</head>
+<body>
+
+  <!-- ========================================================================
+       NAVIGATION BAR
+       ======================================================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container-wide nav-container">
+      <a href="#hero" class="nav-brand">
+        <img src="images/avatar.gif" alt="Santiago Salvador Avatar" class="nav-avatar">
+        <span class="nav-title">Santiago Salvador</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#gallery" class="nav-link">Art Gallery</a></li>
+        <li><a href="#labels" class="nav-link">Free Game Labels</a></li>
+        <li><a href="#spacechakra" class="nav-link">SpaceChakra Games</a></li>
+        <li><a href="#music" class="nav-link">Music Lounge</a></li>
+        <li><a href="#poetry" class="nav-link">Poetry</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://ko-fi.com/spacechakra" target="_blank" rel="noopener" class="btn btn-outline btn-sm" title="Drop a one-time tip on Ko-fi">☕ Tip Jar</a>
+        <a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="btn btn-emerald btn-sm" title="Support on Patreon">Patreon</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       HERO SECTION (Atmospheric Video Header with Centered Rosette Alignment)
+       ======================================================================== -->
+  <header class="hero-section" id="hero">
+    <!-- Atmospheric Background Video -->
+    <div class="video-container">
+      <video id="hero-video" autoplay loop muted playsinline>
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      <div class="color-overlay"></div>
+    </div>
+
+    <!-- Top Block: Title & Tagline sitting gracefully above the rosette circle -->
+    <div class="hero-top-block">
+      <h1 class="hero-title">Santiago Salvador</h1>
+      <p class="hero-tagline">Creator & Arranger of Art, Music, Words and Programs</p>
+    </div>
+
+    <!-- Dead Center Rosette: Circular Avatar anchored at 50% 50% matching video aperture -->
+    <div class="hero-avatar-wrap">
+      <a href="#gallery" class="hero-avatar-link" title="Enter Portfolio">
+        <img src="images/avatar.gif" alt="Santiago Salvador Avatar" class="hero-avatar">
+      </a>
+    </div>
+
+    <!-- Bottom Block: Buttons sitting gracefully below the rosette circle -->
+    <div class="hero-bottom-block">
+      <div class="hero-buttons">
+        <a href="#gallery" class="btn btn-primary">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/><path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/></svg>
+          Explore Art Gallery
+        </a>
+        <a href="#labels" class="btn btn-emerald">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
+          Free Game Labels
+        </a>
+        <a href="#spacechakra" class="btn btn-cyan">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/><path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707z"/></svg>
+          SpaceChakra Games
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer Bar: Social links pinned at the bottom, just like original backup -->
+    <div class="hero-footer-bar">
+      <ul class="hero-socials">
+        <li><a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener" class="hero-social-link" title="YouTube @spacechakra">▶</a></li>
+        <li><a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="hero-social-link" title="Patreon SpaceChakra">P</a></li>
+        <li><a href="https://www.instagram.com/spacechakra/?hl=en" target="_blank" rel="noopener" class="hero-social-link" title="Instagram @spacechakra">📸</a></li>
+        <li><a href="https://twitter.com/oWellWtvrNvrmnd" target="_blank" rel="noopener" class="hero-social-link" title="Twitter @oWellWtvrNvrmnd">𝕏</a></li>
+        <li><a href="https://spacechakra.itch.io" target="_blank" rel="noopener" class="hero-social-link" title="itch.io">🎮</a></li>
+        <li><a href="https://github.com/SpaceChakra" target="_blank" rel="noopener" class="hero-social-link" title="GitHub SpaceChakra">🐙</a></li>
+        <li><a href="mailto:salvsantiago@gmail.com" class="hero-social-link" title="Email Santiago">✉</a></li>
+      </ul>
+      <a href="#gallery" class="scroll-indicator" title="Scroll down to gallery">
+        <span>Explore</span>
+        <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>
+      </a>
+    </div>
+
+    <!-- Video Controls -->
+    <button class="video-ctrl-btn" id="video-mute-btn" title="Toggle Sound" aria-label="Toggle Sound">
+      <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z"/></svg>
+    </button>
+  </header>
+
+  <!-- ========================================================================
+       SECTION 1: MASTER ART GALLERY
+       ======================================================================== -->
+  <section class="section" id="gallery">
+    <div class="container-wide">
+      <div class="section-header">
+        <span class="section-tag">PORTFOLIO & CREATIONS</span>
+        <h2 class="section-title">Master <span>Art Collection</span></h2>
+        <p class="section-desc">
+          Over 612 paintings, dark art illustrations, custom Masters of the Universe figures, concept designs, and rare trading cards created across more than a decade of artistic exploration.
+        </p>
+      </div>
+
+      <!-- Controls: Categories & Search -->
+      <div class="gallery-controls">
+        <ul class="filter-pills">
+          <li><button class="filter-btn art-filter-btn active" data-filter="all">All Works (612)</button></li>
+          <li><button class="filter-btn art-filter-btn" data-filter="paintings">Paintings & Illustrations (366)</button></li>
+          <li><button class="filter-btn art-filter-btn" data-filter="figures">Custom Figures & MOTU (17)</button></li>
+          <li><button class="filter-btn art-filter-btn" data-filter="games">Game Art & Concepts (48)</button></li>
+          <li><button class="filter-btn art-filter-btn" data-filter="cards">Trading Cards (181)</button></li>
+          <li><button class="filter-btn art-filter-btn" data-filter="featured">Featured ⭐</button></li>
+        </ul>
+
+        <div class="search-bar-wrap">
+          <svg class="search-icon" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+          <input type="text" id="art-search" class="search-input" placeholder="Search artwork by title (e.g. Hendrix, Dragon, Coraline, Solice)...">
+        </div>
+      </div>
+
+      <!-- Masonry Grid -->
+      <div id="art-grid" class="art-grid">
+        <!-- Rendered via gallery.js -->
+      </div>
+
+      <div class="pagination-wrap">
+        <button id="art-load-more" class="btn btn-outline">Load More Artworks</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SECTION 2: FREE RETRO GAME LABELS HUB (DISOWNED EBAY)
+       ======================================================================== -->
+  <section class="section" id="labels" style="background: linear-gradient(180deg, #060709 0%, #0a0e14 100%);">
+    <div class="container-wide">
+      <div class="section-header">
+        <span class="section-tag emerald">RETRO GAMING RESTORATION</span>
+        <h2 class="section-title emerald-grad">Free Game <span>Cartridge Labels</span></h2>
+        <p class="section-desc">
+          <strong>Disowned eBay.</strong> All 1,350+ cartridge replacement labels remastered by Santiago Salvador are now <strong>100% free</strong> to the retro gaming community. Browse by console, download individual labels, or grab the full console zip packs below.
+        </p>
+      </div>
+
+      <!-- Tip Jar / Buy Me a Coffee Banner -->
+      <div class="tip-banner">
+        <div class="tip-content">
+          <h3 class="tip-title">Saved your cartridges or EverDrive? Drop a tip! ☕</h3>
+          <p class="tip-desc">
+            All 1,350+ labels are 100% free for the retro gaming community. If this archive saved you hours of hunting or let you restore your favorite cartridges, dropping a few bucks in the tip jar keeps the downloads online and fuels continued preservation.
+          </p>
+        </div>
+        <div class="tip-buttons">
+          <a href="https://ko-fi.com/spacechakra" target="_blank" rel="noopener" class="btn btn-primary" title="Drop a one-time tip on Ko-fi">
+            ☕ Buy Me a Coffee / Tip Jar
+          </a>
+          <a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="btn btn-outline" title="Support indie games and projects monthly on Patreon">
+            ★ SpaceChakra Game Dev Patreon
+          </a>
+          <a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener" class="btn btn-outline">
+            Subscribe on YouTube
+          </a>
+        </div>
+      </div>
+
+      <!-- Printing & Restoration Guide Callout -->
+      <div class="print-guide-banner" style="margin: -25px 0 35px 0; padding: 14px 20px; background: rgba(16, 185, 129, 0.06); border: 1px dashed rgba(16, 185, 129, 0.35); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+        <div style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.5;">
+          <strong style="color: var(--accent-emerald);">🖨️ Printing Tip:</strong> For authentic retail quality, print at 100% scale (no "fit to printable area") on glossy vinyl adhesive sticker paper and seal with clear UV acrylic spray.
+        </div>
+        <a href="https://ko-fi.com/spacechakra" target="_blank" rel="noopener" style="font-size: 0.85rem; color: var(--accent-gold); font-weight: 600; text-decoration: none;">
+          Support the Archive on Ko-fi →
+        </a>
+      </div>
+
+      <!-- 1-Click Console Download Packs -->
+      <h3 style="font-family:var(--font-heading);font-size:1.5rem;color:var(--text-bright);margin-bottom:20px;">
+        📦 1-Click Console Download Packs
+      </h3>
+      <div id="label-packs-grid" class="label-packs-grid">
+        <!-- Rendered via labels.js -->
+      </div>
+
+      <!-- Label Gallery Filters & Search -->
+      <div class="gallery-controls" style="margin-top:40px;">
+        <ul class="filter-pills">
+          <li><button class="filter-btn label-filter-btn active" data-console="all">All Labels (1,350)</button></li>
+          <li><button class="filter-btn label-filter-btn" data-console="snes">SNES (444)</button></li>
+          <li><button class="filter-btn label-filter-btn" data-console="nes">NES (154)</button></li>
+          <li><button class="filter-btn label-filter-btn" data-console="n64">N64 (210)</button></li>
+          <li><button class="filter-btn label-filter-btn" data-console="genesis_megadrive">Genesis / Mega Drive (256)</button></li>
+          <li><button class="filter-btn label-filter-btn" data-console="gameboy">Game Boy (102)</button></li>
+          <li><button class="filter-btn label-filter-btn" data-console="neogeo">Neo-Geo (162)</button></li>
+          <li><button class="filter-btn label-filter-btn" data-console="famicom_sfc">Famicom / SFC (22)</button></li>
+        </ul>
+
+        <div class="search-bar-wrap">
+          <svg class="search-icon" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+          <input type="text" id="label-search" class="search-input" placeholder="Search cartridge labels (e.g. Zelda, Mario, Sonic, Metroid, Castlevania)...">
+        </div>
+      </div>
+
+      <!-- Labels Grid (Individual Downloads) -->
+      <div id="labels-grid" class="labels-grid">
+        <!-- Rendered via labels.js -->
+      </div>
+
+      <div class="pagination-wrap">
+        <button id="label-load-more" class="btn btn-outline">Load More Labels</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SECTION 3: SPACECHAKRA SHOWCASE PORTAL
+       ======================================================================== -->
+  <section class="section" id="spacechakra">
+    <div class="container-wide">
+      <div class="spacechakra-banner">
+        <div class="spacechakra-header">
+          <div class="spacechakra-title-group">
+            <span class="section-tag cyan">INDIE GAME STUDIO</span>
+            <h2>SpaceChakra <span>Games & Lab</span></h2>
+            <p>Solo game development, sound design, and retro experiments by Santiago Salvador. Play free in your browser with zero downloads.</p>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="https://spacechakra.com" target="_blank" rel="noopener" class="btn btn-cyan">
+              Launch SpaceChakra.com ↗
+            </a>
+            <a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="btn btn-outline">
+              Get Source Code on Patreon
+            </a>
+          </div>
+        </div>
+
+        <div class="games-grid">
+          <!-- Game 1: Bone Cleaver -->
+          <div class="game-card">
+            <div class="game-thumb-wrap">
+              <span class="badge badge-gold game-badge">Top Played</span>
+              <img src="assets/images/games/bonecleaver/mainCapsule.jpg" alt="Bone Cleaver" class="game-thumb">
+            </div>
+            <div class="game-content">
+              <h3 class="game-title">Bone Cleaver</h3>
+              <span class="game-genre">Hack & Slash / Arcade Action</span>
+              <p class="game-tagline">Hack, slash, and survive the ancient crypts with relentless arcade combat.</p>
+              <div class="game-actions">
+                <a href="https://bonecleaver.vercel.app/" target="_blank" rel="noopener" class="btn btn-cyan btn-sm" style="width:100%;">
+                  Play in Browser ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Game 2: PLEX-78 -->
+          <div class="game-card">
+            <div class="game-thumb-wrap">
+              <span class="badge badge-cyan game-badge">CRT Retro</span>
+              <img src="assets/images/games/plex78/mainCapsule.jpg" alt="PLEX-78" class="game-thumb">
+            </div>
+            <div class="game-content">
+              <h3 class="game-title">PLEX-78</h3>
+              <span class="game-genre">Terminal Action / Bullet Hell</span>
+              <p class="game-tagline">Old CRT terminal aesthetics combined with chaotic modern browser combat.</p>
+              <div class="game-actions">
+                <a href="https://plex-78.vercel.app/" target="_blank" rel="noopener" class="btn btn-cyan btn-sm" style="width:100%;">
+                  Play in Browser ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Game 3: Vector Interceptor 2600 -->
+          <div class="game-card">
+            <div class="game-thumb-wrap">
+              <span class="badge badge-purple game-badge">Vector Arcade</span>
+              <img src="assets/images/games/vectorinterceptor/mainCapsule.jpg" alt="Vector Interceptor 2600" class="game-thumb">
+            </div>
+            <div class="game-content">
+              <h3 class="game-title">Vector Interceptor 2600</h3>
+              <span class="game-genre">Arcade / Missile Defense</span>
+              <p class="game-tagline">Defend cities on a razor-sharp neon vector grid. Love letter to classic arcades.</p>
+              <div class="game-actions">
+                <a href="https://missilecommand-tds.vercel.app/" target="_blank" rel="noopener" class="btn btn-cyan btn-sm" style="width:100%;">
+                  Play in Browser ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Game 4: Road Trip Racer -->
+          <div class="game-card">
+            <div class="game-thumb-wrap">
+              <span class="badge badge-emerald game-badge">Cozy Physics</span>
+              <img src="assets/images/games/roadtripracer/mainCapsule.jpg" alt="Road Trip Racer" class="game-thumb">
+            </div>
+            <div class="game-content">
+              <h3 class="game-title">Road Trip Racer</h3>
+              <span class="game-genre">Physics Racer / Casual</span>
+              <p class="game-tagline">Two pedals, candy-colored hills, gas stations, snack stops, and big adventures.</p>
+              <div class="game-actions">
+                <a href="https://road-trip-racer.vercel.app/hcrr.html" target="_blank" rel="noopener" class="btn btn-cyan btn-sm" style="width:100%;">
+                  Play in Browser ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SECTION 4: ORIGINAL MUSIC & SOUND LOUNGE
+       ======================================================================== -->
+  <section class="section" id="music" style="background: #080910;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag purple">ORIGINAL AUDIO & COMPOSITION</span>
+        <h2 class="section-title">Original <span>Soundtracks</span></h2>
+        <p class="section-desc">
+          Listen to original video game soundtracks and soundscapes composed by Santiago Salvador for <em>Brain Bludgeoner</em>, <em>Theseus VS The Minotaur</em>, <em>SharkOn!</em>, and <em>Jump Jax!</em>.
+        </p>
+      </div>
+
+      <div style="text-align:center;margin-top:20px;">
+        <button id="player-list-toggle-section" class="btn btn-outline" onclick="document.getElementById('playlist-drawer').classList.toggle('open')">
+          🎵 Open Game Soundtracks Playlist
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SECTION 5: WORDS & POETRY
+       ======================================================================== -->
+  <section class="section" id="poetry">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">WORDS & POETRY</span>
+        <h2 class="section-title">Original <span>Writings</span></h2>
+        <p class="section-desc">
+          Reflections and poetry preserved from Santiago Salvador's original notepad writings.
+        </p>
+      </div>
+
+      <div class="poetry-card">
+        <h3 class="poem-title">Consolation to the Angels That Slipped Through the Cracks of Time</h3>
+        <div class="poem-body">
+          <p>we share the same light that shines down from heaven above<br>
+          feel the same warmth that God gives us with love<br>
+          faith is all I have to go on<br>
+          alone or together we must be strong<br>
+          like a tree or a plant we grow towards the sky<br>
+          branch out in beauty and take part in this life<br>
+          every moment a breath, every whisper a song<br>
+          held in the arms of the truth that was here all along.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SECTION 6: ABOUT SANTIAGO SALVADOR
+       ======================================================================== -->
+  <section class="section" id="about" style="background: #050608;">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-tag">THE ARTIST</span>
+          <h3>Santiago Salvador</h3>
+          <p>
+            I am a creator and arranger of art, music, words, and programs. Based in California, I have spent decades exploring visual art, custom toy and figure customization (including award-winning Masters of the Universe pieces), independent video game development, and audio design.
+          </p>
+          <p>
+            Whether hand-restoring classic cartridge labels so vintage games stay alive for future generations, composing chiptunes and acoustic scores, or hacking together WebGL experiences for SpaceChakra, I believe in making things with heart and sharing them with the community.
+          </p>
+          <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
+            <a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="btn btn-primary">Join on Patreon</a>
+            <a href="https://ko-fi.com/spacechakra" target="_blank" rel="noopener" class="btn btn-outline">☕ Buy Me a Coffee</a>
+            <a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener" class="btn btn-outline">YouTube Channel</a>
+            <a href="mailto:salvsantiago@gmail.com" class="btn btn-outline">Email Me</a>
+          </div>
+        </div>
+
+        <div class="about-media">
+          <div class="video-embed-wrap">
+            <iframe src="https://www.youtube-nocookie.com/embed/TwFi0P3Tyr0" title="Santiago Salvador Art & Guitar Showcase" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p style="font-size:0.85rem;color:var(--text-muted);text-align:center;margin-top:12px;">
+            Art showcase set to original acoustic guitar composition by Santiago Salvador
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="footer-logo">Santiago Salvador</a>
+      <ul class="footer-socials">
+        <li><a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener" class="hero-social-link">▶</a></li>
+        <li><a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="hero-social-link">P</a></li>
+        <li><a href="https://www.instagram.com/spacechakra/?hl=en" target="_blank" rel="noopener" class="hero-social-link">📸</a></li>
+        <li><a href="https://twitter.com/oWellWtvrNvrmnd" target="_blank" rel="noopener" class="hero-social-link">𝕏</a></li>
+        <li><a href="https://spacechakra.itch.io" target="_blank" rel="noopener" class="hero-social-link">🎮</a></li>
+        <li><a href="https://github.com/SpaceChakra" target="_blank" rel="noopener" class="hero-social-link">🐙</a></li>
+        <li><a href="mailto:salvsantiago@gmail.com" class="hero-social-link">✉</a></li>
+      </ul>
+      <p class="footer-copy">
+        &copy; 2026 Santiago Salvador. All rights reserved. • Built with pure modern web standards.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       FLOATING AUDIO PLAYER BAR (Option A)
+       ======================================================================== -->
+  <div class="music-player-bar" id="music-player-bar">
+    <div class="player-container">
+      <div class="player-track-info">
+        <div class="player-waveform" id="player-waveform">
+          <div class="waveform-bar"></div>
+          <div class="waveform-bar"></div>
+          <div class="waveform-bar"></div>
+          <div class="waveform-bar"></div>
+        </div>
+        <div class="player-track-meta">
+          <h4 id="player-track-title">Select Track...</h4>
+          <p id="player-track-artist">Santiago Salvador</p>
+        </div>
+      </div>
+
+      <div class="player-controls">
+        <button class="player-btn" id="player-prev-btn" title="Previous Track" aria-label="Previous Track">⏮</button>
+        <button class="player-btn player-btn-play" id="player-play-btn" title="Play / Pause" aria-label="Play or Pause">▶</button>
+        <button class="player-btn" id="player-next-btn" title="Next Track" aria-label="Next Track">⏭</button>
+      </div>
+
+      <div class="player-timeline-wrap">
+        <span class="player-time" id="player-current-time">0:00</span>
+        <input type="range" class="player-slider" id="player-timeline" value="0" min="0" max="100">
+        <span class="player-time" id="player-total-time">0:00</span>
+      </div>
+
+      <div class="player-volume-wrap">
+        <span style="font-size:0.85rem;color:var(--text-muted);">🔊</span>
+        <input type="range" class="player-vol-slider" id="player-volume" value="80" min="0" max="100">
+        <button class="player-btn" id="player-list-toggle" title="Playlist Drawer" style="font-size:1rem;">☰</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Playlist Drawer -->
+  <div class="playlist-drawer" id="playlist-drawer">
+    <div class="playlist-header">
+      <h4>🎵 Original Soundtrack Playlist (83)</h4>
+      <button class="player-btn" onclick="document.getElementById('playlist-drawer').classList.remove('open')">✕</button>
+    </div>
+    <div class="playlist-search">
+      <input type="text" id="playlist-search-input" placeholder="Search tracks...">
+    </div>
+    <ul class="playlist-list" id="playlist-items">
+      <!-- Rendered via player.js -->
+    </ul>
+  </div>
+
+  <!-- ========================================================================
+       MODERN FULLSCREEN LIGHTBOX MODAL
+       ======================================================================== -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true">
+    <button class="lightbox-btn lightbox-btn-close" aria-label="Close">✕</button>
+    <button class="lightbox-btn lightbox-btn-prev" aria-label="Previous">❮</button>
+    <button class="lightbox-btn lightbox-btn-next" aria-label="Next">❯</button>
+
+    <div class="lightbox-content">
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" class="lightbox-img">
+      </div>
+      <div class="lightbox-caption">
+        <div>
+          <h3 class="lightbox-title">Artwork Title</h3>
+          <span class="badge badge-gold lightbox-meta" style="margin-top:4px;">Category</span>
+        </div>
+        <div class="lightbox-actions">
+          <a href="" class="btn btn-primary btn-sm lightbox-btn-dl" download>
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
+            Download High-Res Master
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Synchronous Data (file:// & offline safe) -->
+  <script src="assets/data/artworks.js"></script>
+  <script src="assets/data/labels.js"></script>
+  <script src="assets/data/music.js"></script>
+  <script src="assets/data/games.js"></script>
+
+  <!-- Controllers -->
+  <script src="assets/js/lightbox.js"></script>
+  <script src="assets/js/gallery.js"></script>
+  <script src="assets/js/labels.js"></script>
+  <script src="assets/js/player.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

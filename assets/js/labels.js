@@ -1,0 +1,164 @@
+/**
+ * Retro Game Labels Hub Controller
+ */
+const LabelsHub = (function() {
+  let allLabels = [];
+  let filteredLabels = [];
+  let currentConsole = 'all';
+  let searchQuery = '';
+  let itemsPerPage = 32;
+  let displayedCount = 0;
+
+  let gridEl, packsEl, consoleBtns, searchInput, loadMoreBtn;
+
+  function init() {
+    gridEl = document.getElementById('labels-grid');
+    packsEl = document.getElementById('label-packs-grid');
+    consoleBtns = document.querySelectorAll('.label-filter-btn');
+    searchInput = document.getElementById('label-search');
+    loadMoreBtn = document.getElementById('label-load-more');
+
+    if (!gridEl) return;
+
+    if (window.LABELS_DATA && window.LABELS_DATA.labels) {
+      allLabels = window.LABELS_DATA.labels;
+      renderPacks(window.LABELS_DATA.packs || []);
+      applyFilter();
+    } else {
+      fetch('assets/data/labels.json')
+        .then(r => r.json())
+        .then(data => {
+          allLabels = data.labels || [];
+          renderPacks(data.packs || []);
+          applyFilter();
+        })
+        .catch(err => console.error('Error loading labels:', err));
+    }
+
+    consoleBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        consoleBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentConsole = btn.dataset.console;
+        applyFilter();
+      });
+    });
+
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value.toLowerCase().trim();
+        applyFilter();
+      });
+    }
+
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', () => {
+        renderChunk();
+      });
+    }
+  }
+
+  function renderPacks(packs) {
+    if (!packsEl) return;
+    packsEl.innerHTML = packs.map(pack => `
+      <div class="pack-card">
+        <div>
+          <div class="pack-header">
+            <span class="badge badge-emerald">${pack.console}</span>
+            <span style="font-size:0.8rem;color:var(--text-muted);">${pack.size}</span>
+          </div>
+          <h3 class="pack-title">${pack.title}</h3>
+          <p class="pack-meta">Complete full collection (${pack.count} replacement labels) in 1-click zip</p>
+        </div>
+        <a href="${pack.url}" class="btn btn-emerald btn-sm" download onerror="if(!this.dataset.fb){this.dataset.fb='1';this.href='../'+'${pack.url}';}">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
+          Download Pack
+        </a>
+      </div>
+    `).join('');
+  }
+
+  function applyFilter() {
+    filteredLabels = allLabels.filter(item => {
+      const matchConsole = (currentConsole === 'all') ? true :
+                            (item.console.toLowerCase() === currentConsole.toLowerCase());
+      const matchSearch = !searchQuery || item.title.toLowerCase().includes(searchQuery);
+      return matchConsole && matchSearch;
+    });
+
+    displayedCount = 0;
+    gridEl.innerHTML = '';
+    renderChunk();
+  }
+
+  function renderChunk() {
+    const nextCount = Math.min(displayedCount + itemsPerPage, filteredLabels.length);
+    const fragment = document.createDocumentFragment();
+
+    for (let i = displayedCount; i < nextCount; i++) {
+      const item = filteredLabels[i];
+      const card = document.createElement('div');
+      card.className = 'label-card';
+
+      const thumbWrap = document.createElement('div');
+      thumbWrap.className = 'label-thumb-wrap';
+      const img = document.createElement('img');
+      img.src = item.thumbUrl;
+      img.alt = item.title;
+      img.loading = 'lazy';
+      img.onerror = function() {
+        if (!this.dataset.fallback) {
+          this.dataset.fallback = '1';
+          this.src = '../' + item.thumbUrl;
+        } else {
+          // Auto-remove label card if thumbnail was deleted from disk
+          card.remove();
+        }
+      };
+      thumbWrap.appendChild(img);
+
+      const infoWrap = document.createElement('div');
+      infoWrap.className = 'label-info';
+      infoWrap.innerHTML = `
+        <span class="label-console-tag">${item.console}</span>
+        <h4 class="label-title" title="${item.title}">${item.title}</h4>
+        <a href="${item.downloadUrl}" class="btn btn-emerald btn-sm label-dl-btn" download="${item.filename}" onerror="if(!this.dataset.fb){this.dataset.fb='1';this.href='../'+'${item.downloadUrl}';}">
+          Download Free
+        </a>
+      `;
+
+      card.appendChild(thumbWrap);
+      card.appendChild(infoWrap);
+
+      thumbWrap.addEventListener('click', () => {
+        const lightboxItems = filteredLabels.map(l => ({
+          title: l.title,
+          url: l.downloadUrl,
+          console: l.console,
+          filename: l.filename
+        }));
+        Lightbox.open(lightboxItems, i);
+      });
+
+      fragment.appendChild(card);
+    }
+
+    gridEl.appendChild(fragment);
+    displayedCount = nextCount;
+
+    if (loadMoreBtn) {
+      if (displayedCount >= filteredLabels.length) {
+        loadMoreBtn.style.display = 'none';
+      } else {
+        loadMoreBtn.style.display = 'inline-flex';
+        loadMoreBtn.textContent = `Load More (${filteredLabels.length - displayedCount} remaining)`;
+      }
+    }
+  }
+
+  return { init };
+})();
+
+if (typeof window !== 'undefined') {
+  window.LabelsHub = LabelsHub;
+}
