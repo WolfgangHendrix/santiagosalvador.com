@@ -5,8 +5,8 @@
     "genre": "Hack & Slash / Arcade",
     "tagline": "Survive the ancient crypts with relentless combat.",
     "playUrl": "https://bonecleaver.vercel.app/",
-    "capsule": "assets/images/games/bonecleaver/mainCapsule.jpg",
-    "hero": "assets/images/games/bonecleaver/hero.jpg",
+    "capsule": "assets/images/games/bonecleaver/bone-cleaver-main-capsule.jpg",
+    "hero": "assets/images/games/bonecleaver/bone-cleaver-hero.jpg",
     "badge": "Top Played"
   },
   {
@@ -15,8 +15,8 @@
     "genre": "Action / Retro CRT Terminal",
     "tagline": "Vintage terminal aesthetic meets modern browser bullet hell.",
     "playUrl": "https://plex-78.vercel.app/",
-    "capsule": "assets/images/games/plex78/mainCapsule.jpg",
-    "hero": "assets/images/games/plex78/hero.jpg",
+    "capsule": "assets/images/games/plex78/plex-78-main-capsule.jpg",
+    "hero": "assets/images/games/plex78/plex-78-hero.jpg",
     "badge": "CRT Retro"
   },
   {
@@ -25,8 +25,8 @@
     "genre": "Arcade / Vector Defense",
     "tagline": "Missile Command energy on a razor-sharp neon vector grid.",
     "playUrl": "https://missilecommand-tds.vercel.app/",
-    "capsule": "assets/images/games/vectorinterceptor/mainCapsule.jpg",
-    "hero": "assets/images/games/vectorinterceptor/hero.jpg",
+    "capsule": "assets/images/games/vectorinterceptor/vector-interceptor-2600-main-capsule.jpg",
+    "hero": "assets/images/games/vectorinterceptor/vector-interceptor-2600-hero.jpg",
     "badge": "Vector Neon"
   },
   {
@@ -35,8 +35,8 @@
     "genre": "Physics Racer / Adventure",
     "tagline": "Two pedals, candy-colored hills, gas stops, and cozy vibes.",
     "playUrl": "https://road-trip-racer.vercel.app/hcrr.html",
-    "capsule": "assets/images/games/roadtripracer/mainCapsule.jpg",
-    "hero": "assets/images/games/roadtripracer/hero.jpg",
+    "capsule": "assets/images/games/roadtripracer/road-trip-racer-main-capsule.jpg",
+    "hero": "assets/images/games/roadtripracer/road-trip-racer-hero.jpg",
     "badge": "Cozy Arcade"
   },
   {
@@ -45,8 +45,8 @@
     "genre": "Glitch / Puzzle",
     "tagline": "Corruption spreads. Outpace entropy in a decaying digital system.",
     "playUrl": "https://asymptoticbitrot.vercel.app/",
-    "capsule": "assets/images/games/bitrot/mainCapsule.jpg",
-    "hero": "assets/images/games/bitrot/hero.jpg",
+    "capsule": "assets/images/games/bitrot/bit-rot-main-capsule.jpg",
+    "hero": "assets/images/games/bitrot/bit-rot-hero.jpg",
     "badge": "Experimental"
   },
   {
@@ -55,8 +55,8 @@
     "genre": "Text Horror / Narrative",
     "tagline": "Darkness in deep space. Read carefully; choose poorly.",
     "playUrl": "https://textbased-horror.vercel.app/",
-    "capsule": "assets/images/games/echoeevoid/mainCapsule.jpg",
-    "hero": "assets/images/games/echoeevoid/hero.jpg",
+    "capsule": "assets/images/games/echoeevoid/echoee-void-main-capsule.jpg",
+    "hero": "assets/images/games/echoeevoid/echoee-void-hero.jpg",
     "badge": "Dark Horror"
   },
   {
@@ -65,8 +65,8 @@
     "genre": "Ambient / Audio Alignment",
     "tagline": "Tune your senses. Relaxing browser sound tool.",
     "playUrl": "https://cosmic-vibes-chakra-alignment.vercel.app/",
-    "capsule": "assets/images/games/cosmicvibes/mainCapsule.jpg",
-    "hero": "assets/images/games/cosmicvibes/hero.jpg",
+    "capsule": "assets/images/games/cosmicvibes/cosmic-vibes-main-capsule.jpg",
+    "hero": "assets/images/games/cosmicvibes/cosmic-vibes-hero.jpg",
     "badge": "Audio Tool"
   },
   {
@@ -75,8 +75,8 @@
     "genre": "Multiplayer / Action",
     "tagline": "Chaotic neighborhood multiplayer skirmishes.",
     "playUrl": "https://neighborwars.vercel.app/",
-    "capsule": "assets/images/games/neighborwars/mainCapsule.jpg",
-    "hero": "assets/images/games/neighborwars/hero.jpg",
+    "capsule": "assets/images/games/neighborwars/neighbor-wars-main-capsule.jpg",
+    "hero": "assets/images/games/neighborwars/neighbor-wars-hero.jpg",
     "badge": "Multiplayer"
   }
 ]

@@ -11,6 +11,12 @@ def sync():
     websites_dir = os.path.dirname(base_dir)
     data_dir = os.path.join(site_dir, "assets", "data")
     os.makedirs(data_dir, exist_ok=True)
+    # Display titles are independent of search-friendly filenames.
+    metadata_path = os.path.join(data_dir, "asset-metadata.json")
+    asset_metadata = {}
+    if os.path.exists(metadata_path):
+        with open(metadata_path, encoding="utf-8") as fp:
+            asset_metadata = json.load(fp)
 
     print("=" * 65)
     print("   SANTIAGO SALVADOR - PORTFOLIO & LABELS DATABASE SYNC")
@@ -81,7 +87,8 @@ def sync():
         folder_path = os.path.join(art_dir, folder_name)
         cat_files = []
         if os.path.exists(folder_path):
-            for root, _, files in os.walk(folder_path):
+            for root, dirs, files in os.walk(folder_path):
+                dirs.sort()
                 for f in sorted(files):
                     ext = os.path.splitext(f)[1].lower()
                     if ext in valid_img_exts:
@@ -93,6 +100,9 @@ def sync():
                         slug = re.sub(r'[^a-zA-Z0-9]', '', title).lower()
                         is_featured = (slug in featured_slugs) or (cat_filter == 'figures')
                         url_rel = f"Art/{folder_name}/{rel_p}".replace("\\", "/")
+                        metadata = asset_metadata.get(url_rel, {})
+                        title = metadata.get("title", title)
+                        is_featured = metadata.get("featured", is_featured)
 
                         artworks.append({
                             "id": art_id,
@@ -160,7 +170,7 @@ def sync():
             if not os.path.isfile(f_path) or f.startswith(('_', '.')):
                 continue
             if f.lower().endswith(('.mp3', '.ogg', '.wav')):
-                info = curated_music_info.get(f, {})
+                info = asset_metadata.get(f"Art/Music_Audio/{f}", curated_music_info.get(f, {}))
                 title = info.get("title")
                 album = info.get("album", "Original Soundscapes")
                 if not title:
@@ -204,7 +214,7 @@ def sync():
     console_counts = {}
 
     if os.path.exists(fulls_dir):
-        for console in os.listdir(fulls_dir):
+        for console in sorted(os.listdir(fulls_dir)):
             c_full_path = os.path.join(fulls_dir, console)
             if not os.path.isdir(c_full_path):
                 continue
@@ -220,6 +230,7 @@ def sync():
                 
                 title = os.path.splitext(f)[0].replace('_', ' ').replace('-', ' ').strip()
                 download_rel = f"Labels/fulls/{console}/{f}".replace("\\", "/")
+                title = asset_metadata.get(download_rel, {}).get("title", title)
                 
                 if not os.path.exists(os.path.join(c_thumb_path, f)):
                     thumb_rel = download_rel
@@ -242,7 +253,8 @@ def sync():
     if os.path.exists(packs_dir):
         for console, display_name in console_names.items():
             for zf in sorted(os.listdir(packs_dir)):
-                if f"_{console}_".lower() in zf.lower() and zf.lower().endswith('.zip'):
+                pack_meta = asset_metadata.get(f"Labels/packs/{zf}", {})
+                if zf.lower().endswith('.zip') and (pack_meta.get("console") == console or f"_{console}_".lower() in zf.lower()):
                     zpath = os.path.join(packs_dir, zf)
                     size_mb = os.path.getsize(zpath) / (1024 * 1024)
                     packs_list.append({
@@ -278,8 +290,7 @@ def sync():
     c_cnt = cat_counts.get('cards', 0)
 
     html_files = [
-        os.path.join(site_dir, "index.html"),
-        os.path.join(websites_dir, "index.html")
+        os.path.join(site_dir, "index.html")
     ]
 
     for hpath in html_files:
@@ -293,6 +304,14 @@ def sync():
             content = re.sub(r'(data-filter=\"games\">Game Art & Concepts\s*)\(\d+\)', rf'\g<1>({g_cnt})', content)
             content = re.sub(r'(data-filter=\"cards\">Trading Cards\s*)\(\d+\)', rf'\g<1>({c_cnt})', content)
             content = re.sub(r'Over \d+ paintings, dark art illustrations', f'Over {total_art} paintings, dark art illustrations', content)
+            label_total = f'{len(labels_list):,}'
+            content = re.sub(r'[\d,]+\+?(?= free (?:game cartridge replacement labels|downloadable cartridge labels))', label_total, content)
+            content = re.sub(r'(?<=All )[\d,]+\+?(?= (?:cartridge replacement labels|labels are))', label_total, content)
+            content = re.sub(r'(data-console="all">All Labels\s*)\([\d,]+\)', lambda m: m[1] + f'({label_total})', content)
+            for console, count in console_counts.items():
+                pattern = r'(data-console="' + re.escape(console.lower()) + r'">[^<]*?)\([\d,]+\)'
+                content = re.sub(pattern, lambda m: m[1] + f'({count:,})', content)
+            content = re.sub(r'(Original Soundtrack Playlist\s*)\(\d+\)', lambda m: m[1] + f'({len(music_tracks)})', content)
 
             with open(hpath, 'w', encoding='utf-8') as fp:
                 fp.write(content)

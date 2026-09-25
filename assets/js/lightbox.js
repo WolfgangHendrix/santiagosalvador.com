@@ -2,7 +2,7 @@
  * Zero-dependency Modern Lightbox Modal
  */
 const Lightbox = (function() {
-  let modal, img, titleEl, metaEl, dlBtn;
+  let modal, img, titleEl, metaEl, dlBtn, lastFocusedEl;
   let items = [];
   let currentIndex = 0;
   let touchStartX = 0;
@@ -16,7 +16,8 @@ const Lightbox = (function() {
     metaEl = modal.querySelector('.lightbox-meta');
     dlBtn = modal.querySelector('.lightbox-btn-dl');
 
-    modal.querySelector('.lightbox-btn-close').addEventListener('click', close);
+    const closeBtn = modal.querySelector('.lightbox-btn-close');
+    closeBtn.addEventListener('click', close);
     modal.querySelector('.lightbox-btn-prev').addEventListener('click', prev);
     modal.querySelector('.lightbox-btn-next').addEventListener('click', next);
 
@@ -28,9 +29,29 @@ const Lightbox = (function() {
 
     document.addEventListener('keydown', (e) => {
       if (!modal.classList.contains('open')) return;
-      if (e.key === 'Escape') close();
-      if (e.key === 'ArrowLeft') prev();
-      if (e.key === 'ArrowRight') next();
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        close();
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        prev();
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        next();
+      } else if (e.key === 'Tab') {
+        // Focus trap inside lightbox modal
+        const focusable = modal.querySelectorAll('button, a[href]');
+        if (focusable.length === 0) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
     });
 
     modal.addEventListener('touchstart', (e) => {
@@ -44,17 +65,25 @@ const Lightbox = (function() {
     }, { passive: true });
   }
 
-  function open(itemList, index) {
+  function open(itemList, index, triggerEl = null) {
     items = itemList;
     currentIndex = index;
+    lastFocusedEl = triggerEl || document.activeElement;
     update();
     modal.classList.add('open');
     document.body.style.overflow = 'hidden';
+    
+    // Focus the close button for accessibility
+    const closeBtn = modal.querySelector('.lightbox-btn-close');
+    if (closeBtn) closeBtn.focus();
   }
 
   function close() {
     modal.classList.remove('open');
     document.body.style.overflow = '';
+    if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
+      lastFocusedEl.focus();
+    }
   }
 
   function update() {

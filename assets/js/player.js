@@ -49,6 +49,14 @@ const MusicPlayer = (function() {
     prevBtn.addEventListener('click', prevTrack);
     nextBtn.addEventListener('click', nextTrack);
 
+    audio.addEventListener('play', () => {
+      isPlaying = true;
+      updateUI();
+    });
+    audio.addEventListener('pause', () => {
+      isPlaying = false;
+      updateUI();
+    });
     audio.addEventListener('timeupdate', updateProgress);
     audio.addEventListener('ended', nextTrack);
 
@@ -88,6 +96,7 @@ const MusicPlayer = (function() {
 
     const cleanUrl = track.url.startsWith('/') ? track.url.slice(1) : track.url;
     audio.src = cleanUrl;
+    audio.dataset.fallback = '';
     audio.onerror = function() {
       if (!audio.dataset.fallback) {
         audio.dataset.fallback = '1';
@@ -101,10 +110,14 @@ const MusicPlayer = (function() {
     highlightPlaylistItem(track.id);
 
     if (autoPlay) {
-      audio.play().then(() => {
-        isPlaying = true;
+      audio.play().catch(e => {
+        console.log('Playback prevented:', e);
+        isPlaying = false;
         updateUI();
-      }).catch(e => console.log('Playback prevented:', e));
+      });
+    } else {
+      isPlaying = false;
+      updateUI();
     }
   }
 
@@ -114,15 +127,11 @@ const MusicPlayer = (function() {
       return;
     }
 
-    if (isPlaying) {
-      audio.pause();
-      isPlaying = false;
+    if (audio.paused) {
+      audio.play().catch(e => console.log('Playback failed:', e));
     } else {
-      audio.play().then(() => {
-        isPlaying = true;
-      });
+      audio.pause();
     }
-    updateUI();
   }
 
   function prevTrack() {
@@ -139,6 +148,8 @@ const MusicPlayer = (function() {
 
   function updateUI() {
     if (playBtn) {
+      playBtn.setAttribute('aria-label', isPlaying ? 'Pause audio' : 'Play audio');
+      playBtn.setAttribute('title', isPlaying ? 'Pause' : 'Play');
       playBtn.innerHTML = isPlaying ? 
         '<svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/></svg>' :
         '<svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>';

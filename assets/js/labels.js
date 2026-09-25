@@ -88,6 +88,32 @@ const LabelsHub = (function() {
 
     displayedCount = 0;
     gridEl.innerHTML = '';
+
+    if (filteredLabels.length === 0) {
+      const emptyDiv = document.createElement('div');
+      emptyDiv.className = 'empty-state';
+      emptyDiv.style.gridColumn = '1 / -1';
+      emptyDiv.innerHTML = `
+        <div class="empty-state-icon">🏷️</div>
+        <h3 class="empty-state-title">No matching cartridge labels found</h3>
+        <p class="empty-state-desc">No labels match "${searchQuery || currentConsole}". Try another game title or switch to "All Labels".</p>
+        <button type="button" class="btn btn-emerald btn-sm empty-state-reset">Reset Search & Console Filter</button>
+      `;
+      const resetBtn = emptyDiv.querySelector('.empty-state-reset');
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          if (searchInput) searchInput.value = '';
+          searchQuery = '';
+          currentConsole = 'all';
+          consoleBtns.forEach(b => b.classList.toggle('active', b.dataset.console === 'all'));
+          applyFilter();
+        });
+      }
+      gridEl.appendChild(emptyDiv);
+      if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+      return;
+    }
+
     renderChunk();
   }
 
@@ -102,6 +128,10 @@ const LabelsHub = (function() {
 
       const thumbWrap = document.createElement('div');
       thumbWrap.className = 'label-thumb-wrap';
+      thumbWrap.setAttribute('tabindex', '0');
+      thumbWrap.setAttribute('role', 'button');
+      thumbWrap.setAttribute('aria-label', `View ${item.title} cartridge label in high resolution`);
+
       const img = document.createElement('img');
       img.src = item.thumbUrl;
       img.alt = item.title;
@@ -130,14 +160,22 @@ const LabelsHub = (function() {
       card.appendChild(thumbWrap);
       card.appendChild(infoWrap);
 
-      thumbWrap.addEventListener('click', () => {
+      const openModal = () => {
         const lightboxItems = filteredLabels.map(l => ({
           title: l.title,
           url: l.downloadUrl,
           console: l.console,
           filename: l.filename
         }));
-        Lightbox.open(lightboxItems, i);
+        Lightbox.open(lightboxItems, i, thumbWrap);
+      };
+
+      thumbWrap.addEventListener('click', openModal);
+      thumbWrap.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openModal();
+        }
       });
 
       fragment.appendChild(card);

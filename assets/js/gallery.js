@@ -68,6 +68,31 @@ const ArtGallery = (function() {
 
     displayedCount = 0;
     gridEl.innerHTML = '';
+
+    if (filteredArtworks.length === 0) {
+      const emptyDiv = document.createElement('div');
+      emptyDiv.className = 'empty-state';
+      emptyDiv.innerHTML = `
+        <div class="empty-state-icon">🎨</div>
+        <h3 class="empty-state-title">No matching artworks found</h3>
+        <p class="empty-state-desc">No artwork matches your current filter or search term. Try another search or reset.</p>
+        <button type="button" class="btn btn-outline btn-sm empty-state-reset">Reset Search & Filters</button>
+      `;
+      const resetBtn = emptyDiv.querySelector('.empty-state-reset');
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          if (searchInput) searchInput.value = '';
+          searchQuery = '';
+          currentFilter = 'all';
+          filterBtns.forEach(b => b.classList.toggle('active', b.dataset.filter === 'all'));
+          applyFilter();
+        });
+      }
+      gridEl.appendChild(emptyDiv);
+      if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+      return;
+    }
+
     renderChunk();
   }
 
@@ -79,6 +104,9 @@ const ArtGallery = (function() {
       const item = filteredArtworks[i];
       const card = document.createElement('div');
       card.className = 'art-card';
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-label', `View ${item.title}`);
       
       const cleanUrl = item.url.startsWith('/') ? item.url.slice(1) : item.url;
       const img = document.createElement('img');
@@ -107,7 +135,14 @@ const ArtGallery = (function() {
       card.appendChild(overlay);
 
       card.addEventListener('click', () => {
-        Lightbox.open(filteredArtworks, i);
+        Lightbox.open(filteredArtworks, i, card);
+      });
+
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          Lightbox.open(filteredArtworks, i, card);
+        }
       });
 
       fragment.appendChild(card);

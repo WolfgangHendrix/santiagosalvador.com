@@ -248,3 +248,37 @@
   margin-top: 8px;
   width: 100%;
 }
+
+/* ==========================================================================
+   EMPTY SEARCH & FILTER STATES
+   ========================================================================== */
+.empty-state {
+  column-span: all;
+  text-align: center;
+  padding: 60px 24px;
+  background: var(--bg-card);
+  border: 1px dashed var(--border-light);
+  border-radius: var(--radius-lg);
+  margin: 30px auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.empty-state-icon {
+  font-size: 3rem;
+  line-height: 1;
+}
+.empty-state-title {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-bright);
+}
+.empty-state-desc {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  max-width: 440px;
+  line-height: 1.6;
+}
