@@ -1,0 +1,31 @@
+Upload these files yourself. Ko-fi and Buy Me a Coffee do not accept them from the website.
+
+Both pages
+- profile-800.jpg is the profile photo. It is a square crop of your real portrait.
+
+Ko-fi (ko-fi.com/spacechakra)
+- Cover: page menu, three dots, Set Cover Image, kofi-cover-1200x400.jpg
+- Share image: Settings, social preview, kofi-share-1200x600.jpg
+- Gallery: the four files in the gallery folder
+- About: California artist, game developer, and sound designer. Original paintings, custom figures, 1,306 free remastered cartridge labels, and SpaceChakra games.
+- Website link, until the domain is switched: https://wolfganghendrix.github.io/santiagosalvador.com/
+- Also add YouTube https://www.youtube.com/@spacechakra
+
+Buy Me a Coffee (buymeacoffee.com/spacechakra)
+- Cover: buymeacoffee-cover-1600x400.jpg (their size is 1600 by 400)
+- Profile: the same profile-800.jpg
+- One-liner: Art, games, music, and 1,306 free remastered cartridge labels.
+- Bio: I'm Santiago Salvador. I paint, build games, and remaster cartridge labels. The labels are free. A tip here keeps the archive online.
+- Website: https://wolfganghendrix.github.io/santiagosalvador.com/
+- YouTube: https://www.youtube.com/@spacechakra
+- Page color: gold #f5b041
+- In Brand your page, change the word coffee to tip so the button matches the site.
+- Hide the supporter count while it still says $0.
+- Gallery: the same four files. Shop images, if you add any later, work best at 1080 by 1080.
+
+Gallery files
+- 01-third-eye-vision.jpg
+- 02-carpe-diem.jpg
+- 03-afro-woman.jpg
+- 04-dancing-dragon.jpg
+These are your existing paintings, resized for upload. They are not new pieces.

@@ -565,10 +565,41 @@
   color: var(--text-secondary);
   font-size: 1rem;
 }
+.tip-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
 .tip-buttons {
   display: flex;
-  gap: 14px;
+  align-items: center;
+  gap: 12px;
   flex-wrap: wrap;
+}
+.tip-buttons .btn-primary {
+  min-width: 220px;
+  padding: 14px 28px;
+  font-size: 1.05rem;
+}
+.tip-note {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+.tip-note a,
+.print-guide-tips a {
+  color: var(--accent-gold);
+  font-weight: 600;
+  text-decoration: none;
+}
+.tip-note a:hover,
+.print-guide-tips a:hover {
+  text-decoration: underline;
+}
+.print-guide-tips {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
 }
 
 /* ==========================================================================
@@ -1129,6 +1160,9 @@
   .section-title { font-size: 2.1rem; }
   .poetry-card { padding: 36px 20px; }
   .tip-banner { padding: 24px; }
+  .tip-actions,
+  .tip-buttons { width: 100%; }
+  .tip-buttons .btn { flex: 1 1 160px; justify-content: center; text-align: center; }
   .contact-card { padding: 32px 20px; }
 
   /* Audio player mobile layout */
