@@ -77,12 +77,13 @@
   <nav class="navbar" id="navbar">
     <div class="container-wide nav-container">
       <a href="#hero" class="nav-brand">
-        <img src="images/santiago-salvador-portrait.gif" alt="Santiago Salvador Avatar" class="nav-avatar">
+        <img src="images/santiago-salvador-portrait.webp" alt="Santiago Salvador Avatar" class="nav-avatar">
         <span class="nav-title">Santiago Salvador</span>
       </a>
 
       <ul class="nav-links">
         <li><a href="#gallery" class="nav-link">Art Gallery</a></li>
+        <li><a href="#prints" class="nav-link">Prints</a></li>
         <li><a href="#labels" class="nav-link">Free Game Labels</a></li>
         <li><a href="#spacechakra" class="nav-link">SpaceChakra Games</a></li>
         <li><a href="#music" class="nav-link">Music Lounge</a></li>
@@ -105,6 +106,7 @@
     <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
       <ul class="mobile-nav-links">
         <li><a href="#gallery" class="mobile-nav-link">🎨 Art Gallery</a></li>
+        <li><a href="#prints" class="mobile-nav-link">Studio Prints</a></li>
         <li><a href="#labels" class="mobile-nav-link">🏷️ Free Game Labels</a></li>
         <li><a href="#spacechakra" class="mobile-nav-link">🎮 SpaceChakra Games</a></li>
         <li><a href="#music" class="mobile-nav-link">🎵 Music Lounge</a></li>
@@ -124,7 +126,8 @@
   <header class="hero-section" id="hero">
     <!-- Atmospheric Background Video -->
     <div class="video-container">
-      <video id="hero-video" autoplay loop muted playsinline poster="images/dark-website-background.jpg">
+      <video id="hero-video" autoplay loop muted playsinline preload="metadata" poster="images/dark-website-background.jpg">
+        <source src="santiago-salvador-stained-glass-background-mobile.mp4" media="(max-width: 767px)" type="video/mp4">
         <source src="santiago-salvador-stained-glass-background.mp4" type="video/mp4">
       </video>
       <div class="color-overlay"></div>
@@ -139,7 +142,7 @@
     <!-- Dead Center Rosette: Circular Avatar anchored at 50% 50% matching video aperture -->
     <div class="hero-avatar-wrap">
       <a href="#gallery" class="hero-avatar-link" title="Enter Portfolio">
-        <img src="images/santiago-salvador-portrait.gif" alt="Santiago Salvador Avatar" class="hero-avatar">
+        <img src="images/santiago-salvador-portrait.webp" alt="Santiago Salvador Avatar" class="hero-avatar">
       </a>
     </div>
 
@@ -181,9 +184,6 @@
     <div class="video-controls-wrap">
       <button class="video-ctrl-btn" id="video-play-btn" title="Pause Background Video" aria-label="Pause Background Video">
         <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/></svg>
-      </button>
-      <button class="video-ctrl-btn" id="video-mute-btn" title="Toggle Sound" aria-label="Toggle Sound">
-        <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z"/></svg>
       </button>
     </div>
   </header>
@@ -249,6 +249,21 @@
 
       <div class="pagination-wrap">
         <button id="art-load-more" class="btn btn-outline">Load More Artworks</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section studio-prints" id="prints" aria-labelledby="prints-title">
+    <div class="container-wide">
+      <div class="section-header">
+        <span class="section-tag">FROM THE STUDIO</span>
+        <h2 class="section-title" id="prints-title">Bring the <span>Art Home</span></h2>
+        <p class="section-desc">Small-format prints of my original artwork, made in my home studio on 8.5 × 11-inch paper. Explore a few favorites below, or ask about a piece from the gallery.</p>
+      </div>
+      <div id="prints-grid" class="prints-grid"></div>
+      <p class="prints-note">Signed, unframed prints on high-quality inkjet paper, made to order and dispatched within 5–7 business days. U.S. shipping is $7, plus $1 per additional print. International orders: ask for a shipping quote before purchasing. Artwork proportions are preserved with a white border.</p>
+      <div class="prints-actions">
+        <a class="btn btn-primary" href="mailto:salvsantiago@gmail.com?subject=Studio%20print%20inquiry&amp;body=Artwork%20title%3A%0APreferred%20size%3A%0AQuantity%3A%0AShipping%20country%20and%20postal%20code%3A%0A">Ask About a Print</a>
       </div>
     </div>
   </section>
@@ -594,7 +609,6 @@
 
   <!-- Synchronous Data (file:// & offline safe) -->
   <script src="assets/data/artworks.js"></script>
-  <script src="assets/data/labels.js"></script>
   <script src="assets/data/music.js"></script>
   <script src="assets/data/games.js"></script>
 
@@ -602,6 +616,8 @@
   <script src="assets/js/hosts.js"></script>
   <script src="assets/js/lightbox.js"></script>
   <script src="assets/js/gallery.js"></script>
+  <script src="assets/data/prints.js"></script>
+  <script src="assets/js/prints.js"></script>
   <script src="assets/js/labels.js"></script>
   <script src="assets/js/player.js"></script>
   <script src="assets/js/commission.js?v=20260926-published"></script>

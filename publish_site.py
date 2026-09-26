@@ -2,10 +2,42 @@
 import json
 import re
 import shutil
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parent
 SITE = ROOT / "_site"
+
+
+def publish_thumbnail(rel):
+    """Generate only the deployed WebP; keep derivatives out of the repository."""
+    src = ROOT / rel
+    # Include the source extension to avoid collisions between JPG/PNG variants.
+    output = str(Path(rel).with_name(Path(rel).name + ".webp")).replace("\\", "/")
+    dest = SITE / output
+    if not dest.exists():
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        with Image.open(src) as image:
+            image = ImageOps.exif_transpose(image)
+            image.thumbnail((960, 960), Image.Resampling.LANCZOS)
+            image.convert("RGB").save(dest, "WEBP", quality=82, method=4)
+    return output
+
+
+def publish_catalog(name, variable, data):
+    payload = json.dumps(data, separators=(",", ":"))
+    (SITE / "assets" / "data" / (name + ".json")).write_text(payload, encoding="utf-8")
+    (SITE / "assets" / "data" / (name + ".js")).write_text(f"window.{variable} = {payload};\n", encoding="utf-8")
+
+
+def publish_thumbnails(items, field):
+    sources = list(dict.fromkeys(item.get(field) or item["url"] for item in items))
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        converted = dict(zip(sources, pool.map(publish_thumbnail, sources)))
+    for item in items:
+        item[field] = converted[item.get(field) or item["url"]]
+    print(f"Optimized {len(sources)} thumbnails", flush=True)
 
 
 def copy_rel(rel):
@@ -35,7 +67,7 @@ def main():
         shutil.rmtree(SITE)
     SITE.mkdir()
 
-    for name in ("index.html", "marvel-archive.html", "favicon.ico", "santiago-salvador-stained-glass-background.mp4"):
+    for name in ("index.html", "marvel-archive.html", "favicon.ico", "santiago-salvador-stained-glass-background.mp4", "santiago-salvador-stained-glass-background-mobile.mp4"):
         copy_rel(name)
 
     for path in (ROOT / "assets").rglob("*"):
@@ -43,25 +75,27 @@ def main():
             copy_rel(path.relative_to(ROOT).as_posix())
 
     art = load_js_or_json(ROOT / "assets" / "data" / "artworks.js")
+    publish_thumbnails(art, "thumb")
     for item in art:
-        copy_rel(item.get("thumb") or item["url"])
         for supporting in item.get("supportingImages", []):
             copy_rel(supporting["url"])
+    publish_catalog("artworks", "ARTWORKS_DATA", art)
 
     # Only the Marvel subfolder belongs in the unlisted personal archive.
     marvel = load_js_or_json(ROOT / "assets" / "data" / "marvel-archive.js")
     for item in marvel:
         if not item["url"].startswith("Art/Cards_Collectibles/Marvel_Universe_Series_1/"):
             raise ValueError("Non-Marvel image in the personal archive")
-        copy_rel(item.get("thumb") or item["url"])
+    publish_thumbnails(marvel, "thumb")
+    publish_catalog("marvel-archive", "MARVEL_ARCHIVE_DATA", marvel)
 
     music = load_js_or_json(ROOT / "assets" / "data" / "music.js")
     for track in music:
         copy_rel(track["url"])
 
     labels = load_js_or_json(ROOT / "assets" / "data" / "labels.js")
-    for item in labels["labels"]:
-        copy_rel(item["thumbUrl"])
+    publish_thumbnails(labels["labels"], "thumbUrl")
+    publish_catalog("labels", "LABELS_DATA", labels)
 
     html = (ROOT / "index.html").read_text(encoding="utf-8")
     for match in re.findall(r'(?:src|href)="([^"]+)"', html):

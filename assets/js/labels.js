@@ -10,6 +10,44 @@ const LabelsHub = (function() {
   let displayedCount = 0;
 
   let gridEl, consoleBtns, searchInput, loadMoreBtn;
+  let loaded = false;
+  let loading = null;
+
+  function loadCatalog() {
+    if (loaded) return Promise.resolve();
+    if (loading) return loading;
+    gridEl.textContent = 'Loading cartridge labels…';
+    gridEl.setAttribute('aria-busy', 'true');
+    loading = new Promise((resolve, reject) => {
+      if (window.LABELS_DATA?.labels) return resolve();
+      // A deferred script also works when the portfolio is opened from disk.
+      const script = document.createElement('script');
+      script.src = 'assets/data/labels.js';
+      script.onload = () => {
+        script.remove();
+        if (Array.isArray(window.LABELS_DATA?.labels)) resolve();
+        else reject(new Error('Invalid label catalog'));
+      };
+      script.onerror = () => {
+        script.remove();
+        reject(new Error('Could not load label catalog'));
+      };
+      document.head.appendChild(script);
+    }).then(() => {
+      allLabels = window.LABELS_DATA.labels;
+      loaded = true;
+      applyFilter();
+    }).catch(error => {
+      loading = null;
+      gridEl.textContent = 'Could not load labels. Please try again.';
+      if (loadMoreBtn) {
+        loadMoreBtn.style.display = 'inline-flex';
+        loadMoreBtn.textContent = 'Retry Loading Labels';
+      }
+      console.error('Error loading labels:', error);
+    }).finally(() => gridEl.setAttribute('aria-busy', 'false'));
+    return loading;
+  }
 
   function init() {
     gridEl = document.getElementById('labels-grid');
@@ -19,17 +57,17 @@ const LabelsHub = (function() {
 
     if (!gridEl) return;
 
-    if (window.LABELS_DATA && window.LABELS_DATA.labels) {
-      allLabels = window.LABELS_DATA.labels;
-      applyFilter();
+    if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(entries => {
+        if (entries.some(entry => entry.isIntersecting)) {
+          observer.disconnect();
+          loadCatalog();
+        }
+      }, { rootMargin: '400px' });
+      observer.observe(document.getElementById('labels') || gridEl);
     } else {
-      fetch('assets/data/labels.json')
-        .then(r => r.json())
-        .then(data => {
-          allLabels = data.labels || [];
-          applyFilter();
-        })
-        .catch(err => console.error('Error loading labels:', err));
+      loadCatalog();
     }
 
     consoleBtns.forEach(btn => {
@@ -37,20 +75,23 @@ const LabelsHub = (function() {
         consoleBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         currentConsole = btn.dataset.console;
-        applyFilter();
+        if (loaded) applyFilter();
+        else loadCatalog();
       });
     });
 
     if (searchInput) {
       searchInput.addEventListener('input', (e) => {
         searchQuery = e.target.value.toLowerCase().trim();
-        applyFilter();
+        if (loaded) applyFilter();
+        else loadCatalog();
       });
     }
 
     if (loadMoreBtn) {
       loadMoreBtn.addEventListener('click', () => {
-        renderChunk();
+        if (loaded) renderChunk();
+        else loadCatalog();
       });
     }
   }

@@ -176,6 +176,35 @@
   display: block;
 }
 
+.prints-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+.print-card {
+  background: var(--bg-card, #11121a);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  text-align: center;
+}
+.print-card img {
+  width: 100%;
+  height: 270px;
+  object-fit: contain;
+}
+.print-card h3 { margin: 0; font-size: 1.1rem; }
+.print-price { margin: 0; font-size: 0.9rem; color: var(--text-secondary); }
+.print-card a { margin-top: auto; }
+.prints-note { max-width: 720px; margin: 28px auto 20px; text-align: center; color: var(--text-secondary); }
+.prints-actions { text-align: center; }
+@media (max-width: 1000px) { .prints-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 540px) { .prints-grid { grid-template-columns: 1fr; } }
+
 .video-container {
   position: absolute;
   top: 0;
