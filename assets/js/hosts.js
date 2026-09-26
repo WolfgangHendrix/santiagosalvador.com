@@ -9,5 +9,5 @@ window.masterUrl = function masterUrl(path) {
     || (clean.startsWith('Art/') && !clean.startsWith('Art/thumbs/') && !clean.startsWith('Art/Music_Audio/'));
   if (!remoteMaster) return clean;
   const encoded = clean.split('/').map(encodeURIComponent).join('/');
-  return `https://media.githubusercontent.com/media/WolfgangHendrix/santiagosalvador.com/main/${encoded}`;
+  return `https://raw.githubusercontent.com/WolfgangHendrix/santiagosalvador.com/main/${encoded}`;
 };
