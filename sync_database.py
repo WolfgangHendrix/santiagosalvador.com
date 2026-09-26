@@ -219,7 +219,7 @@ def sync():
         },
         "mus_lev1_sliver.mp3": {
             "title": "Journey",
-            "album": "Theseus VS The Minotaur Level Music"
+            "album": "The Brain Bludgeoner — Boss Fight Music (Unfinished Game)"
         },
         "mus_end_game_funfunfun.mp3": {
             "title": "Jump Jax!",
