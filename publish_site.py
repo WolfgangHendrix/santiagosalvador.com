@@ -45,6 +45,8 @@ def main():
     art = load_js_or_json(ROOT / "assets" / "data" / "artworks.js")
     for item in art:
         copy_rel(item.get("thumb") or item["url"])
+        for supporting in item.get("supportingImages", []):
+            copy_rel(supporting["url"])
 
     # Only the Marvel subfolder belongs in the unlisted personal archive.
     marvel = load_js_or_json(ROOT / "assets" / "data" / "marvel-archive.js")

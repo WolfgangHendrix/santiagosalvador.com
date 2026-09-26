@@ -1,0 +1,66 @@
+{
+  "converted": [
+    {
+      "source": "ancient-temple-santiago-salvador.wav",
+      "output": "ancient-temple-santiago-salvador.mp3",
+      "sourceBytes": 30870134,
+      "outputBytes": 4097468,
+      "sourceSeconds": 175.0,
+      "outputSeconds": 175.05
+    },
+    {
+      "source": "downfall-santiago-salvador.wav",
+      "output": "downfall-santiago-salvador.mp3",
+      "sourceBytes": 41052302,
+      "outputBytes": 5937748,
+      "sourceSeconds": 232.72,
+      "outputSeconds": 232.75
+    },
+    {
+      "source": "everything-must-go-santiago-salvador.wav",
+      "output": "everything-must-go-santiago-salvador.mp3",
+      "sourceBytes": 48810092,
+      "outputBytes": 6403955,
+      "sourceSeconds": 276.7,
+      "outputSeconds": 276.74
+    },
+    {
+      "source": "jump-jax-santiago-salvador.mp4",
+      "output": "jump-jax-santiago-salvador.mp3",
+      "sourceBytes": 34713624,
+      "outputBytes": 3269214,
+      "sourceSeconds": 208.05,
+      "outputSeconds": 208.09
+    },
+    {
+      "source": "pajaro-santiago-salvador.wav",
+      "output": "pajaro-santiago-salvador.mp3",
+      "sourceBytes": 30854430,
+      "outputBytes": 3900898,
+      "sourceSeconds": 174.91,
+      "outputSeconds": 174.94
+    },
+    {
+      "source": "rising-santiago-salvador.wav",
+      "output": "rising-santiago-salvador.mp3",
+      "sourceBytes": 32104510,
+      "outputBytes": 5102462,
+      "sourceSeconds": 181.99,
+      "outputSeconds": 182.02
+    },
+    {
+      "source": "theseus-vs-the-minotaur-level-santiago-salvador.wav",
+      "output": "theseus-vs-the-minotaur-level-santiago-salvador.mp3",
+      "sourceBytes": 31003224,
+      "outputBytes": 3973572,
+      "sourceSeconds": 175.75,
+      "outputSeconds": 175.78
+    }
+  ],
+  "duplicatesRemoved": [
+    {
+      "removed": "the-brain-bludgeoner-level-music-santiago-salvador.mp3",
+      "retained": "brain-bludgeoner-level-santiago-salvador.mp3"
+    }
+  ]
+}

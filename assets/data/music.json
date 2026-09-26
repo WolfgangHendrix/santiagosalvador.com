@@ -1,30 +1,93 @@
 [
   {
     "id": 1,
-    "title": "Journey",
+    "title": "Ancient Temple",
     "artist": "Santiago Salvador",
-    "album": "The Brain Bludgeoner — Boss Fight Music (Unfinished Game)",
-    "url": "Art/Music_Audio/journey-the-brain-bludgeoner-boss-fight-music-santiago-salvador.mp3"
+    "album": "Original Music",
+    "url": "Art/Music_Audio/ancient-temple-santiago-salvador.mp3"
   },
   {
     "id": 2,
-    "title": "Jump Jax!",
+    "title": "The Brain Bludgeoner - Level Music",
     "artist": "Santiago Salvador",
-    "album": "Jump Jax! Game Music & SFX",
-    "url": "Art/Music_Audio/jump-jax-game-music-and-sfx-santiago-salvador.mp3"
+    "album": "The Brain Bludgeoner",
+    "url": "Art/Music_Audio/brain-bludgeoner-level-santiago-salvador.mp3"
   },
   {
     "id": 3,
-    "title": "Mad Man",
+    "title": "Downfall",
     "artist": "Santiago Salvador",
-    "album": "The Brain Bludgeoner Theme Music",
-    "url": "Art/Music_Audio/mad-man-the-brain-bludgeoner-theme-music-santiago-salvador.mp3"
+    "album": "Original Music",
+    "url": "Art/Music_Audio/downfall-santiago-salvador.mp3"
   },
   {
     "id": 4,
-    "title": "Shark Attack",
+    "title": "Everything Must Go",
     "artist": "Santiago Salvador",
-    "album": "SharkOn! Theme Music",
-    "url": "Art/Music_Audio/shark-attack-sharkon-theme-music-santiago-salvador.mp3"
+    "album": "Original Music",
+    "url": "Art/Music_Audio/everything-must-go-santiago-salvador.mp3"
+  },
+  {
+    "id": 5,
+    "title": "Journey - The Brain Bludgeoner Boss Fight",
+    "artist": "Santiago Salvador",
+    "album": "The Brain Bludgeoner - Unfinished Game",
+    "url": "Art/Music_Audio/journey-the-brain-bludgeoner-boss-fight-music-santiago-salvador.mp3"
+  },
+  {
+    "id": 6,
+    "title": "Jump Jax!",
+    "artist": "Santiago Salvador",
+    "album": "Jump Jax! Game Music",
+    "url": "Art/Music_Audio/jump-jax-santiago-salvador.mp3"
+  },
+  {
+    "id": 7,
+    "title": "Long Outro",
+    "artist": "Santiago Salvador",
+    "album": "Original Music",
+    "url": "Art/Music_Audio/long-outro-santiago-salvador.mp3"
+  },
+  {
+    "id": 8,
+    "title": "Pajaro",
+    "artist": "Santiago Salvador",
+    "album": "Original Music",
+    "url": "Art/Music_Audio/pajaro-santiago-salvador.mp3"
+  },
+  {
+    "id": 9,
+    "title": "Red Hammer - Music",
+    "artist": "Santiago Salvador",
+    "album": "Red Hammer",
+    "url": "Art/Music_Audio/red-hammer-music-santiago-salvador.mp3"
+  },
+  {
+    "id": 10,
+    "title": "Rising",
+    "artist": "Santiago Salvador",
+    "album": "Original Music",
+    "url": "Art/Music_Audio/rising-santiago-salvador.mp3"
+  },
+  {
+    "id": 11,
+    "title": "SharkOn! - Level Music",
+    "artist": "Santiago Salvador",
+    "album": "SharkOn!",
+    "url": "Art/Music_Audio/sharkon-level-santiago-salvador.mp3"
+  },
+  {
+    "id": 12,
+    "title": "Theseus vs the Minotaur - Intro",
+    "artist": "Santiago Salvador",
+    "album": "Theseus vs the Minotaur",
+    "url": "Art/Music_Audio/theseus-vs-the-minotaur-intro-santiago-salvador.mp3"
+  },
+  {
+    "id": 13,
+    "title": "Theseus vs the Minotaur - Level Music",
+    "artist": "Santiago Salvador",
+    "album": "Theseus vs the Minotaur",
+    "url": "Art/Music_Audio/theseus-vs-the-minotaur-level-santiago-salvador.mp3"
   }
 ]

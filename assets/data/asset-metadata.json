@@ -1823,10 +1823,10 @@
     "album": "Jump Jax! Game Music & SFX"
   },
   "Art/Music_Audio/journey-the-brain-bludgeoner-boss-fight-music-santiago-salvador.mp3": {
-    "title": "Journey",
+    "title": "Journey - The Brain Bludgeoner Boss Fight",
     "originalFilename": "mus_lev1_sliver.mp3",
-    "titleSource": "existing-name",
-    "album": "The Brain Bludgeoner — Boss Fight Music (Unfinished Game)"
+    "titleSource": "user-renamed-file",
+    "album": "The Brain Bludgeoner - Unfinished Game"
   },
   "Art/Music_Audio/mad-man-the-brain-bludgeoner-theme-music-santiago-salvador.mp3": {
     "title": "Mad Man",
@@ -1856,7 +1856,9 @@
     "title": "Almost 5:30 Clock Sketch",
     "originalFilename": "AM.jpg",
     "titleSource": "visual-description",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Keep the finished Almost 5:30 design in the gallery."
   },
   "Art/Paintings_Illustrations/anarchist-gorilla-artwork-santiago-salvador.jpg": {
     "title": "Anarchist Gorilla",
@@ -1952,7 +1954,9 @@
     "title": "Green Face with Pink Background",
     "originalFilename": "art_recovery_25.png",
     "titleSource": "visual-description",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Unfinished portrait study."
   },
   "Art/Paintings_Illustrations/framed-cyclops-creature-drawing-santiago-salvador.jpg": {
     "title": "Framed Cyclops Creature Drawing",
@@ -1976,7 +1980,9 @@
     "title": "Flaming Haired Guitarist CD Design",
     "originalFilename": "art_recovery_29.png",
     "titleSource": "visual-description",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Keep Almost 5:30 as the single finished gallery version."
   },
   "Art/Paintings_Illustrations/flowing-psychedelic-line-art-santiago-salvador.png": {
     "title": "Flowing Psychedelic Line Art",
@@ -2036,7 +2042,9 @@
     "title": "Santiago Salvador Music and Art Business Card",
     "originalFilename": "bc(1).jpg",
     "titleSource": "visual-description",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Older promotional layout outside the current portfolio selection."
   },
   "Art/Paintings_Illustrations/spacechakra-motu-customs-business-card-artwork-santiago-salvador.jpg": {
     "title": "SpaceChakra MOTU Customs Business Card",
@@ -2504,7 +2512,9 @@
     "title": "Tabletop Scene Sketch",
     "originalFilename": "DSC02533.JPG",
     "titleSource": "visual-description",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Preliminary perspective study with blurry presentation."
   },
   "Art/Paintings_Illustrations/tree-creature-sketch-santiago-salvador.jpg": {
     "title": "Tree Creature Sketch",
@@ -2522,7 +2532,9 @@
     "title": "Standing Woman Pencil Sketch",
     "originalFilename": "DSC02537.JPG",
     "titleSource": "visual-description",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Preliminary anatomy study with faint presentation."
   },
   "Art/Paintings_Illustrations/character-and-creature-pencil-sketch-santiago-salvador.jpg": {
     "title": "Character and Creature Pencil Sketch",
@@ -2564,7 +2576,9 @@
     "title": "Hand and Written Notes Sketchbook",
     "originalFilename": "DSC02545.JPG",
     "titleSource": "visual-description",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Process notes and poorly lit sketch photograph."
   },
   "Art/Paintings_Illustrations/woman-in-white-dress-drawing-santiago-salvador.jpg": {
     "title": "Woman in White Dress Drawing",
@@ -2946,7 +2960,9 @@
   "Art/Paintings_Illustrations/mobopoly-template-artwork-santiago-salvador.jpg": {
     "title": "Mobopoly",
     "originalFilename": "mobopoly_template.jpg",
-    "titleSource": "existing-name"
+    "titleSource": "existing-name",
+    "hidden": true,
+    "curationReason": "Unfinished template; archive as development work."
   },
   "Art/Paintings_Illustrations/guitarist-and-sound-waves-line-art-santiago-salvador.jpg": {
     "title": "Guitarist and Sound Waves Line Art",
@@ -3059,7 +3075,9 @@
     "title": "rotating head",
     "originalFilename": "rotating head.jpg",
     "titleSource": "existing-name",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Rough character study; archive as development work."
   },
   "Art/Paintings_Illustrations/chevrolet-hubcap-project-artwork-santiago-salvador.jpg": {
     "title": "Chevrolet Hubcap Project",
@@ -3424,7 +3442,9 @@
     "title": "model",
     "originalFilename": "santiago_salvador_model.jpg",
     "titleSource": "existing-name",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Alternate copy of the archived green-face portrait study."
   },
   "Art/Paintings_Illustrations/moses-artwork-santiago-salvador.jpg": {
     "title": "moses",
@@ -3442,7 +3462,9 @@
     "title": "nirvana",
     "originalFilename": "santiago_salvador_nirvana.jpg",
     "titleSource": "existing-name",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Keep the clean cropped PNG presentation of Nirvana."
   },
   "Art/Paintings_Illustrations/ocean-protector-artwork-santiago-salvador.jpg": {
     "title": "Ocean Protector",
@@ -3508,7 +3530,9 @@
     "title": "skull",
     "originalFilename": "santiago_salvador_skull.jpg",
     "titleSource": "existing-name",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Rough skull study; stronger developed designs remain."
   },
   "Art/Paintings_Illustrations/some-guy-artwork-santiago-salvador.jpg": {
     "title": "Some Guy",
@@ -3580,19 +3604,27 @@
     "title": "Corvette Hubcap",
     "originalFilename": "santiago_salvador_vetcap.jpg",
     "titleSource": "existing-name",
-    "featured": false
+    "featured": false,
+    "supportingImages": [
+      "Art/Paintings_Illustrations/corvette-hubcap-2-artwork-santiago-salvador.jpg",
+      "Art/Paintings_Illustrations/corvette-hubcap-3-artwork-santiago-salvador.jpg"
+    ]
   },
   "Art/Paintings_Illustrations/corvette-hubcap-2-artwork-santiago-salvador.jpg": {
-    "title": "Corvette Hubcap 2",
+    "title": "Corvette Hubcap Design Installed on Wheel",
     "originalFilename": "santiago_salvador_vetcap2.jpg",
     "titleSource": "existing-name",
-    "featured": false
+    "featured": false,
+    "supportingOnly": true,
+    "curationReason": "Supporting project photo shown after the hubcap design in the lightbox."
   },
   "Art/Paintings_Illustrations/corvette-hubcap-3-artwork-santiago-salvador.jpg": {
-    "title": "Corvette Hubcap 3",
+    "title": "Corvette Hubcap Design on Yellow Corvette",
     "originalFilename": "santiago_salvador_vetcap3.jpg",
     "titleSource": "existing-name",
-    "featured": false
+    "featured": false,
+    "supportingOnly": true,
+    "curationReason": "Supporting project photo shown after the hubcap design in the lightbox."
   },
   "Art/Paintings_Illustrations/wave-artwork-santiago-salvador.jpg": {
     "title": "wave",
@@ -3848,7 +3880,9 @@
     "title": "Dotted Face Line Drawing",
     "originalFilename": "whsyrbd.jpg",
     "titleSource": "visual-description",
-    "featured": false
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Technique study; archive outside the main portfolio."
   },
   "Art/Paintings_Illustrations/wild-style-original-artwork-santiago-salvador.jpg": {
     "title": "wild style original",
@@ -18840,5 +18874,463 @@
   "Art/Paintings_Illustrations/third-eye-vision-artwork-santiago-salvador.png": {
     "title": "Third Eye Vision",
     "titleSource": "editorial"
+  },
+  "Art/Game_Art_Screenshots/white-rabbit-boss-character-turnaround-santiago-salvador.jpg": {
+    "title": "White Rabbit Boss Character Turnaround",
+    "originalFilename": "whiteRabbitBoss.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/clan-drop-game-environment-concept-art-santiago-salvador.jpg": {
+    "title": "Clan Drop Game Environment Concept Art",
+    "originalFilename": "ClanDropGame.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/clan-fishing-game-concept-art-santiago-salvador.jpg": {
+    "title": "Clan Fishing Game Concept Art",
+    "originalFilename": "ClanFishing.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/deacon-eichmann-game-character-concept-art-santiago-salvador.jpg": {
+    "title": "Deacon Eichmann Game Character Concept Art",
+    "originalFilename": "Deacon-Eichmann.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/desert-heart-motorcycle-character-concept-art-santiago-salvador.jpg": {
+    "title": "Desert Heart Motorcycle Character Concept Art",
+    "originalFilename": "Desert-Heart.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/jafaramgad-game-character-turnaround-santiago-salvador.jpg": {
+    "title": "Jafaramgad Game Character Turnaround",
+    "originalFilename": "Jafaramgad.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/prince-john-game-attack-animation-concepts-santiago-salvador.jpg": {
+    "title": "Prince John Game Attack Animation Concepts",
+    "originalFilename": "PJAnimations.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/prince-john-game-character-reference-sheet-santiago-salvador.jpg": {
+    "title": "Prince John Game Character Reference Sheet",
+    "originalFilename": "PJConceptReference.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/campaign-run-2016-game-menu-ui-santiago-salvador.jpg": {
+    "title": "Campaign Run 2016 Game Menu UI",
+    "originalFilename": "sampaign-run-ui-santiago-salvador.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/theseus-vs-the-minotaur-story-screen-santiago-salvador.jpeg": {
+    "title": "Theseus vs the Minotaur Story Screen",
+    "originalFilename": "screen568x568 (1).jpeg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/theseus-vs-the-minotaur-labyrinth-gameplay-santiago-salvador.jpeg": {
+    "title": "Theseus vs the Minotaur Labyrinth Gameplay",
+    "originalFilename": "screen568x568 (2).jpeg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/theseus-vs-the-minotaur-title-menu-santiago-salvador.jpeg": {
+    "title": "Theseus vs the Minotaur Title Menu",
+    "originalFilename": "screen568x568.jpeg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/alice-platform-game-dialogue-screenshot-santiago-salvador.jpeg": {
+    "title": "Alice Platform Game Dialogue Screenshot",
+    "originalFilename": "screen640x640 (1).jpeg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/alice-platform-game-forest-gameplay-santiago-salvador.jpeg": {
+    "title": "Alice Platform Game Forest Gameplay",
+    "originalFilename": "screen640x640.jpeg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/sheriff-of-nottingham-game-character-concept-art-santiago-salvador.jpg": {
+    "title": "Sheriff of Nottingham Game Character Concept Art",
+    "originalFilename": "SheriffOfNottinghamConcept.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/timber-fighters-chop-morris-hollywood-series-title-screen-santiago-salvador.jpg": {
+    "title": "Timber Fighters Chop Morris Hollywood Series Title Screen",
+    "originalFilename": "ss1.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/timber-fighters-dragon-stage-game-over-screen-alternate-santiago-salvador.jpg": {
+    "title": "Timber Fighters Dragon Stage Game Over Screen Alternate",
+    "originalFilename": "ss2 (1).jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/timber-fighters-dragon-stage-game-over-screen-santiago-salvador.jpg": {
+    "title": "Timber Fighters Dragon Stage Game Over Screen",
+    "originalFilename": "ss2.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/timber-fighters-character-shop-ui-santiago-salvador.jpg": {
+    "title": "Timber Fighters Character Shop UI",
+    "originalFilename": "ss3.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/timber-fighters-forest-stage-gameplay-alternate-santiago-salvador.jpg": {
+    "title": "Timber Fighters Forest Stage Gameplay Alternate",
+    "originalFilename": "ss4 (1).jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/timber-fighters-forest-stage-gameplay-santiago-salvador.jpg": {
+    "title": "Timber Fighters Forest Stage Gameplay",
+    "originalFilename": "ss4.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/timber-fighters-city-stage-gameplay-santiago-salvador.jpg": {
+    "title": "Timber Fighters City Stage Gameplay",
+    "originalFilename": "ss5.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/timber-fighters-lava-stage-gameplay-alternate-santiago-salvador.jpg": {
+    "title": "Timber Fighters Lava Stage Gameplay Alternate",
+    "originalFilename": "ss6 (1).jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/timber-fighters-lava-stage-gameplay-santiago-salvador.jpg": {
+    "title": "Timber Fighters Lava Stage Gameplay",
+    "originalFilename": "ss6.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/tarzan-game-character-turnaround-santiago-salvador.jpg": {
+    "title": "Tarzan Game Character Turnaround",
+    "originalFilename": "Tarzan.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/the-boy-game-character-turnaround-santiago-salvador.jpg": {
+    "title": "The Boy Game Character Turnaround",
+    "originalFilename": "TheBoy.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/the-girl-game-character-turnaround-santiago-salvador.jpg": {
+    "title": "The Girl Game Character Turnaround",
+    "originalFilename": "TheGirl.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Game_Art_Screenshots/easter-bunny-baby-puzzle-claw-drop-title-screen-santiago-salvador.jpg": {
+    "title": "Easter Bunny Baby Puzzle Claw Drop Title Screen",
+    "originalFilename": "title-screen.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/coraline-character-drawing-santiago-salvador.jpg": {
+    "title": "Coraline Character Drawing",
+    "originalFilename": "santiago_salvador_coraline.jpg",
+    "titleSource": "visual-description",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/framed-cyclops-creature-drawing-santiago-salvador.png": {
+    "title": "Framed Cyclops Creature Drawing",
+    "originalFilename": "art_recovery_26.jpg",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/framed-dancing-figure-drawing-santiago-salvador.png": {
+    "title": "Framed Dancing Figure Drawing",
+    "originalFilename": "IMAG3639.jpg",
+    "titleSource": "visual-description",
+    "featured": false,
+    "hidden": true,
+    "curationReason": "Keep Butterfly Dancer as the single gallery version."
+  },
+  "Art/Paintings_Illustrations/heart-and-sun-circular-drawing-santiago-salvador.png": {
+    "title": "Heart and Sun Circular Drawing",
+    "originalFilename": "IMAG3270_1_1_1.jpg",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/heart-santiago-salvador.png": {
+    "title": "heart",
+    "originalFilename": "heart.jpg",
+    "titleSource": "existing-name",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/hung-color-artwork-santiago-salvador.png": {
+    "title": "hung - color",
+    "originalFilename": "hung - color.jpg",
+    "titleSource": "existing-name",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/interwoven-faces-line-drawing-santiago-salvador.png": {
+    "title": "Interwoven Faces Line Drawing",
+    "originalFilename": "DSC02468.JPG",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/intricate-figure-purple-line-drawing-santiago-salvador.png": {
+    "title": "Intricate Figure Purple Line Drawing",
+    "originalFilename": "DSC02516.JPG",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/long-haired-figure-red-line-drawing-santiago-salvador.png": {
+    "title": "Long Haired Figure Red Line Drawing",
+    "originalFilename": "DSC02504.JPG",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/motu-battle-illustration-santiago-salvador.jpg": {
+    "title": "MOTU Battle Illustration",
+    "originalFilename": "santiago_salvador_motubattle.jpg",
+    "titleSource": "visual-description",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/motu-ram-man-game-screenshots-santiago-salvador.jpg": {
+    "title": "MOTU Ram Man Game Screenshots",
+    "originalFilename": "santiago_salvador_motu_rm.jpg",
+    "titleSource": "visual-description",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/motu-vintage-200x-he-man-illustration-santiago-salvador.png": {
+    "title": "MOTU Vintage 200X He-Man Illustration",
+    "originalFilename": "MOTU_Vintage_200x_He-Man.png",
+    "titleSource": "visual-description",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/motu-vintage-iron-on-anti-eternia-he-man-santiago-salvador.png": {
+    "title": "MOTU Vintage Iron On Anti-Eternia He-Man",
+    "originalFilename": "MOTU_Vintage_IronOn_Anti-Eternia_He-Man.png",
+    "titleSource": "existing-name",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/motu-vintage-iron-on-faker-santiago-salvador.png": {
+    "title": "MOTU Vintage Iron On Faker",
+    "originalFilename": "MOTU_Vintage_IronOn_Faker.png",
+    "titleSource": "existing-name",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/motu-vintage-iron-on-he-man-santiago-salvador.png": {
+    "title": "MOTU Vintage Iron On He-Man",
+    "originalFilename": "MOTU_Vintage_IronOn_He-Man.png",
+    "titleSource": "existing-name",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/motu-vintage-iron-on-santiago-salvador.jpg": {
+    "title": "MOTU Vintage Iron On",
+    "originalFilename": "MOTU_Vintage_IronOn.jpg",
+    "titleSource": "existing-name",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/motu-vintage-iron-on-wonderbread-santiago-salvador.png": {
+    "title": "MOTU Vintage Iron On Wonderbread",
+    "originalFilename": "MOTU_Vintage_IronOn_Wonderbread.png",
+    "titleSource": "existing-name",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/motuko-vintage-universe-prince-illustration-santiago-salvador.png": {
+    "title": "MOTUKO Vintage Universe Prince Illustration",
+    "originalFilename": "MOTUKO_Vintage_UniversePrince.png",
+    "titleSource": "visual-description",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/nirvana-artwork-santiago-salvador.png": {
+    "title": "nirvana",
+    "originalFilename": "santiago_salvador_nirvana.jpg",
+    "titleSource": "existing-name",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/parachuting-gift-and-snail-drawing-santiago-salvador.png": {
+    "title": "Parachuting Gift and Snail Drawing",
+    "originalFilename": "DSC02467.JPG",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/pink-flame-headed-character-artwork-santiago-salvador.png": {
+    "title": "Pink Flame Headed Character",
+    "originalFilename": "DSC02505.JPG",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/pink-haired-character-composition-santiago-salvador.png": {
+    "title": "Pink Haired Character Composition",
+    "originalFilename": "DSC02510.JPG",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/primary-color-equation-sketch-santiago-salvador.png": {
+    "title": "Primary Color Equation Sketch",
+    "originalFilename": "DSC02498.JPG",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/skeletor-circular-illustration-santiago-salvador.png": {
+    "title": "Skeletor Circular Illustration",
+    "originalFilename": "Skeletor.png",
+    "titleSource": "visual-description",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/smiling-drummer-character-drawing-santiago-salvador.png": {
+    "title": "Smiling Drummer Character Drawing",
+    "originalFilename": "DSC02470.JPG",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/teela-character-drawing-santiago-salvador.jpg": {
+    "title": "Teela Character Drawing",
+    "originalFilename": "Teela.jpg",
+    "titleSource": "visual-description",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/teelas-horse-drawing-santiago-salvador.jpg": {
+    "title": "Teelas Horse Drawing",
+    "originalFilename": "teelashorse.jpg",
+    "titleSource": "visual-description",
+    "featured": true
+  },
+  "Art/Paintings_Illustrations/winged-creature-tattoo-design-santiago-salvador.png": {
+    "title": "Winged Creature Tattoo Design",
+    "originalFilename": "IMAG3576_1.jpg",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/winged-figure-pencil-drawing-santiago-salvador.png": {
+    "title": "Winged Figure Pencil Drawing",
+    "originalFilename": "Copy of jc.jpg",
+    "titleSource": "visual-description",
+    "featured": false
+  },
+  "Art/Paintings_Illustrations/cyclops-creature-drawing-framed-santiago-salvador.jpg": {
+    "title": "Cyclops Creature Drawing Framed",
+    "hidden": true,
+    "curationReason": "Keep the artwork-only colored cyclops image rather than its framed photograph."
+  },
+  "Art/Paintings_Illustrations/halloween-gpk-santiago-salvador.jpg": {
+    "title": "Halloween Michael Myers - GPK-Style Fan Art",
+    "originalFilename": "halloween-gpk-santiago-salvador.jpg",
+    "titleSource": "image-reviewed",
+    "featured": false
+  },
+  "Art/Music_Audio/ancient-temple-santiago-salvador.wav": {
+    "title": "Ancient Temple",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/brain-bludgeoner-level-santiago-salvador.mp3": {
+    "title": "The Brain Bludgeoner - Level Music",
+    "album": "The Brain Bludgeoner",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/downfall-santiago-salvador.wav": {
+    "title": "Downfall",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/everything-must-go-santiago-salvador.wav": {
+    "title": "Everything Must Go",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/long-outro-santiago-salvador.mp3": {
+    "title": "Long Outro",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/pajaro-santiago-salvador.wav": {
+    "title": "Pajaro",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/red-hammer-music-santiago-salvador.mp3": {
+    "title": "Red Hammer - Music",
+    "album": "Red Hammer",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/rising-santiago-salvador.wav": {
+    "title": "Rising",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/sharkon-level-santiago-salvador.mp3": {
+    "title": "SharkOn! - Level Music",
+    "album": "SharkOn!",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/the-brain-bludgeoner-level-music-santiago-salvador.mp3": {
+    "title": "The Brain Bludgeoner - Level Music",
+    "album": "The Brain Bludgeoner",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/theseus-vs-the-minotaur-intro-santiago-salvador.mp3": {
+    "title": "Theseus vs the Minotaur - Intro",
+    "album": "Theseus vs the Minotaur",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/theseus-vs-the-minotaur-level-santiago-salvador.wav": {
+    "title": "Theseus vs the Minotaur - Level Music",
+    "album": "Theseus vs the Minotaur",
+    "titleSource": "user-renamed-file"
+  },
+  "Art/Music_Audio/ancient-temple-santiago-salvador.mp3": {
+    "title": "Ancient Temple",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file",
+    "convertedFrom": "ancient-temple-santiago-salvador.wav"
+  },
+  "Art/Music_Audio/downfall-santiago-salvador.mp3": {
+    "title": "Downfall",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file",
+    "convertedFrom": "downfall-santiago-salvador.wav"
+  },
+  "Art/Music_Audio/everything-must-go-santiago-salvador.mp3": {
+    "title": "Everything Must Go",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file",
+    "convertedFrom": "everything-must-go-santiago-salvador.wav"
+  },
+  "Art/Music_Audio/jump-jax-santiago-salvador.mp3": {
+    "title": "Jump Jax!",
+    "album": "Jump Jax! Game Music",
+    "titleSource": "user-renamed-file",
+    "originalFilename": "jump-jax-santiago-salvador.mp4",
+    "convertedFrom": "jump-jax-santiago-salvador.mp4"
+  },
+  "Art/Music_Audio/pajaro-santiago-salvador.mp3": {
+    "title": "Pajaro",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file",
+    "convertedFrom": "pajaro-santiago-salvador.wav"
+  },
+  "Art/Music_Audio/rising-santiago-salvador.mp3": {
+    "title": "Rising",
+    "album": "Original Music",
+    "titleSource": "user-renamed-file",
+    "convertedFrom": "rising-santiago-salvador.wav"
+  },
+  "Art/Music_Audio/theseus-vs-the-minotaur-level-santiago-salvador.mp3": {
+    "title": "Theseus vs the Minotaur - Level Music",
+    "album": "Theseus vs the Minotaur",
+    "titleSource": "user-renamed-file",
+    "convertedFrom": "theseus-vs-the-minotaur-level-santiago-salvador.wav"
   }
 }

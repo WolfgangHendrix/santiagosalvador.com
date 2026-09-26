@@ -71,16 +71,6 @@
   },
   {
     "id": 8,
-    "title": "Almost 5:30 Clock Sketch",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "almost-5-30-clock-sketch-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/almost-5-30-clock-sketch-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/almost-5-30-clock-sketch-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 9,
     "title": "Anarchist Gorilla",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -90,17 +80,7 @@
     "featured": true
   },
   {
-    "id": 10,
-    "title": "Anarchist Gorilla",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "anarchist-gorilla-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/anarchist-gorilla-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/anarchist-gorilla-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 11,
+    "id": 9,
     "title": "Angel Vs Devil Pattern",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -110,7 +90,7 @@
     "featured": false
   },
   {
-    "id": 12,
+    "id": 10,
     "title": "Angels Are in My Dreams Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -120,7 +100,7 @@
     "featured": false
   },
   {
-    "id": 13,
+    "id": 11,
     "title": "angry pete",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -130,7 +110,7 @@
     "featured": false
   },
   {
-    "id": 14,
+    "id": 12,
     "title": "Antlered Fantasy Medallion Design",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -140,7 +120,7 @@
     "featured": false
   },
   {
-    "id": 15,
+    "id": 13,
     "title": "anvarri",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -150,7 +130,7 @@
     "featured": false
   },
   {
-    "id": 16,
+    "id": 14,
     "title": "autoart text",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -160,17 +140,7 @@
     "featured": false
   },
   {
-    "id": 17,
-    "title": "Back Of Legging Angel",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "back-of-legging-angel-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/back-of-legging-angel-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/back-of-legging-angel-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 18,
+    "id": 15,
     "title": "Be Goodness",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -180,7 +150,7 @@
     "featured": false
   },
   {
-    "id": 19,
+    "id": 16,
     "title": "Bearded Sunglasses Character",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -190,7 +160,7 @@
     "featured": false
   },
   {
-    "id": 20,
+    "id": 17,
     "title": "Bender Bitcoin",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -200,7 +170,7 @@
     "featured": false
   },
   {
-    "id": 21,
+    "id": 18,
     "title": "BFF",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -210,7 +180,7 @@
     "featured": false
   },
   {
-    "id": 22,
+    "id": 19,
     "title": "Big Balls",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -220,7 +190,7 @@
     "featured": false
   },
   {
-    "id": 23,
+    "id": 20,
     "title": "Black Sheep Jesus",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -230,7 +200,7 @@
     "featured": false
   },
   {
-    "id": 24,
+    "id": 21,
     "title": "Blacksmith",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -240,27 +210,7 @@
     "featured": false
   },
   {
-    "id": 25,
-    "title": "Blue and Yellow Embracing Figures",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "blue-and-yellow-embracing-figures-artwork-santiago-salvador.png",
-    "url": "Art/Paintings_Illustrations/blue-and-yellow-embracing-figures-artwork-santiago-salvador.png",
-    "thumb": "Art/thumbs/Paintings_Illustrations/blue-and-yellow-embracing-figures-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 26,
-    "title": "Blue Face Circular Portrait",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "blue-face-circular-portrait-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/blue-face-circular-portrait-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/blue-face-circular-portrait-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 27,
+    "id": 22,
     "title": "Blue Faced Figure with Ornate Headdress",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -270,17 +220,7 @@
     "featured": false
   },
   {
-    "id": 28,
-    "title": "Blue Faced Ornate Headdress Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "blue-faced-ornate-headdress-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/blue-faced-ornate-headdress-drawing-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/blue-faced-ornate-headdress-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 29,
+    "id": 23,
     "title": "Blue Fantasy Figure Portrait",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -290,7 +230,7 @@
     "featured": false
   },
   {
-    "id": 30,
+    "id": 24,
     "title": "Blue Jacket Anarchy Portrait",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -300,17 +240,7 @@
     "featured": false
   },
   {
-    "id": 31,
-    "title": "Bound Figure in Red and Blue",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "bound-figure-in-red-and-blue-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/bound-figure-in-red-and-blue-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/bound-figure-in-red-and-blue-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 32,
+    "id": 25,
     "title": "Bruce Lee Cymbal",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -320,7 +250,7 @@
     "featured": false
   },
   {
-    "id": 33,
+    "id": 26,
     "title": "Buddha Buddha",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -330,7 +260,7 @@
     "featured": false
   },
   {
-    "id": 34,
+    "id": 27,
     "title": "burning",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -340,7 +270,7 @@
     "featured": false
   },
   {
-    "id": 35,
+    "id": 28,
     "title": "Butterfly Dancer",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -350,7 +280,7 @@
     "featured": false
   },
   {
-    "id": 36,
+    "id": 29,
     "title": "Button Art",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -360,7 +290,7 @@
     "featured": false
   },
   {
-    "id": 37,
+    "id": 30,
     "title": "Calm Blue Ocean",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -370,7 +300,7 @@
     "featured": false
   },
   {
-    "id": 38,
+    "id": 31,
     "title": "Candice Nanneti",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -380,7 +310,7 @@
     "featured": false
   },
   {
-    "id": 39,
+    "id": 32,
     "title": "Cannibal Prime Escape",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -390,7 +320,7 @@
     "featured": false
   },
   {
-    "id": 40,
+    "id": 33,
     "title": "Cartoon Action Scene Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -400,7 +330,7 @@
     "featured": false
   },
   {
-    "id": 41,
+    "id": 34,
     "title": "CD Cover - 1",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -410,7 +340,7 @@
     "featured": false
   },
   {
-    "id": 42,
+    "id": 35,
     "title": "Character and Creature Pencil Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -420,37 +350,7 @@
     "featured": false
   },
   {
-    "id": 43,
-    "title": "Character Development 1",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "character-development-1-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/character-development-1-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/character-development-1-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 44,
-    "title": "Character Development",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "character-development-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/character-development-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/character-development-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 45,
-    "title": "Chevrolet Hubcap Project",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "chevrolet-hubcap-project-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/chevrolet-hubcap-project-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/chevrolet-hubcap-project-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 46,
+    "id": 36,
     "title": "China Cymbal",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -460,17 +360,7 @@
     "featured": false
   },
   {
-    "id": 47,
-    "title": "Circular Emblem Design Sheet",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "circular-emblem-design-sheet-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/circular-emblem-design-sheet-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/circular-emblem-design-sheet-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 48,
+    "id": 37,
     "title": "cod2",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -480,7 +370,7 @@
     "featured": false
   },
   {
-    "id": 49,
+    "id": 38,
     "title": "Concept Character",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -490,37 +380,41 @@
     "featured": false
   },
   {
-    "id": 50,
-    "title": "Corvette Hubcap 2",
+    "id": 39,
+    "title": "Coraline Character Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "corvette-hubcap-2-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/corvette-hubcap-2-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/corvette-hubcap-2-artwork-santiago-salvador.jpg",
+    "filename": "coraline-character-drawing-santiago-salvador.jpg",
+    "url": "Art/Paintings_Illustrations/coraline-character-drawing-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Paintings_Illustrations/coraline-character-drawing-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 51,
-    "title": "Corvette Hubcap 3",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "corvette-hubcap-3-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/corvette-hubcap-3-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/corvette-hubcap-3-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 52,
+    "id": 40,
     "title": "Corvette Hubcap",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
     "filename": "corvette-hubcap-artwork-santiago-salvador.jpg",
     "url": "Art/Paintings_Illustrations/corvette-hubcap-artwork-santiago-salvador.jpg",
     "thumb": "Art/Paintings_Illustrations/corvette-hubcap-artwork-santiago-salvador.jpg",
-    "featured": false
+    "featured": false,
+    "supportingImages": [
+      {
+        "url": "Art/Paintings_Illustrations/corvette-hubcap-2-artwork-santiago-salvador.jpg",
+        "title": "Corvette Hubcap Design Installed on Wheel",
+        "filename": "corvette-hubcap-2-artwork-santiago-salvador.jpg",
+        "categoryLabel": "Paintings & Illustrations"
+      },
+      {
+        "url": "Art/Paintings_Illustrations/corvette-hubcap-3-artwork-santiago-salvador.jpg",
+        "title": "Corvette Hubcap Design on Yellow Corvette",
+        "filename": "corvette-hubcap-3-artwork-santiago-salvador.jpg",
+        "categoryLabel": "Paintings & Illustrations"
+      }
+    ]
   },
   {
-    "id": 53,
+    "id": 41,
     "title": "Cosmic Vibes Holistic Healing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -530,37 +424,7 @@
     "featured": false
   },
   {
-    "id": 54,
-    "title": "Cowboy Kaboom 2",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "cowboy-kaboom-2-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/cowboy-kaboom-2-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/cowboy-kaboom-2-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 55,
-    "title": "Cowboy Kaboom - 2004",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "cowboy-kaboom-2004-artwork-santiago-salvador-2.jpg",
-    "url": "Art/Paintings_Illustrations/cowboy-kaboom-2004-artwork-santiago-salvador-2.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/cowboy-kaboom-2004-artwork-santiago-salvador-2.jpg",
-    "featured": false
-  },
-  {
-    "id": 56,
-    "title": "Cowboy Kaboom - 2004",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "cowboy-kaboom-2004-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/cowboy-kaboom-2004-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/cowboy-kaboom-2004-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 57,
+    "id": 42,
     "title": "Cowboy Kaboom Alternate",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -570,17 +434,7 @@
     "featured": false
   },
   {
-    "id": 58,
-    "title": "Cowboy Kaboom",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "cowboy-kaboom-artwork-santiago-salvador-2.jpg",
-    "url": "Art/Paintings_Illustrations/cowboy-kaboom-artwork-santiago-salvador-2.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/cowboy-kaboom-artwork-santiago-salvador-2.jpg",
-    "featured": true
-  },
-  {
-    "id": 59,
+    "id": 43,
     "title": "Cowboy Kaboom",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -590,7 +444,7 @@
     "featured": false
   },
   {
-    "id": 60,
+    "id": 44,
     "title": "Crazy Jc",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -600,7 +454,7 @@
     "featured": false
   },
   {
-    "id": 61,
+    "id": 45,
     "title": "Crouching Horned Creature Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -610,7 +464,7 @@
     "featured": false
   },
   {
-    "id": 62,
+    "id": 46,
     "title": "Custom Character Figure Collection",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -620,7 +474,7 @@
     "featured": false
   },
   {
-    "id": 63,
+    "id": 47,
     "title": "cyclops",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -630,17 +484,7 @@
     "featured": false
   },
   {
-    "id": 64,
-    "title": "Cyclops Creature Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "cyclops-creature-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/cyclops-creature-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/cyclops-creature-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 65,
+    "id": 48,
     "title": "Dancing Dragon",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -650,7 +494,7 @@
     "featured": true
   },
   {
-    "id": 66,
+    "id": 49,
     "title": "Dark Fantasy Character Mandala",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -660,7 +504,7 @@
     "featured": false
   },
   {
-    "id": 67,
+    "id": 50,
     "title": "Dark Fantasy Comic Panel Collage",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -670,7 +514,7 @@
     "featured": false
   },
   {
-    "id": 68,
+    "id": 51,
     "title": "Dark Figure in Pink Landscape",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -680,7 +524,7 @@
     "featured": false
   },
   {
-    "id": 69,
+    "id": 52,
     "title": "Darkness Within",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -690,7 +534,7 @@
     "featured": false
   },
   {
-    "id": 70,
+    "id": 53,
     "title": "december",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -700,17 +544,7 @@
     "featured": false
   },
   {
-    "id": 71,
-    "title": "Decorative Scorpion Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "decorative-scorpion-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/decorative-scorpion-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/decorative-scorpion-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 72,
+    "id": 54,
     "title": "Decorative Scorpion on Black",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -720,17 +554,7 @@
     "featured": false
   },
   {
-    "id": 73,
-    "title": "demok symbol",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "demok-symbol-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/demok-symbol-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/demok-symbol-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 74,
+    "id": 55,
     "title": "demoki",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -740,7 +564,7 @@
     "featured": false
   },
   {
-    "id": 75,
+    "id": 56,
     "title": "designmedallion",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -750,7 +574,7 @@
     "featured": false
   },
   {
-    "id": 76,
+    "id": 57,
     "title": "Devil Horns Venice Beach",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -760,17 +584,7 @@
     "featured": false
   },
   {
-    "id": 77,
-    "title": "Donkey Kong City Drawing Alternate View",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "donkey-kong-city-drawing-alternate-view-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/donkey-kong-city-drawing-alternate-view-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/donkey-kong-city-drawing-alternate-view-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 78,
+    "id": 58,
     "title": "Donkey Kong City Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -780,7 +594,7 @@
     "featured": false
   },
   {
-    "id": 79,
+    "id": 59,
     "title": "doom",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -790,7 +604,7 @@
     "featured": false
   },
   {
-    "id": 80,
+    "id": 60,
     "title": "Doom Color",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -800,37 +614,7 @@
     "featured": false
   },
   {
-    "id": 81,
-    "title": "Doom Line Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "doom-line-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/doom-line-drawing-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/doom-line-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 82,
-    "title": "Dotted Face Line Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "dotted-face-line-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/dotted-face-line-drawing-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/dotted-face-line-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 83,
-    "title": "Dr Jeck",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "dr-jeck-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/dr-jeck-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/dr-jeck-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 84,
+    "id": 61,
     "title": "Dr Jeck Scene",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -840,7 +624,7 @@
     "featured": false
   },
   {
-    "id": 85,
+    "id": 62,
     "title": "Dragon and Wizard Fantasy Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -850,7 +634,7 @@
     "featured": false
   },
   {
-    "id": 86,
+    "id": 63,
     "title": "dragon",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -860,7 +644,7 @@
     "featured": false
   },
   {
-    "id": 87,
+    "id": 64,
     "title": "dragon vs wizard",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -870,7 +654,7 @@
     "featured": false
   },
   {
-    "id": 88,
+    "id": 65,
     "title": "dragon3",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -880,7 +664,7 @@
     "featured": false
   },
   {
-    "id": 89,
+    "id": 66,
     "title": "Dragonfly",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -890,7 +674,7 @@
     "featured": false
   },
   {
-    "id": 90,
+    "id": 67,
     "title": "Embracing Figures in Purple and Green",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -900,17 +684,7 @@
     "featured": false
   },
   {
-    "id": 91,
-    "title": "Embracing Figures Wallpaper",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "embracing-figures-wallpaper-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/embracing-figures-wallpaper-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/embracing-figures-wallpaper-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 92,
+    "id": 68,
     "title": "euthanasia",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -920,7 +694,7 @@
     "featured": false
   },
   {
-    "id": 93,
+    "id": 69,
     "title": "Eye and Face Line Art",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -930,7 +704,7 @@
     "featured": false
   },
   {
-    "id": 94,
+    "id": 70,
     "title": "Faceless Figure with Flowing Hair",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -940,7 +714,7 @@
     "featured": false
   },
   {
-    "id": 95,
+    "id": 71,
     "title": "Falling To Blue",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -950,27 +724,7 @@
     "featured": false
   },
   {
-    "id": 96,
-    "title": "Fantasy Character Line Art Composition",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "fantasy-character-line-art-composition-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/fantasy-character-line-art-composition-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/fantasy-character-line-art-composition-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 97,
-    "title": "Fantasy Character Mandala Wallpaper",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "fantasy-character-mandala-wallpaper-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/fantasy-character-mandala-wallpaper-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/fantasy-character-mandala-wallpaper-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 98,
+    "id": 72,
     "title": "Fantasy Character Wall Composition",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -980,7 +734,7 @@
     "featured": false
   },
   {
-    "id": 99,
+    "id": 73,
     "title": "Fantasy Characters beneath a Skull",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -990,7 +744,7 @@
     "featured": false
   },
   {
-    "id": 100,
+    "id": 74,
     "title": "father time",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1000,17 +754,7 @@
     "featured": false
   },
   {
-    "id": 101,
-    "title": "fela",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "fela-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/fela-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/fela-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 102,
+    "id": 75,
     "title": "Fire Fairy",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1020,17 +764,7 @@
     "featured": false
   },
   {
-    "id": 103,
-    "title": "Fish Red Line Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "fish-red-line-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/fish-red-line-drawing-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/fish-red-line-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 104,
+    "id": 76,
     "title": "fish2008",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1040,37 +774,7 @@
     "featured": false
   },
   {
-    "id": 105,
-    "title": "Flames and Logs Illustration",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "flames-and-logs-illustration-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/flames-and-logs-illustration-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/flames-and-logs-illustration-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 106,
-    "title": "Flaming Haired Guitarist CD Design",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "flaming-haired-guitarist-cd-design-santiago-salvador.png",
-    "url": "Art/Paintings_Illustrations/flaming-haired-guitarist-cd-design-santiago-salvador.png",
-    "thumb": "Art/thumbs/Paintings_Illustrations/flaming-haired-guitarist-cd-design-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 107,
-    "title": "Flaming Skull Character Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "flaming-skull-character-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/flaming-skull-character-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/flaming-skull-character-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 108,
+    "id": 77,
     "title": "Flaming Skull Character Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1080,7 +784,7 @@
     "featured": false
   },
   {
-    "id": 109,
+    "id": 78,
     "title": "Flower Woman",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1090,7 +794,7 @@
     "featured": false
   },
   {
-    "id": 110,
+    "id": 79,
     "title": "Flowing Psychedelic Line Art",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1100,7 +804,7 @@
     "featured": false
   },
   {
-    "id": 111,
+    "id": 80,
     "title": "Four Eyed Ornamental Emblem",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1110,27 +814,17 @@
     "featured": false
   },
   {
-    "id": 112,
+    "id": 81,
     "title": "Framed Cyclops Creature Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "framed-cyclops-creature-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/framed-cyclops-creature-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/framed-cyclops-creature-drawing-santiago-salvador.jpg",
+    "filename": "framed-cyclops-creature-drawing-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/framed-cyclops-creature-drawing-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/framed-cyclops-creature-drawing-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 113,
-    "title": "Framed Dancing Figure Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "framed-dancing-figure-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/framed-dancing-figure-drawing-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/framed-dancing-figure-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 114,
+    "id": 82,
     "title": "Gallery TRADITIONAL--She",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1140,7 +834,7 @@
     "featured": false
   },
   {
-    "id": 115,
+    "id": 83,
     "title": "geisha",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1150,7 +844,7 @@
     "featured": false
   },
   {
-    "id": 116,
+    "id": 84,
     "title": "Geometric Perspective Blocks",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1160,7 +854,7 @@
     "featured": false
   },
   {
-    "id": 117,
+    "id": 85,
     "title": "ghostrider",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1170,7 +864,7 @@
     "featured": false
   },
   {
-    "id": 118,
+    "id": 86,
     "title": "Ghosts And Goblins",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1180,7 +874,7 @@
     "featured": false
   },
   {
-    "id": 119,
+    "id": 87,
     "title": "Golden Abstract Circular Emblem",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1190,7 +884,7 @@
     "featured": false
   },
   {
-    "id": 120,
+    "id": 88,
     "title": "Golden Circular Ornamental Emblem",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1200,7 +894,7 @@
     "featured": false
   },
   {
-    "id": 121,
+    "id": 89,
     "title": "gorilla",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1210,7 +904,7 @@
     "featured": false
   },
   {
-    "id": 122,
+    "id": 90,
     "title": "Green Clad Cartoon Character",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1220,27 +914,7 @@
     "featured": false
   },
   {
-    "id": 123,
-    "title": "Green Face and Pink Background Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "green-face-and-pink-background-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/green-face-and-pink-background-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/green-face-and-pink-background-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 124,
-    "title": "Green Face with Pink Background",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "green-face-with-pink-background-artwork-santiago-salvador.png",
-    "url": "Art/Paintings_Illustrations/green-face-with-pink-background-artwork-santiago-salvador.png",
-    "thumb": "Art/thumbs/Paintings_Illustrations/green-face-with-pink-background-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 125,
+    "id": 91,
     "title": "Green Ornamental Line Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1250,7 +924,7 @@
     "featured": false
   },
   {
-    "id": 126,
+    "id": 92,
     "title": "Grim Reaper",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1260,7 +934,7 @@
     "featured": false
   },
   {
-    "id": 127,
+    "id": 93,
     "title": "Grim Reaper Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1270,17 +944,7 @@
     "featured": false
   },
   {
-    "id": 128,
-    "title": "Guitar 2",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "guitar-2-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/guitar-2-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/guitar-2-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 129,
+    "id": 94,
     "title": "guitar",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1290,7 +954,7 @@
     "featured": false
   },
   {
-    "id": 130,
+    "id": 95,
     "title": "Guitarist and Sound Waves Line Art",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1300,17 +964,7 @@
     "featured": false
   },
   {
-    "id": 131,
-    "title": "Guitarist and Sound Waves Sketch",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "guitarist-and-sound-waves-sketch-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/guitarist-and-sound-waves-sketch-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/guitarist-and-sound-waves-sketch-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 132,
+    "id": 96,
     "title": "Guitarist in Surreal Landscape Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1320,17 +974,17 @@
     "featured": false
   },
   {
-    "id": 133,
-    "title": "Hand and Written Notes Sketchbook",
+    "id": 97,
+    "title": "Halloween Michael Myers - GPK-Style Fan Art",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "hand-and-written-notes-sketchbook-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/hand-and-written-notes-sketchbook-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/hand-and-written-notes-sketchbook-santiago-salvador.jpg",
+    "filename": "halloween-gpk-santiago-salvador.jpg",
+    "url": "Art/Paintings_Illustrations/halloween-gpk-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Paintings_Illustrations/halloween-gpk-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 134,
+    "id": 98,
     "title": "Happy Family",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1340,27 +994,7 @@
     "featured": false
   },
   {
-    "id": 135,
-    "title": "Happy Worker",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "happy-worker-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/happy-worker-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/happy-worker-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 136,
-    "title": "Hate Demon San Diablo",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "hate-demon-san-diablo-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/hate-demon-san-diablo-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/hate-demon-san-diablo-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 137,
+    "id": 99,
     "title": "hatedemon",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1370,17 +1004,7 @@
     "featured": false
   },
   {
-    "id": 138,
-    "title": "Haunting Wizard",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "haunting-wizard-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/haunting-wizard-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/haunting-wizard-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 139,
+    "id": 100,
     "title": "He-Man and Battle Cat Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1390,37 +1014,27 @@
     "featured": false
   },
   {
-    "id": 140,
+    "id": 101,
     "title": "Heart and Sun Circular Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "heart-and-sun-circular-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/heart-and-sun-circular-drawing-santiago-salvador.jpg",
+    "filename": "heart-and-sun-circular-drawing-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/heart-and-sun-circular-drawing-santiago-salvador.png",
     "thumb": "Art/thumbs/Paintings_Illustrations/heart-and-sun-circular-drawing-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 141,
-    "title": "Heart inside a Television",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "heart-inside-a-television-santiago-salvador.png",
-    "url": "Art/Paintings_Illustrations/heart-inside-a-television-santiago-salvador.png",
-    "thumb": "Art/thumbs/Paintings_Illustrations/heart-inside-a-television-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 142,
+    "id": 102,
     "title": "heart",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "heart-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/heart-santiago-salvador.jpg",
+    "filename": "heart-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/heart-santiago-salvador.png",
     "thumb": "Art/thumbs/Paintings_Illustrations/heart-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 143,
+    "id": 103,
     "title": "Hendrix 2",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1430,7 +1044,7 @@
     "featured": false
   },
   {
-    "id": 144,
+    "id": 104,
     "title": "Hendrix",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1440,7 +1054,7 @@
     "featured": false
   },
   {
-    "id": 145,
+    "id": 105,
     "title": "High School",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1450,7 +1064,7 @@
     "featured": false
   },
   {
-    "id": 146,
+    "id": 106,
     "title": "Holy Mountain",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1460,17 +1074,7 @@
     "featured": false
   },
   {
-    "id": 147,
-    "title": "Carpe Diem",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "holy-mountain-final-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/holy-mountain-final-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/holy-mountain-final-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 148,
+    "id": 107,
     "title": "Hope Heart and Rainbow Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1480,7 +1084,7 @@
     "featured": false
   },
   {
-    "id": 149,
+    "id": 108,
     "title": "Horny Devil Dark Angel",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1490,7 +1094,7 @@
     "featured": false
   },
   {
-    "id": 150,
+    "id": 109,
     "title": "horror",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1500,7 +1104,7 @@
     "featured": false
   },
   {
-    "id": 151,
+    "id": 110,
     "title": "hung",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1510,17 +1114,17 @@
     "featured": false
   },
   {
-    "id": 152,
+    "id": 111,
     "title": "hung - color",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "hung-color-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/hung-color-artwork-santiago-salvador.jpg",
+    "filename": "hung-color-artwork-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/hung-color-artwork-santiago-salvador.png",
     "thumb": "Art/thumbs/Paintings_Illustrations/hung-color-artwork-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 153,
+    "id": 112,
     "title": "I Love You Tons",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1530,37 +1134,37 @@
     "featured": false
   },
   {
-    "id": 154,
-    "title": "indian",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "indian-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/indian-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/indian-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 155,
+    "id": 113,
     "title": "Interwoven Faces Line Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "interwoven-faces-line-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/interwoven-faces-line-drawing-santiago-salvador.jpg",
+    "filename": "interwoven-faces-line-drawing-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/interwoven-faces-line-drawing-santiago-salvador.png",
     "thumb": "Art/thumbs/Paintings_Illustrations/interwoven-faces-line-drawing-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 156,
+    "id": 114,
     "title": "Intricate Figure Purple Line Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "intricate-figure-purple-line-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/intricate-figure-purple-line-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/intricate-figure-purple-line-drawing-santiago-salvador.jpg",
+    "filename": "intricate-figure-purple-line-drawing-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/intricate-figure-purple-line-drawing-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/intricate-figure-purple-line-drawing-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 157,
+    "id": 115,
+    "title": "Isis Brain Bludgeoner",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "isis-brain-bludgeoner-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/isis-brain-bludgeoner-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/isis-brain-bludgeoner-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 116,
     "title": "It is our destiny to die",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1570,7 +1174,7 @@
     "featured": false
   },
   {
-    "id": 158,
+    "id": 117,
     "title": "James Marshall Hendrix",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1580,7 +1184,7 @@
     "featured": false
   },
   {
-    "id": 159,
+    "id": 118,
     "title": "Jarome And Cannibal Prime",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1590,17 +1194,7 @@
     "featured": false
   },
   {
-    "id": 160,
-    "title": "Jarome And Cannibal Prime",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "jarome-and-cannibal-prime-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/jarome-and-cannibal-prime-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/jarome-and-cannibal-prime-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 161,
+    "id": 119,
     "title": "Jarome The Indian",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1610,7 +1204,7 @@
     "featured": false
   },
   {
-    "id": 162,
+    "id": 120,
     "title": "Jarome The Indian Color",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1620,17 +1214,7 @@
     "featured": false
   },
   {
-    "id": 163,
-    "title": "jarome1",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "jarome1-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/jarome1-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/jarome1-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 164,
+    "id": 121,
     "title": "Jimi Hendrix",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1640,7 +1224,7 @@
     "featured": false
   },
   {
-    "id": 165,
+    "id": 122,
     "title": "jm&h",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1650,7 +1234,7 @@
     "featured": false
   },
   {
-    "id": 166,
+    "id": 123,
     "title": "Karma For King",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1660,7 +1244,7 @@
     "featured": false
   },
   {
-    "id": 167,
+    "id": 124,
     "title": "killa",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1670,7 +1254,7 @@
     "featured": false
   },
   {
-    "id": 168,
+    "id": 125,
     "title": "krisna",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1680,17 +1264,7 @@
     "featured": false
   },
   {
-    "id": 169,
-    "title": "krsna",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "krsna-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/krsna-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/krsna-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 170,
+    "id": 126,
     "title": "kudokungol",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1700,7 +1274,7 @@
     "featured": false
   },
   {
-    "id": 171,
+    "id": 127,
     "title": "Kung Fu",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1710,7 +1284,7 @@
     "featured": false
   },
   {
-    "id": 172,
+    "id": 128,
     "title": "Laughing Buddha Line Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1720,17 +1294,7 @@
     "featured": false
   },
   {
-    "id": 173,
-    "title": "leatherface",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "leatherface-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/leatherface-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/leatherface-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 174,
+    "id": 129,
     "title": "Leatherface Horror Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1740,7 +1304,7 @@
     "featured": false
   },
   {
-    "id": 175,
+    "id": 130,
     "title": "Libra Sun Fire",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1750,7 +1314,7 @@
     "featured": false
   },
   {
-    "id": 176,
+    "id": 131,
     "title": "lift",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1760,17 +1324,7 @@
     "featured": false
   },
   {
-    "id": 177,
-    "title": "Lightning and Skull Face Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "lightning-and-skull-face-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/lightning-and-skull-face-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/lightning-and-skull-face-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 178,
+    "id": 132,
     "title": "Lightning and Skull Face Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1780,7 +1334,7 @@
     "featured": false
   },
   {
-    "id": 179,
+    "id": 133,
     "title": "lili",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1790,17 +1344,7 @@
     "featured": false
   },
   {
-    "id": 180,
-    "title": "lions den flyer",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "lions-den-flyer-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/lions-den-flyer-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/lions-den-flyer-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 181,
+    "id": 134,
     "title": "lions den flyer4x4",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1810,7 +1354,7 @@
     "featured": false
   },
   {
-    "id": 182,
+    "id": 135,
     "title": "lions den flyer4x4bnw",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1820,7 +1364,7 @@
     "featured": false
   },
   {
-    "id": 183,
+    "id": 136,
     "title": "Live and Die Now",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1830,7 +1374,7 @@
     "featured": false
   },
   {
-    "id": 184,
+    "id": 137,
     "title": "Live Love Laugh",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1840,7 +1384,7 @@
     "featured": false
   },
   {
-    "id": 185,
+    "id": 138,
     "title": "Live Love Laugh Learn",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1850,7 +1394,7 @@
     "featured": false
   },
   {
-    "id": 186,
+    "id": 139,
     "title": "Lizard King",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1860,27 +1404,17 @@
     "featured": false
   },
   {
-    "id": 187,
-    "title": "Lizard King",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "lizard-king-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/lizard-king-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/lizard-king-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 188,
+    "id": 140,
     "title": "Long Haired Figure Red Line Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "long-haired-figure-red-line-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/long-haired-figure-red-line-drawing-santiago-salvador.jpg",
+    "filename": "long-haired-figure-red-line-drawing-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/long-haired-figure-red-line-drawing-santiago-salvador.png",
     "thumb": "Art/thumbs/Paintings_Illustrations/long-haired-figure-red-line-drawing-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 189,
+    "id": 141,
     "title": "Long Nosed Skater Character",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1890,7 +1424,7 @@
     "featured": false
   },
   {
-    "id": 190,
+    "id": 142,
     "title": "love",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1900,7 +1434,7 @@
     "featured": false
   },
   {
-    "id": 191,
+    "id": 143,
     "title": "Love Themed Surreal Line Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1910,7 +1444,7 @@
     "featured": false
   },
   {
-    "id": 192,
+    "id": 144,
     "title": "Lucky Devil Dark Angel",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1920,7 +1454,7 @@
     "featured": false
   },
   {
-    "id": 193,
+    "id": 145,
     "title": "madman",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1930,7 +1464,7 @@
     "featured": false
   },
   {
-    "id": 194,
+    "id": 146,
     "title": "Mario",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1940,17 +1474,7 @@
     "featured": false
   },
   {
-    "id": 195,
-    "title": "Mario Fish",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "mario-fish-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/mario-fish-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/mario-fish-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 196,
+    "id": 147,
     "title": "Maze Drawing and Cloud Photo Collage",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1960,7 +1484,7 @@
     "featured": false
   },
   {
-    "id": 197,
+    "id": 148,
     "title": "Mechanical Skulls Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1970,7 +1494,7 @@
     "featured": false
   },
   {
-    "id": 198,
+    "id": 149,
     "title": "Medallion 2",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -1980,17 +1504,7 @@
     "featured": false
   },
   {
-    "id": 199,
-    "title": "Medallion",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "medallion-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/medallion-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/medallion-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 200,
+    "id": 150,
     "title": "Meditating Fantasy Figure Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2000,7 +1514,7 @@
     "featured": false
   },
   {
-    "id": 201,
+    "id": 151,
     "title": "Meditating Wizard in Green Vortex",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2010,7 +1524,7 @@
     "featured": false
   },
   {
-    "id": 202,
+    "id": 152,
     "title": "Meditating Woman Chakra Line Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2020,7 +1534,7 @@
     "featured": false
   },
   {
-    "id": 203,
+    "id": 153,
     "title": "medusa",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2030,7 +1544,7 @@
     "featured": false
   },
   {
-    "id": 204,
+    "id": 154,
     "title": "medusa2",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2040,7 +1554,7 @@
     "featured": false
   },
   {
-    "id": 205,
+    "id": 155,
     "title": "Mermista",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2050,7 +1564,7 @@
     "featured": false
   },
   {
-    "id": 206,
+    "id": 156,
     "title": "milove",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2060,17 +1574,7 @@
     "featured": false
   },
   {
-    "id": 207,
-    "title": "milove",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "milove-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/milove-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/milove-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 208,
+    "id": 157,
     "title": "Minotaur",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2080,37 +1584,7 @@
     "featured": false
   },
   {
-    "id": 209,
-    "title": "Minotaur Line Ss Color Cw",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "minotaur-line-ss-color-cw-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/minotaur-line-ss-color-cw-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/minotaur-line-ss-color-cw-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 210,
-    "title": "Mobopoly",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "mobopoly-template-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/mobopoly-template-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/mobopoly-template-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 211,
-    "title": "model",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "model-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/model-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/model-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 212,
+    "id": 158,
     "title": "Monster Group Pencil Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2120,17 +1594,107 @@
     "featured": false
   },
   {
-    "id": 213,
-    "title": "moses",
+    "id": 159,
+    "title": "Monster Tree",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "moses-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/moses-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/moses-artwork-santiago-salvador.jpg",
+    "filename": "monster-tree-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/monster-tree-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/monster-tree-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 214,
+    "id": 160,
+    "title": "MOTU Battle Illustration",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "motu-battle-illustration-santiago-salvador.jpg",
+    "url": "Art/Paintings_Illustrations/motu-battle-illustration-santiago-salvador.jpg",
+    "thumb": "Art/Paintings_Illustrations/motu-battle-illustration-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 161,
+    "title": "MOTU Ram Man Game Screenshots",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "motu-ram-man-game-screenshots-santiago-salvador.jpg",
+    "url": "Art/Paintings_Illustrations/motu-ram-man-game-screenshots-santiago-salvador.jpg",
+    "thumb": "Art/Paintings_Illustrations/motu-ram-man-game-screenshots-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 162,
+    "title": "MOTU Vintage 200X He-Man Illustration",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "motu-vintage-200x-he-man-illustration-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/motu-vintage-200x-he-man-illustration-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/motu-vintage-200x-he-man-illustration-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 163,
+    "title": "MOTU Vintage Iron On Anti-Eternia He-Man",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "motu-vintage-iron-on-anti-eternia-he-man-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/motu-vintage-iron-on-anti-eternia-he-man-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/motu-vintage-iron-on-anti-eternia-he-man-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 164,
+    "title": "MOTU Vintage Iron On Faker",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "motu-vintage-iron-on-faker-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/motu-vintage-iron-on-faker-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/motu-vintage-iron-on-faker-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 165,
+    "title": "MOTU Vintage Iron On He-Man",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "motu-vintage-iron-on-he-man-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/motu-vintage-iron-on-he-man-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/motu-vintage-iron-on-he-man-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 166,
+    "title": "MOTU Vintage Iron On",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "motu-vintage-iron-on-santiago-salvador.jpg",
+    "url": "Art/Paintings_Illustrations/motu-vintage-iron-on-santiago-salvador.jpg",
+    "thumb": "Art/Paintings_Illustrations/motu-vintage-iron-on-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 167,
+    "title": "MOTU Vintage Iron On Wonderbread",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "motu-vintage-iron-on-wonderbread-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/motu-vintage-iron-on-wonderbread-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/motu-vintage-iron-on-wonderbread-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 168,
+    "title": "MOTUKO Vintage Universe Prince Illustration",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "motuko-vintage-universe-prince-illustration-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/motuko-vintage-universe-prince-illustration-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/motuko-vintage-universe-prince-illustration-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 169,
     "title": "Mummy in a Stone Chamber",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2140,7 +1704,7 @@
     "featured": false
   },
   {
-    "id": 215,
+    "id": 170,
     "title": "native",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2150,7 +1714,7 @@
     "featured": false
   },
   {
-    "id": 216,
+    "id": 171,
     "title": "Nature Fairy",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2160,7 +1724,7 @@
     "featured": false
   },
   {
-    "id": 217,
+    "id": 172,
     "title": "nick and gloria",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2170,17 +1734,7 @@
     "featured": false
   },
   {
-    "id": 218,
-    "title": "Nicks Hubcap",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "nicks-hubcap-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/nicks-hubcap-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/nicks-hubcap-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 219,
+    "id": 173,
     "title": "nikorn",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2190,27 +1744,17 @@
     "featured": false
   },
   {
-    "id": 220,
+    "id": 174,
     "title": "nirvana",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "nirvana-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/nirvana-artwork-santiago-salvador.jpg",
+    "filename": "nirvana-artwork-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/nirvana-artwork-santiago-salvador.png",
     "thumb": "Art/thumbs/Paintings_Illustrations/nirvana-artwork-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 221,
-    "title": "Ocean Protector",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "ocean-protector-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/ocean-protector-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/ocean-protector-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 222,
+    "id": 175,
     "title": "Old Man",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2220,7 +1764,7 @@
     "featured": false
   },
   {
-    "id": 223,
+    "id": 176,
     "title": "One Eyed Robot Character Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2230,7 +1774,7 @@
     "featured": false
   },
   {
-    "id": 224,
+    "id": 177,
     "title": "out of the box",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2240,7 +1784,7 @@
     "featured": false
   },
   {
-    "id": 225,
+    "id": 178,
     "title": "over protection",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2250,27 +1794,17 @@
     "featured": false
   },
   {
-    "id": 226,
+    "id": 179,
     "title": "Parachuting Gift and Snail Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "parachuting-gift-and-snail-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/parachuting-gift-and-snail-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/parachuting-gift-and-snail-drawing-santiago-salvador.jpg",
+    "filename": "parachuting-gift-and-snail-drawing-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/parachuting-gift-and-snail-drawing-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/parachuting-gift-and-snail-drawing-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 227,
-    "title": "Patriotic Fantasy Character Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "patriotic-fantasy-character-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/patriotic-fantasy-character-drawing-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/patriotic-fantasy-character-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 228,
+    "id": 180,
     "title": "Peace Lotus",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2280,7 +1814,7 @@
     "featured": false
   },
   {
-    "id": 229,
+    "id": 181,
     "title": "Peace Love Serenity",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2290,7 +1824,7 @@
     "featured": false
   },
   {
-    "id": 230,
+    "id": 182,
     "title": "pinbacks",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2300,37 +1834,27 @@
     "featured": false
   },
   {
-    "id": 231,
+    "id": 183,
     "title": "Pink Flame Headed Character",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "pink-flame-headed-character-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/pink-flame-headed-character-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/pink-flame-headed-character-artwork-santiago-salvador.jpg",
+    "filename": "pink-flame-headed-character-artwork-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/pink-flame-headed-character-artwork-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/pink-flame-headed-character-artwork-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 232,
+    "id": 184,
     "title": "Pink Haired Character Composition",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "pink-haired-character-composition-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/pink-haired-character-composition-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/pink-haired-character-composition-santiago-salvador.jpg",
+    "filename": "pink-haired-character-composition-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/pink-haired-character-composition-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/pink-haired-character-composition-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 233,
-    "title": "Pink Haired Character Detail",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "pink-haired-character-detail-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/pink-haired-character-detail-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/pink-haired-character-detail-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 234,
+    "id": 185,
     "title": "Pink Suited Fantasy Character",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2340,7 +1864,7 @@
     "featured": false
   },
   {
-    "id": 235,
+    "id": 186,
     "title": "Pink Suited Fantasy Character Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2350,17 +1874,17 @@
     "featured": false
   },
   {
-    "id": 236,
+    "id": 187,
     "title": "Primary Color Equation Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "primary-color-equation-sketch-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/primary-color-equation-sketch-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/primary-color-equation-sketch-santiago-salvador.jpg",
+    "filename": "primary-color-equation-sketch-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/primary-color-equation-sketch-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/primary-color-equation-sketch-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 237,
+    "id": 188,
     "title": "prisoner",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2370,7 +1894,7 @@
     "featured": false
   },
   {
-    "id": 238,
+    "id": 189,
     "title": "Psychedelic Fish in Blue Bubbles",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2380,17 +1904,17 @@
     "featured": false
   },
   {
-    "id": 239,
-    "title": "Pumpkin King",
+    "id": 190,
+    "title": "Pulmonary Embolism",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "pumpkin-king-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/pumpkin-king-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/pumpkin-king-artwork-santiago-salvador.jpg",
+    "filename": "pulmonary-embolism-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/pulmonary-embolism-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/pulmonary-embolism-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 240,
+    "id": 191,
     "title": "Pumpkin King Monster",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2400,7 +1924,7 @@
     "featured": false
   },
   {
-    "id": 241,
+    "id": 192,
     "title": "Purple Guitarist on Blue",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2410,7 +1934,7 @@
     "featured": false
   },
   {
-    "id": 242,
+    "id": 193,
     "title": "Reaper",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2420,7 +1944,7 @@
     "featured": false
   },
   {
-    "id": 243,
+    "id": 194,
     "title": "Red Horned Demon Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2430,17 +1954,7 @@
     "featured": false
   },
   {
-    "id": 244,
-    "title": "Red Ornamental Character Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "red-ornamental-character-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/red-ornamental-character-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/red-ornamental-character-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 245,
+    "id": 195,
     "title": "Relaxing Music Note Character",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2450,7 +1964,7 @@
     "featured": false
   },
   {
-    "id": 246,
+    "id": 196,
     "title": "Retro Gal",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2460,7 +1974,7 @@
     "featured": false
   },
   {
-    "id": 247,
+    "id": 197,
     "title": "ROCK&ROLL",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2470,27 +1984,7 @@
     "featured": false
   },
   {
-    "id": 248,
-    "title": "rocker",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "rocker-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/rocker-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/rocker-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 249,
-    "title": "ronie",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "ronie-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/ronie-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/ronie-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 250,
+    "id": 198,
     "title": "Room",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2500,7 +1994,7 @@
     "featured": false
   },
   {
-    "id": 251,
+    "id": 199,
     "title": "Rose",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2510,17 +2004,7 @@
     "featured": false
   },
   {
-    "id": 252,
-    "title": "rotating head",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "rotating-head-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/rotating-head-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/rotating-head-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 253,
+    "id": 200,
     "title": "San Diablo 2",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2530,7 +2014,7 @@
     "featured": false
   },
   {
-    "id": 254,
+    "id": 201,
     "title": "San Diablo",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2540,7 +2024,7 @@
     "featured": false
   },
   {
-    "id": 255,
+    "id": 202,
     "title": "San Diablo Rock Legend",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2550,17 +2034,7 @@
     "featured": false
   },
   {
-    "id": 256,
-    "title": "San Fink",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "san-fink-artwork-santiago-salvador-2.jpg",
-    "url": "Art/Paintings_Illustrations/san-fink-artwork-santiago-salvador-2.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/san-fink-artwork-santiago-salvador-2.jpg",
-    "featured": false
-  },
-  {
-    "id": 257,
+    "id": 203,
     "title": "San Fink",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2570,7 +2044,7 @@
     "featured": false
   },
   {
-    "id": 258,
+    "id": 204,
     "title": "San Loki",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2580,17 +2054,7 @@
     "featured": false
   },
   {
-    "id": 259,
-    "title": "Santiago Salvador Music and Art Business Card",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "santiago-salvador-music-and-art-business-card.jpg",
-    "url": "Art/Paintings_Illustrations/santiago-salvador-music-and-art-business-card.jpg",
-    "thumb": "Art/Paintings_Illustrations/santiago-salvador-music-and-art-business-card.jpg",
-    "featured": false
-  },
-  {
-    "id": 260,
+    "id": 205,
     "title": "SAUCES MEDITATION TA",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2600,7 +2064,7 @@
     "featured": false
   },
   {
-    "id": 261,
+    "id": 206,
     "title": "Sauces Tattoo",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2610,7 +2074,7 @@
     "featured": false
   },
   {
-    "id": 262,
+    "id": 207,
     "title": "scarecrow1",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2620,17 +2084,7 @@
     "featured": false
   },
   {
-    "id": 263,
-    "title": "schemer",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "schemer-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/schemer-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/schemer-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 264,
+    "id": 208,
     "title": "School Of Music",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2640,17 +2094,7 @@
     "featured": false
   },
   {
-    "id": 265,
-    "title": "Scorpio Of Rising Sun",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "scorpio-of-rising-sun-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/scorpio-of-rising-sun-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/scorpio-of-rising-sun-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 266,
+    "id": 209,
     "title": "scorpion",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2660,7 +2104,7 @@
     "featured": false
   },
   {
-    "id": 267,
+    "id": 210,
     "title": "Screaming Figure Composition",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2670,7 +2114,7 @@
     "featured": false
   },
   {
-    "id": 268,
+    "id": 211,
     "title": "Seated Woman Character Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2680,7 +2124,7 @@
     "featured": false
   },
   {
-    "id": 269,
+    "id": 212,
     "title": "Seated Woman Profile Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2690,7 +2134,7 @@
     "featured": false
   },
   {
-    "id": 270,
+    "id": 213,
     "title": "Self Portrait",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2700,7 +2144,7 @@
     "featured": false
   },
   {
-    "id": 271,
+    "id": 214,
     "title": "Sharp Toothed Creature Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2710,7 +2154,7 @@
     "featured": false
   },
   {
-    "id": 272,
+    "id": 215,
     "title": "She Got Work",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2720,7 +2164,7 @@
     "featured": false
   },
   {
-    "id": 273,
+    "id": 216,
     "title": "She Ra",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2730,7 +2174,7 @@
     "featured": false
   },
   {
-    "id": 274,
+    "id": 217,
     "title": "Shooting Star and Musical Notes",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2740,7 +2184,7 @@
     "featured": false
   },
   {
-    "id": 275,
+    "id": 218,
     "title": "silence",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2750,47 +2194,27 @@
     "featured": false
   },
   {
-    "id": 276,
-    "title": "Skull and Mask Design Sheet",
+    "id": 219,
+    "title": "Skeletor Circular Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "skull-and-mask-design-sheet-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/skull-and-mask-design-sheet-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/skull-and-mask-design-sheet-santiago-salvador.jpg",
+    "filename": "skeletor-circular-illustration-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/skeletor-circular-illustration-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/skeletor-circular-illustration-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 277,
-    "title": "skull",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "skull-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/skull-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/skull-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 278,
-    "title": "Small Blue Character Detail",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "small-blue-character-detail-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/small-blue-character-detail-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/small-blue-character-detail-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 279,
+    "id": 220,
     "title": "Smiling Drummer Character Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "smiling-drummer-character-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/smiling-drummer-character-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/smiling-drummer-character-drawing-santiago-salvador.jpg",
+    "filename": "smiling-drummer-character-drawing-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/smiling-drummer-character-drawing-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/smiling-drummer-character-drawing-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 280,
+    "id": 221,
     "title": "Snake Square Print",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2800,17 +2224,7 @@
     "featured": false
   },
   {
-    "id": 281,
-    "title": "Snes Punch Out",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "snes-punch-out-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/snes-punch-out-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/snes-punch-out-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 282,
+    "id": 222,
     "title": "Solice",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2820,17 +2234,7 @@
     "featured": false
   },
   {
-    "id": 283,
-    "title": "Some Guy",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "some-guy-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/some-guy-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/some-guy-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 284,
+    "id": 223,
     "title": "Some Guy Pencil Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2840,7 +2244,7 @@
     "featured": false
   },
   {
-    "id": 285,
+    "id": 224,
     "title": "Sorceress",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2850,17 +2254,7 @@
     "featured": false
   },
   {
-    "id": 286,
-    "title": "Sorceress Button",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "sorceress-button-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/sorceress-button-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/sorceress-button-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 287,
+    "id": 225,
     "title": "SpaceChakra MOTU Customs Business Card",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2870,7 +2264,7 @@
     "featured": false
   },
   {
-    "id": 288,
+    "id": 226,
     "title": "spider man - ala santi v2",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2880,7 +2274,7 @@
     "featured": false
   },
   {
-    "id": 289,
+    "id": 227,
     "title": "Spiky Haired Character Design",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2890,7 +2284,7 @@
     "featured": false
   },
   {
-    "id": 290,
+    "id": 228,
     "title": "Splatterhouse Doom",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2900,7 +2294,7 @@
     "featured": false
   },
   {
-    "id": 291,
+    "id": 229,
     "title": "squigg",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2910,17 +2304,7 @@
     "featured": false
   },
   {
-    "id": 292,
-    "title": "Standing Woman Pencil Sketch",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "standing-woman-pencil-sketch-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/standing-woman-pencil-sketch-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/standing-woman-pencil-sketch-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 293,
+    "id": 230,
     "title": "Star Shirt Fantasy Character",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2930,7 +2314,7 @@
     "featured": false
   },
   {
-    "id": 294,
+    "id": 231,
     "title": "Star Shirt Warrior Pencil Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2940,7 +2324,7 @@
     "featured": false
   },
   {
-    "id": 295,
+    "id": 232,
     "title": "Surreal Guitarist Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2950,17 +2334,7 @@
     "featured": false
   },
   {
-    "id": 296,
-    "title": "Surreal Mushroom Figure Composition",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "surreal-mushroom-figure-composition-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/surreal-mushroom-figure-composition-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/surreal-mushroom-figure-composition-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 297,
+    "id": 233,
     "title": "T Shirt Design",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -2970,27 +2344,7 @@
     "featured": false
   },
   {
-    "id": 298,
-    "title": "T Shirt Project",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "t-shirt-project-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/t-shirt-project-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/t-shirt-project-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 299,
-    "title": "Tabletop Scene Sketch",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "tabletop-scene-sketch-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/tabletop-scene-sketch-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/tabletop-scene-sketch-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 300,
+    "id": 234,
     "title": "Tale Of Devil Boy",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3000,7 +2354,7 @@
     "featured": false
   },
   {
-    "id": 301,
+    "id": 235,
     "title": "Tall Fantasy Character Collage",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3010,7 +2364,7 @@
     "featured": false
   },
   {
-    "id": 302,
+    "id": 236,
     "title": "Tarot Themed Character Collage",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3020,7 +2374,27 @@
     "featured": false
   },
   {
-    "id": 303,
+    "id": 237,
+    "title": "Teela Character Drawing",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "teela-character-drawing-santiago-salvador.jpg",
+    "url": "Art/Paintings_Illustrations/teela-character-drawing-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Paintings_Illustrations/teela-character-drawing-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 238,
+    "title": "Teelas Horse Drawing",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "teelas-horse-drawing-santiago-salvador.jpg",
+    "url": "Art/Paintings_Illustrations/teelas-horse-drawing-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Paintings_Illustrations/teelas-horse-drawing-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 239,
     "title": "The Door",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3030,17 +2404,7 @@
     "featured": false
   },
   {
-    "id": 304,
-    "title": "The Door Drawing Photograph",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "the-door-drawing-photograph-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/the-door-drawing-photograph-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/the-door-drawing-photograph-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 305,
+    "id": 240,
     "title": "The Door Intricate Figure Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3050,7 +2414,7 @@
     "featured": false
   },
   {
-    "id": 306,
+    "id": 241,
     "title": "The Hand",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3060,17 +2424,7 @@
     "featured": false
   },
   {
-    "id": 307,
-    "title": "The Lions Den Concert Flyer",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "the-lions-den-concert-flyer-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/the-lions-den-concert-flyer-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/the-lions-den-concert-flyer-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 308,
+    "id": 242,
     "title": "The Sun And The Lioness",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3080,27 +2434,7 @@
     "featured": false
   },
   {
-    "id": 309,
-    "title": "The Tale Of Devil Boy",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "the-tale-of-devil-boy-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/the-tale-of-devil-boy-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/the-tale-of-devil-boy-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 310,
-    "title": "Third Eye Dragon",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "third-eye-dragon-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/third-eye-dragon-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/third-eye-dragon-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 311,
+    "id": 243,
     "title": "Third Eye Vision",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3110,7 +2444,7 @@
     "featured": false
   },
   {
-    "id": 312,
+    "id": 244,
     "title": "Three Eye Dragon",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3120,7 +2454,7 @@
     "featured": false
   },
   {
-    "id": 313,
+    "id": 245,
     "title": "Three Eyed Dragon Circular Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3130,17 +2464,7 @@
     "featured": false
   },
   {
-    "id": 314,
-    "title": "Three Eyed Dragon Line Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "three-eyed-dragon-line-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/three-eyed-dragon-line-drawing-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/three-eyed-dragon-line-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 315,
+    "id": 246,
     "title": "Three Eyed Flower Character",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3150,7 +2474,7 @@
     "featured": false
   },
   {
-    "id": 316,
+    "id": 247,
     "title": "Toxic Avenger Crusader II",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3160,7 +2484,7 @@
     "featured": false
   },
   {
-    "id": 317,
+    "id": 248,
     "title": "Tree Creature Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3170,17 +2494,7 @@
     "featured": false
   },
   {
-    "id": 318,
-    "title": "Tree Of Life And Death",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "tree-of-life-and-death-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/tree-of-life-and-death-artwork-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/tree-of-life-and-death-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 319,
+    "id": 249,
     "title": "Tree Of Life And Death Tattoo For Sasan",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3190,7 +2504,7 @@
     "featured": false
   },
   {
-    "id": 320,
+    "id": 250,
     "title": "Tri Klops",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3200,7 +2514,7 @@
     "featured": false
   },
   {
-    "id": 321,
+    "id": 251,
     "title": "Truth Of Love",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3210,7 +2524,7 @@
     "featured": false
   },
   {
-    "id": 322,
+    "id": 252,
     "title": "Unicorn Wizard",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3220,7 +2534,7 @@
     "featured": false
   },
   {
-    "id": 323,
+    "id": 253,
     "title": "venice",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3230,17 +2544,7 @@
     "featured": false
   },
   {
-    "id": 324,
-    "title": "Warlock",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "warlock-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/warlock-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/warlock-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 325,
+    "id": 254,
     "title": "wave",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3250,7 +2554,7 @@
     "featured": false
   },
   {
-    "id": 326,
+    "id": 255,
     "title": "What Time Is It Lettering Sketch",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3260,7 +2564,17 @@
     "featured": false
   },
   {
-    "id": 327,
+    "id": 256,
+    "title": "What Time Is It",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "what-time-is-it-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/what-time-is-it-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/what-time-is-it-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 257,
     "title": "Wild Style",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3270,7 +2584,7 @@
     "featured": false
   },
   {
-    "id": 328,
+    "id": 258,
     "title": "wild style original",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3280,17 +2594,17 @@
     "featured": false
   },
   {
-    "id": 329,
+    "id": 259,
     "title": "Winged Creature Tattoo Design",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "winged-creature-tattoo-design-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/winged-creature-tattoo-design-santiago-salvador.jpg",
+    "filename": "winged-creature-tattoo-design-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/winged-creature-tattoo-design-santiago-salvador.png",
     "thumb": "Art/thumbs/Paintings_Illustrations/winged-creature-tattoo-design-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 330,
+    "id": 260,
     "title": "Winged Figure and Serpent Illustration",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3300,47 +2614,17 @@
     "featured": false
   },
   {
-    "id": 331,
+    "id": 261,
     "title": "Winged Figure Pencil Drawing",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
-    "filename": "winged-figure-pencil-drawing-santiago-salvador-2.jpg",
-    "url": "Art/Paintings_Illustrations/winged-figure-pencil-drawing-santiago-salvador-2.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/winged-figure-pencil-drawing-santiago-salvador-2.jpg",
-    "featured": false
-  },
-  {
-    "id": 332,
-    "title": "Winged Figure Pencil Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "winged-figure-pencil-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/winged-figure-pencil-drawing-santiago-salvador.jpg",
+    "filename": "winged-figure-pencil-drawing-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/winged-figure-pencil-drawing-santiago-salvador.png",
     "thumb": "Art/thumbs/Paintings_Illustrations/winged-figure-pencil-drawing-santiago-salvador.jpg",
     "featured": false
   },
   {
-    "id": 333,
-    "title": "Winged Figure Sketchbook Photo",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "winged-figure-sketchbook-photo-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/winged-figure-sketchbook-photo-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/winged-figure-sketchbook-photo-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 334,
-    "title": "Witch",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "witch-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/witch-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/witch-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 335,
+    "id": 262,
     "title": "wizard",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3350,17 +2634,7 @@
     "featured": false
   },
   {
-    "id": 336,
-    "title": "Wizard Mushroom",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "wizard-mushroom-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/wizard-mushroom-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/wizard-mushroom-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 337,
+    "id": 263,
     "title": "Wizard Vs Dragon",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3370,7 +2644,7 @@
     "featured": false
   },
   {
-    "id": 338,
+    "id": 264,
     "title": "Wizardry 1",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3380,17 +2654,7 @@
     "featured": false
   },
   {
-    "id": 339,
-    "title": "wizardry",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "wizardry-artwork-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/wizardry-artwork-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Paintings_Illustrations/wizardry-artwork-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 340,
+    "id": 265,
     "title": "wolverine",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3400,7 +2664,7 @@
     "featured": false
   },
   {
-    "id": 341,
+    "id": 266,
     "title": "woman",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3410,27 +2674,7 @@
     "featured": false
   },
   {
-    "id": 342,
-    "title": "Woman in Control Room Sketch",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "woman-in-control-room-sketch-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/woman-in-control-room-sketch-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/woman-in-control-room-sketch-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 343,
-    "title": "Woman in White Dress Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "woman-in-white-dress-drawing-santiago-salvador.jpg",
-    "url": "Art/Paintings_Illustrations/woman-in-white-dress-drawing-santiago-salvador.jpg",
-    "thumb": "Art/Paintings_Illustrations/woman-in-white-dress-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 344,
+    "id": 267,
     "title": "Wonder Bread Coast",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3440,7 +2684,7 @@
     "featured": false
   },
   {
-    "id": 345,
+    "id": 268,
     "title": "Wrestling Buddy 2",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3450,7 +2694,7 @@
     "featured": false
   },
   {
-    "id": 346,
+    "id": 269,
     "title": "Yoga Dragon",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3460,7 +2704,7 @@
     "featured": false
   },
   {
-    "id": 347,
+    "id": 270,
     "title": "Yoga Dragon",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3470,7 +2714,7 @@
     "featured": false
   },
   {
-    "id": 348,
+    "id": 271,
     "title": "Youth",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3480,7 +2724,7 @@
     "featured": false
   },
   {
-    "id": 349,
+    "id": 272,
     "title": "Zoe Carla Santi Family",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3490,7 +2734,17 @@
     "featured": false
   },
   {
-    "id": 350,
+    "id": 273,
+    "title": "Zombi Brain Bludgeoner",
+    "category": "paintings",
+    "categoryLabel": "Paintings & Illustrations",
+    "filename": "zombi-brain-bludgeoner-santiago-salvador.png",
+    "url": "Art/Paintings_Illustrations/zombi-brain-bludgeoner-santiago-salvador.png",
+    "thumb": "Art/thumbs/Paintings_Illustrations/zombi-brain-bludgeoner-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 274,
     "title": "zoso",
     "category": "paintings",
     "categoryLabel": "Paintings & Illustrations",
@@ -3500,7 +2754,7 @@
     "featured": false
   },
   {
-    "id": 351,
+    "id": 275,
     "title": "Abra Custom Plush Doll",
     "category": "figures",
     "categoryLabel": "Custom Figures & MOTU",
@@ -3510,7 +2764,7 @@
     "featured": false
   },
   {
-    "id": 352,
+    "id": 276,
     "title": "Anti Eternia He-Man The Loyal Subjects Custom Figure",
     "category": "figures",
     "categoryLabel": "Custom Figures & MOTU",
@@ -3520,7 +2774,7 @@
     "featured": true
   },
   {
-    "id": 353,
+    "id": 277,
     "title": "Anti-Eternia He-Man Vintage Custom Masters of the Universe Figure",
     "category": "figures",
     "categoryLabel": "Custom Figures & MOTU",
@@ -3530,7 +2784,7 @@
     "featured": false
   },
   {
-    "id": 354,
+    "id": 278,
     "title": "Battle Cat White Tiger",
     "category": "figures",
     "categoryLabel": "Custom Figures & MOTU",
@@ -3540,137 +2794,7 @@
     "featured": true
   },
   {
-    "id": 355,
-    "title": "Coraline Character Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "coraline-character-drawing-santiago-salvador.jpg",
-    "url": "Art/Custom_Figures_Toys/coraline-character-drawing-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Custom_Figures_Toys/coraline-character-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 356,
-    "title": "MOTU Battle Illustration",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "motu-battle-illustration-santiago-salvador.jpg",
-    "url": "Art/Custom_Figures_Toys/motu-battle-illustration-santiago-salvador.jpg",
-    "thumb": "Art/Custom_Figures_Toys/motu-battle-illustration-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 357,
-    "title": "MOTU Ram Man Game Screenshots",
-    "category": "games",
-    "categoryLabel": "Game Art & Concepts",
-    "filename": "motu-ram-man-game-screenshots-santiago-salvador.jpg",
-    "url": "Art/Custom_Figures_Toys/motu-ram-man-game-screenshots-santiago-salvador.jpg",
-    "thumb": "Art/Custom_Figures_Toys/motu-ram-man-game-screenshots-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 358,
-    "title": "MOTU Vintage 200X He-Man Illustration",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "motu-vintage-200x-he-man-illustration-santiago-salvador.png",
-    "url": "Art/Custom_Figures_Toys/motu-vintage-200x-he-man-illustration-santiago-salvador.png",
-    "thumb": "Art/thumbs/Custom_Figures_Toys/motu-vintage-200x-he-man-illustration-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 359,
-    "title": "MOTU Vintage Iron On Anti-Eternia He-Man",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "motu-vintage-iron-on-anti-eternia-he-man-santiago-salvador.png",
-    "url": "Art/Custom_Figures_Toys/motu-vintage-iron-on-anti-eternia-he-man-santiago-salvador.png",
-    "thumb": "Art/thumbs/Custom_Figures_Toys/motu-vintage-iron-on-anti-eternia-he-man-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 360,
-    "title": "MOTU Vintage Iron On Faker",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "motu-vintage-iron-on-faker-santiago-salvador.png",
-    "url": "Art/Custom_Figures_Toys/motu-vintage-iron-on-faker-santiago-salvador.png",
-    "thumb": "Art/thumbs/Custom_Figures_Toys/motu-vintage-iron-on-faker-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 361,
-    "title": "MOTU Vintage Iron On He-Man",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "motu-vintage-iron-on-he-man-santiago-salvador.png",
-    "url": "Art/Custom_Figures_Toys/motu-vintage-iron-on-he-man-santiago-salvador.png",
-    "thumb": "Art/thumbs/Custom_Figures_Toys/motu-vintage-iron-on-he-man-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 362,
-    "title": "MOTU Vintage Iron On",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "motu-vintage-iron-on-santiago-salvador.jpg",
-    "url": "Art/Custom_Figures_Toys/motu-vintage-iron-on-santiago-salvador.jpg",
-    "thumb": "Art/Custom_Figures_Toys/motu-vintage-iron-on-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 363,
-    "title": "MOTU Vintage Iron On Wonderbread",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "motu-vintage-iron-on-wonderbread-santiago-salvador.png",
-    "url": "Art/Custom_Figures_Toys/motu-vintage-iron-on-wonderbread-santiago-salvador.png",
-    "thumb": "Art/thumbs/Custom_Figures_Toys/motu-vintage-iron-on-wonderbread-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 364,
-    "title": "MOTUKO Vintage Universe Prince Illustration",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "motuko-vintage-universe-prince-illustration-santiago-salvador.png",
-    "url": "Art/Custom_Figures_Toys/motuko-vintage-universe-prince-illustration-santiago-salvador.png",
-    "thumb": "Art/thumbs/Custom_Figures_Toys/motuko-vintage-universe-prince-illustration-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 365,
-    "title": "Skeletor Circular Illustration",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "skeletor-circular-illustration-santiago-salvador.png",
-    "url": "Art/Custom_Figures_Toys/skeletor-circular-illustration-santiago-salvador.png",
-    "thumb": "Art/thumbs/Custom_Figures_Toys/skeletor-circular-illustration-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 366,
-    "title": "Teela Character Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "teela-character-drawing-santiago-salvador.jpg",
-    "url": "Art/Custom_Figures_Toys/teela-character-drawing-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Custom_Figures_Toys/teela-character-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 367,
-    "title": "Teelas Horse Drawing",
-    "category": "paintings",
-    "categoryLabel": "Paintings & Illustrations",
-    "filename": "teelas-horse-drawing-santiago-salvador.jpg",
-    "url": "Art/Custom_Figures_Toys/teelas-horse-drawing-santiago-salvador.jpg",
-    "thumb": "Art/thumbs/Custom_Figures_Toys/teelas-horse-drawing-santiago-salvador.jpg",
-    "featured": false
-  },
-  {
-    "id": 368,
+    "id": 279,
     "title": "Actioncraft 1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3680,7 +2804,7 @@
     "featured": false
   },
   {
-    "id": 369,
+    "id": 280,
     "title": "Actioncraft 2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3690,7 +2814,7 @@
     "featured": false
   },
   {
-    "id": 370,
+    "id": 281,
     "title": "Actioncraft Lumberjack Screenshot 1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3700,7 +2824,7 @@
     "featured": false
   },
   {
-    "id": 371,
+    "id": 282,
     "title": "Actioncraft Lumberjack Screenshot 2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3710,7 +2834,7 @@
     "featured": false
   },
   {
-    "id": 372,
+    "id": 283,
     "title": "Actioncraft Lumberjack Screenshot 3",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3720,7 +2844,7 @@
     "featured": false
   },
   {
-    "id": 373,
+    "id": 284,
     "title": "Actioncraft Lumberjack Screenshot 4",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3730,7 +2854,7 @@
     "featured": false
   },
   {
-    "id": 374,
+    "id": 285,
     "title": "Actioncraft Lumberjack Screenshot 5",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3740,7 +2864,7 @@
     "featured": false
   },
   {
-    "id": 375,
+    "id": 286,
     "title": "Actioncraft Screenshot 1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3750,7 +2874,7 @@
     "featured": false
   },
   {
-    "id": 376,
+    "id": 287,
     "title": "Actioncraft Screenshot 2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3760,7 +2884,7 @@
     "featured": false
   },
   {
-    "id": 377,
+    "id": 288,
     "title": "Actioncraft Screenshot 3",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3770,7 +2894,7 @@
     "featured": false
   },
   {
-    "id": 378,
+    "id": 289,
     "title": "Actioncraft Screenshot 4",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3780,7 +2904,7 @@
     "featured": false
   },
   {
-    "id": 379,
+    "id": 290,
     "title": "Actioncraft Screenshot 5",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3790,7 +2914,27 @@
     "featured": false
   },
   {
-    "id": 380,
+    "id": 291,
+    "title": "Alice Platform Game Dialogue Screenshot",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "alice-platform-game-dialogue-screenshot-santiago-salvador.jpeg",
+    "url": "Art/Game_Art_Screenshots/alice-platform-game-dialogue-screenshot-santiago-salvador.jpeg",
+    "thumb": "Art/Game_Art_Screenshots/alice-platform-game-dialogue-screenshot-santiago-salvador.jpeg",
+    "featured": false
+  },
+  {
+    "id": 292,
+    "title": "Alice Platform Game Forest Gameplay",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "alice-platform-game-forest-gameplay-santiago-salvador.jpeg",
+    "url": "Art/Game_Art_Screenshots/alice-platform-game-forest-gameplay-santiago-salvador.jpeg",
+    "thumb": "Art/Game_Art_Screenshots/alice-platform-game-forest-gameplay-santiago-salvador.jpeg",
+    "featured": false
+  },
+  {
+    "id": 293,
     "title": "Award Winning Activision Custom CSQA design",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3800,7 +2944,67 @@
     "featured": true
   },
   {
-    "id": 381,
+    "id": 294,
+    "title": "Campaign Run 2016 Game Menu UI",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "campaign-run-2016-game-menu-ui-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/campaign-run-2016-game-menu-ui-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Game_Art_Screenshots/campaign-run-2016-game-menu-ui-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 295,
+    "title": "Clan Drop Game Environment Concept Art",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "clan-drop-game-environment-concept-art-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/clan-drop-game-environment-concept-art-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Game_Art_Screenshots/clan-drop-game-environment-concept-art-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 296,
+    "title": "Clan Fishing Game Concept Art",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "clan-fishing-game-concept-art-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/clan-fishing-game-concept-art-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Game_Art_Screenshots/clan-fishing-game-concept-art-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 297,
+    "title": "Deacon Eichmann Game Character Concept Art",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "deacon-eichmann-game-character-concept-art-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/deacon-eichmann-game-character-concept-art-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Game_Art_Screenshots/deacon-eichmann-game-character-concept-art-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 298,
+    "title": "Desert Heart Motorcycle Character Concept Art",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "desert-heart-motorcycle-character-concept-art-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/desert-heart-motorcycle-character-concept-art-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/desert-heart-motorcycle-character-concept-art-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 299,
+    "title": "Easter Bunny Baby Puzzle Claw Drop Title Screen",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "easter-bunny-baby-puzzle-claw-drop-title-screen-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/easter-bunny-baby-puzzle-claw-drop-title-screen-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Game_Art_Screenshots/easter-bunny-baby-puzzle-claw-drop-title-screen-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 300,
     "title": "Harry Running Animation",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3810,7 +3014,17 @@
     "featured": false
   },
   {
-    "id": 382,
+    "id": 301,
+    "title": "Jafaramgad Game Character Turnaround",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "jafaramgad-game-character-turnaround-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/jafaramgad-game-character-turnaround-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/jafaramgad-game-character-turnaround-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 302,
     "title": "Jumping Jaxs Jailbreak Cubecraft Final",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3820,7 +3034,7 @@
     "featured": false
   },
   {
-    "id": 383,
+    "id": 303,
     "title": "Jumping Jaxs Jailbreak Cubecraft",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3830,7 +3044,7 @@
     "featured": false
   },
   {
-    "id": 384,
+    "id": 304,
     "title": "Jumping Jaxs Jailbreak",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3840,7 +3054,7 @@
     "featured": false
   },
   {
-    "id": 385,
+    "id": 305,
     "title": "maze",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3850,7 +3064,7 @@
     "featured": false
   },
   {
-    "id": 386,
+    "id": 306,
     "title": "maze1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3860,7 +3074,7 @@
     "featured": false
   },
   {
-    "id": 387,
+    "id": 307,
     "title": "maze2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3870,7 +3084,7 @@
     "featured": false
   },
   {
-    "id": 388,
+    "id": 308,
     "title": "metroid",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3880,7 +3094,7 @@
     "featured": false
   },
   {
-    "id": 389,
+    "id": 309,
     "title": "metroid1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3890,7 +3104,7 @@
     "featured": false
   },
   {
-    "id": 390,
+    "id": 310,
     "title": "metroid2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3900,7 +3114,7 @@
     "featured": false
   },
   {
-    "id": 391,
+    "id": 311,
     "title": "Mobster Roulette 1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3910,7 +3124,7 @@
     "featured": false
   },
   {
-    "id": 392,
+    "id": 312,
     "title": "Mobster Roulette 2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3920,7 +3134,7 @@
     "featured": false
   },
   {
-    "id": 393,
+    "id": 313,
     "title": "Ninja Screenshot 1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3930,7 +3144,7 @@
     "featured": false
   },
   {
-    "id": 394,
+    "id": 314,
     "title": "Ninja Screenshot 2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3940,7 +3154,7 @@
     "featured": false
   },
   {
-    "id": 395,
+    "id": 315,
     "title": "Ninja Screenshot 3",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3950,7 +3164,7 @@
     "featured": false
   },
   {
-    "id": 396,
+    "id": 316,
     "title": "Ninja Screenshot 4",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3960,7 +3174,7 @@
     "featured": false
   },
   {
-    "id": 397,
+    "id": 317,
     "title": "Ninja Screenshot 5",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3970,7 +3184,27 @@
     "featured": false
   },
   {
-    "id": 398,
+    "id": 318,
+    "title": "Prince John Game Attack Animation Concepts",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "prince-john-game-attack-animation-concepts-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/prince-john-game-attack-animation-concepts-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Game_Art_Screenshots/prince-john-game-attack-animation-concepts-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 319,
+    "title": "Prince John Game Character Reference Sheet",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "prince-john-game-character-reference-sheet-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/prince-john-game-character-reference-sheet-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/prince-john-game-character-reference-sheet-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 320,
     "title": "Russian Roulette 1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3980,7 +3214,7 @@
     "featured": false
   },
   {
-    "id": 399,
+    "id": 321,
     "title": "Russian Roulette 2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -3990,7 +3224,7 @@
     "featured": false
   },
   {
-    "id": 400,
+    "id": 322,
     "title": "Russian Roulette Game Icon",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4000,7 +3234,7 @@
     "featured": false
   },
   {
-    "id": 401,
+    "id": 323,
     "title": "Russian Roulette Screenshot 1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4010,7 +3244,7 @@
     "featured": false
   },
   {
-    "id": 402,
+    "id": 324,
     "title": "Russian Roulette Screenshot 2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4020,7 +3254,7 @@
     "featured": false
   },
   {
-    "id": 403,
+    "id": 325,
     "title": "Russian Roulette Screenshot 3",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4030,7 +3264,7 @@
     "featured": false
   },
   {
-    "id": 404,
+    "id": 326,
     "title": "Russian Roulette Screenshot 4",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4040,7 +3274,7 @@
     "featured": false
   },
   {
-    "id": 405,
+    "id": 327,
     "title": "Russian Roulette Screenshot 5",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4050,7 +3284,47 @@
     "featured": false
   },
   {
-    "id": 406,
+    "id": 328,
+    "title": "Sheriff of Nottingham Game Character Concept Art",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "sheriff-of-nottingham-game-character-concept-art-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/sheriff-of-nottingham-game-character-concept-art-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Game_Art_Screenshots/sheriff-of-nottingham-game-character-concept-art-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 329,
+    "title": "Tarzan Game Character Turnaround",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "tarzan-game-character-turnaround-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/tarzan-game-character-turnaround-santiago-salvador.jpg",
+    "thumb": "Art/thumbs/Game_Art_Screenshots/tarzan-game-character-turnaround-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 330,
+    "title": "The Boy Game Character Turnaround",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "the-boy-game-character-turnaround-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/the-boy-game-character-turnaround-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/the-boy-game-character-turnaround-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 331,
+    "title": "The Girl Game Character Turnaround",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "the-girl-game-character-turnaround-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/the-girl-game-character-turnaround-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/the-girl-game-character-turnaround-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 332,
     "title": "Theseus Vs The Minotaur 1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4060,7 +3334,7 @@
     "featured": true
   },
   {
-    "id": 407,
+    "id": 333,
     "title": "Theseus Vs The Minotaur 2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4070,7 +3344,7 @@
     "featured": false
   },
   {
-    "id": 408,
+    "id": 334,
     "title": "Theseus Vs The Minotaur 3",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4080,7 +3354,7 @@
     "featured": false
   },
   {
-    "id": 409,
+    "id": 335,
     "title": "Theseus Vs The Minotaur 4",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4090,7 +3364,17 @@
     "featured": false
   },
   {
-    "id": 410,
+    "id": 336,
+    "title": "Theseus vs the Minotaur Labyrinth Gameplay",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "theseus-vs-the-minotaur-labyrinth-gameplay-santiago-salvador.jpeg",
+    "url": "Art/Game_Art_Screenshots/theseus-vs-the-minotaur-labyrinth-gameplay-santiago-salvador.jpeg",
+    "thumb": "Art/Game_Art_Screenshots/theseus-vs-the-minotaur-labyrinth-gameplay-santiago-salvador.jpeg",
+    "featured": false
+  },
+  {
+    "id": 337,
     "title": "Theseus Vs The Minotaur Screenshot 1",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4100,7 +3384,7 @@
     "featured": false
   },
   {
-    "id": 411,
+    "id": 338,
     "title": "Theseus Vs The Minotaur Screenshot 2",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4110,7 +3394,7 @@
     "featured": false
   },
   {
-    "id": 412,
+    "id": 339,
     "title": "Theseus Vs The Minotaur Screenshot 3",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4120,7 +3404,7 @@
     "featured": false
   },
   {
-    "id": 413,
+    "id": 340,
     "title": "Theseus Vs The Minotaur Screenshot 4",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4130,7 +3414,7 @@
     "featured": false
   },
   {
-    "id": 414,
+    "id": 341,
     "title": "Theseus Vs The Minotaur Screenshot 5",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",
@@ -4140,7 +3424,127 @@
     "featured": false
   },
   {
-    "id": 415,
+    "id": 342,
+    "title": "Theseus vs the Minotaur Story Screen",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "theseus-vs-the-minotaur-story-screen-santiago-salvador.jpeg",
+    "url": "Art/Game_Art_Screenshots/theseus-vs-the-minotaur-story-screen-santiago-salvador.jpeg",
+    "thumb": "Art/Game_Art_Screenshots/theseus-vs-the-minotaur-story-screen-santiago-salvador.jpeg",
+    "featured": false
+  },
+  {
+    "id": 343,
+    "title": "Theseus vs the Minotaur Title Menu",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "theseus-vs-the-minotaur-title-menu-santiago-salvador.jpeg",
+    "url": "Art/Game_Art_Screenshots/theseus-vs-the-minotaur-title-menu-santiago-salvador.jpeg",
+    "thumb": "Art/Game_Art_Screenshots/theseus-vs-the-minotaur-title-menu-santiago-salvador.jpeg",
+    "featured": false
+  },
+  {
+    "id": 344,
+    "title": "Timber Fighters Character Shop UI",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "timber-fighters-character-shop-ui-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/timber-fighters-character-shop-ui-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/timber-fighters-character-shop-ui-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 345,
+    "title": "Timber Fighters Chop Morris Hollywood Series Title Screen",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "timber-fighters-chop-morris-hollywood-series-title-screen-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/timber-fighters-chop-morris-hollywood-series-title-screen-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/timber-fighters-chop-morris-hollywood-series-title-screen-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 346,
+    "title": "Timber Fighters City Stage Gameplay",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "timber-fighters-city-stage-gameplay-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/timber-fighters-city-stage-gameplay-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/timber-fighters-city-stage-gameplay-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 347,
+    "title": "Timber Fighters Dragon Stage Game Over Screen Alternate",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "timber-fighters-dragon-stage-game-over-screen-alternate-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/timber-fighters-dragon-stage-game-over-screen-alternate-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/timber-fighters-dragon-stage-game-over-screen-alternate-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 348,
+    "title": "Timber Fighters Dragon Stage Game Over Screen",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "timber-fighters-dragon-stage-game-over-screen-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/timber-fighters-dragon-stage-game-over-screen-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/timber-fighters-dragon-stage-game-over-screen-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 349,
+    "title": "Timber Fighters Forest Stage Gameplay Alternate",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "timber-fighters-forest-stage-gameplay-alternate-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/timber-fighters-forest-stage-gameplay-alternate-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/timber-fighters-forest-stage-gameplay-alternate-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 350,
+    "title": "Timber Fighters Forest Stage Gameplay",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "timber-fighters-forest-stage-gameplay-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/timber-fighters-forest-stage-gameplay-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/timber-fighters-forest-stage-gameplay-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 351,
+    "title": "Timber Fighters Lava Stage Gameplay Alternate",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "timber-fighters-lava-stage-gameplay-alternate-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/timber-fighters-lava-stage-gameplay-alternate-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/timber-fighters-lava-stage-gameplay-alternate-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 352,
+    "title": "Timber Fighters Lava Stage Gameplay",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "timber-fighters-lava-stage-gameplay-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/timber-fighters-lava-stage-gameplay-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/timber-fighters-lava-stage-gameplay-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 353,
+    "title": "White Rabbit Boss Character Turnaround",
+    "category": "games",
+    "categoryLabel": "Game Art & Concepts",
+    "filename": "white-rabbit-boss-character-turnaround-santiago-salvador.jpg",
+    "url": "Art/Game_Art_Screenshots/white-rabbit-boss-character-turnaround-santiago-salvador.jpg",
+    "thumb": "Art/Game_Art_Screenshots/white-rabbit-boss-character-turnaround-santiago-salvador.jpg",
+    "featured": false
+  },
+  {
+    "id": 354,
     "title": "Wnf Studios Splash",
     "category": "games",
     "categoryLabel": "Game Art & Concepts",

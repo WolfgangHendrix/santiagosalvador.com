@@ -3,6 +3,7 @@ import json
 import re
 import time
 import sys
+import hashlib
 
 try:
     from PIL import Image, ImageOps
@@ -23,6 +24,21 @@ def sync():
     if os.path.exists(metadata_path):
         with open(metadata_path, encoding="utf-8") as fp:
             asset_metadata = json.load(fp)
+
+    # Keep curated titles when artwork moves folders or changes image format.
+    metadata_by_stem = {}
+    for path, metadata in asset_metadata.items():
+        stem = os.path.splitext(os.path.basename(path))[0].lower()
+        metadata_by_stem.setdefault(stem, []).append(metadata)
+
+    def artwork_metadata(url):
+        if url in asset_metadata:
+            return asset_metadata[url]
+        stem = os.path.splitext(os.path.basename(url))[0].lower()
+        matches = metadata_by_stem.get(stem, [])
+        if matches and all(item == matches[0] for item in matches):
+            return matches[0]
+        return {}
 
     print("=" * 65)
     print("   SANTIAGO SALVADOR - PORTFOLIO & LABELS DATABASE SYNC")
@@ -48,6 +64,7 @@ def sync():
             return curated_titles[lower]
         
         base = os.path.splitext(filename)[0]
+        base = re.sub(r'-santiago-salvador(?:-\d+)?$', '', base, flags=re.I)
         base = re.sub(r'^santiago_salvador_', '', base, flags=re.I)
         base = re.sub(r'^sanitago_salvador_', '', base, flags=re.I)
         base = re.sub(r'^copy\s+(of\s+)?', '', base, flags=re.I)
@@ -149,11 +166,12 @@ def sync():
                     if ext in valid_img_exts:
                         full_p = os.path.join(root, f)
                         rel_p = os.path.relpath(full_p, folder_path).replace("\\", "/")
-                        cat_files.append(rel_p)
-
                         title = clean_art_title(f)
                         url_rel = f"Art/{folder_name}/{rel_p}".replace("\\", "/")
-                        metadata = asset_metadata.get(url_rel, {})
+                        metadata = artwork_metadata(url_rel)
+                        if metadata.get("hidden") or metadata.get("supportingOnly"):
+                            continue
+                        cat_files.append(rel_p)
                         title = re.sub(r"\s+", " ", metadata.get("title", title)).strip()
                         is_featured = url_rel in featured_urls
                         thumb_rel = ensure_art_thumb(full_p, url_rel)
@@ -176,6 +194,21 @@ def sync():
                             "thumb": thumb_rel,
                             "featured": is_featured
                         })
+                        supporting_images = []
+                        for supporting_url in metadata.get("supportingImages", []):
+                            if not os.path.isfile(os.path.join(site_dir, supporting_url)):
+                                continue
+                            supporting_metadata = artwork_metadata(supporting_url)
+                            if supporting_metadata.get("hidden"):
+                                continue
+                            supporting_images.append({
+                                "url": supporting_url,
+                                "title": supporting_metadata.get("title", clean_art_title(os.path.basename(supporting_url))),
+                                "filename": os.path.basename(supporting_url),
+                                "categoryLabel": effective_label,
+                            })
+                        if supporting_images:
+                            artworks[-1]["supportingImages"] = supporting_images
                         if art_id % 50 == 0:
                             print(f"    indexed {art_id} artworks...", flush=True)
                         art_id += 1
@@ -229,18 +262,27 @@ def sync():
 
     if os.path.exists(music_dir):
         m_id = 1
+        audio_hashes = {}
         for f in sorted(os.listdir(music_dir)):
             f_path = os.path.join(music_dir, f)
             if not os.path.isfile(f_path) or f.startswith(('_', '.')):
                 continue
             if f.lower().endswith(('.mp3', '.ogg', '.wav')):
+                # Renamed copies should not play twice; retain every source file.
+                digest = hashlib.sha256()
+                with open(f_path, 'rb') as audio_file:
+                    for chunk in iter(lambda: audio_file.read(1024 * 1024), b''):
+                        digest.update(chunk)
+                audio_hash = digest.hexdigest()
+                if audio_hash in audio_hashes:
+                    print(f"    duplicate audio skipped: {f} (same as {audio_hashes[audio_hash]})")
+                    continue
+                audio_hashes[audio_hash] = f
                 info = asset_metadata.get(f"Art/Music_Audio/{f}", curated_music_info.get(f, {}))
                 title = info.get("title")
                 album = info.get("album", "Original Soundscapes")
                 if not title:
-                    clean_t = re.sub(r'^\d+[\s\-_]*', '', os.path.splitext(f)[0])
-                    clean_t = clean_t.replace('_', ' ').replace('-', ' ').strip()
-                    title = clean_t if clean_t else f
+                    title = clean_art_title(re.sub(r'^\d+[\s\-_]*', '', f))
 
                 music_tracks.append({
                     "id": m_id,

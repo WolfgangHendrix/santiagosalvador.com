@@ -57,8 +57,15 @@ const ArtGallery = (function() {
       overlay.append(category, title);
       card.append(img, overlay);
       const open = () => {
-        const view = visible.map(entry => ({ ...entry, url: window.masterUrl(entry.url) }));
-        Lightbox.open(view, index, card);
+        const view = [];
+        let selectedIndex = 0;
+        visible.forEach((entry, entryIndex) => {
+          if (entryIndex === index) selectedIndex = view.length;
+          [entry, ...(entry.supportingImages || [])].forEach(image => {
+            view.push({ ...image, url: window.masterUrl(image.url) });
+          });
+        });
+        Lightbox.open(view, selectedIndex, card);
       };
       card.addEventListener('click', open);
       card.addEventListener('keydown', event => {
