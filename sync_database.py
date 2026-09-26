@@ -4,6 +4,12 @@ import re
 import time
 import sys
 
+try:
+    from PIL import Image, ImageOps
+except ImportError:
+    Image = None
+    ImageOps = None
+
 def sync():
     t0 = time.time()
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -58,16 +64,66 @@ def sync():
         title = ' '.join(capitalized)
         return title if title else filename
 
-    featured_slugs = {
-        'cowboykaboom', '3eyedragon', 'afrowoman', 'solice', 'angelsareinmydreams',
-        'buddhablack', 'buddhabuddha', 'coraline', 'jimihendrix', 'hendrix',
-        'benderbitcoin', 'toxi', 'splatterhousedoom', 'activision_csqa',
-        'antieterniaheman', 'battlecatwhitetiger', 'anarchistgorilla', 'dancingdragon',
-        'euthanasia', 'drjeck', 'doom', 'dragon', 'angryhorizon', 'forestofdespair',
-        'thedryingsoul', 'inquisition', 'twin despair', 'octopuscloud'
+    # A small editorial selection, keyed by stable paths rather than regenerated IDs.
+    featured_urls = {
+        'Art/Paintings_Illustrations/afrowoman-artwork-santiago-salvador.jpg',
+        'Art/Paintings_Illustrations/anarchist-gorilla-artwork-santiago-salvador-2.jpg',
+        'Art/Paintings_Illustrations/cowboy-kaboom-artwork-santiago-salvador-2.jpg',
+        'Art/Paintings_Illustrations/dancing-dragon-artwork-santiago-salvador.jpg',
+        'Art/Custom_Figures_Toys/anti-eternia-he-man-the-loyal-subjects-custom-figure-santiago-salvador.jpg',
+        'Art/Custom_Figures_Toys/battle-cat-white-tiger-artwork-santiago-salvador.jpg',
+        'Art/Game_Art_Screenshots/award-winning-activision-custom-csqa-design-game-art.jpg',
+        'Art/Game_Art_Screenshots/theseus-vs-the-minotaur-1-game-art.jpg',
+    }
+
+    def art_thumb_rel(url_rel):
+        inside = url_rel[len("Art/"):]
+        return "Art/thumbs/" + os.path.splitext(inside)[0] + ".jpg"
+
+    def save_grid_jpeg(src_path, dest_path):
+        os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+        with Image.open(src_path) as im:
+            im = ImageOps.exif_transpose(im)
+            if getattr(im, "is_animated", False):
+                im.seek(0)
+            if im.mode in ("RGBA", "LA") or (im.mode == "P" and "transparency" in im.info):
+                rgba = im.convert("RGBA")
+                background = Image.new("RGB", rgba.size, (6, 7, 9))
+                background.paste(rgba, mask=rgba.split()[-1])
+                im = background
+            elif im.mode != "RGB":
+                im = im.convert("RGB")
+            im.thumbnail((960, 960), Image.Resampling.LANCZOS)
+            im.save(dest_path, "JPEG", quality=76, optimize=True)
+
+    def ensure_art_thumb(src_path, url_rel):
+        """Grid images stay small. The lightbox and download still use the master."""
+        if Image is None:
+            return url_rel
+        try:
+            if os.path.getsize(src_path) <= 350 * 1024 and os.path.splitext(src_path)[1].lower() in (".jpg", ".jpeg"):
+                return url_rel
+        except OSError:
+            return url_rel
+        thumb_rel = art_thumb_rel(url_rel)
+        dest = os.path.join(site_dir, thumb_rel.replace("/", os.sep))
+        try:
+            if os.path.exists(dest) and os.path.getmtime(dest) >= os.path.getmtime(src_path):
+                return thumb_rel
+            save_grid_jpeg(src_path, dest)
+            return thumb_rel
+        except Exception as exc:
+            print(f"    thumb skipped: {url_rel} ({exc})")
+            return url_rel
+
+    # A few older files live in the figures folder but depict other kinds of work.
+    category_overrides = {
+        'Art/Custom_Figures_Toys/motu-ram-man-game-screenshots-santiago-salvador.jpg': ('games', 'Game Art & Concepts'),
     }
 
     # 2. SCAN ARTWORKS DIRECTORY
+    if Image is not None:
+        Image.MAX_IMAGE_PIXELS = None
     art_dir = os.path.join(site_dir, "Art") if os.path.exists(os.path.join(site_dir, "Art")) else os.path.join(websites_dir, "Art")
     valid_img_exts = ('.jpg', '.jpeg', '.png', '.gif', '.webp')
 
@@ -97,22 +153,32 @@ def sync():
                         cat_files.append(rel_p)
 
                         title = clean_art_title(f)
-                        slug = re.sub(r'[^a-zA-Z0-9]', '', title).lower()
-                        is_featured = (slug in featured_slugs) or (cat_filter == 'figures')
                         url_rel = f"Art/{folder_name}/{rel_p}".replace("\\", "/")
                         metadata = asset_metadata.get(url_rel, {})
-                        title = metadata.get("title", title)
-                        is_featured = metadata.get("featured", is_featured)
+                        title = re.sub(r"\s+", " ", metadata.get("title", title)).strip()
+                        is_featured = url_rel in featured_urls
+                        thumb_rel = ensure_art_thumb(full_p, url_rel)
+                        effective_category, effective_label = category_overrides.get(url_rel, (cat_filter, cat_label))
+                        if cat_filter == 'figures' and url_rel not in category_overrides and f not in {
+                            'abra-custom-plush-doll-santiago-salvador.jpg',
+                            'anti-eternia-he-man-the-loyal-subjects-custom-figure-santiago-salvador.jpg',
+                            'anti-eternia-he-man-vintage-custom-masters-of-the-universe-figure-santiago-salvador.jpg',
+                            'battle-cat-white-tiger-artwork-santiago-salvador.jpg',
+                        }:
+                            effective_category, effective_label = 'paintings', 'Paintings & Illustrations'
 
                         artworks.append({
                             "id": art_id,
                             "title": title,
-                            "category": cat_filter,
-                            "categoryLabel": cat_label,
+                            "category": effective_category,
+                            "categoryLabel": effective_label,
                             "filename": f,
                             "url": url_rel,
+                            "thumb": thumb_rel,
                             "featured": is_featured
                         })
+                        if art_id % 50 == 0:
+                            print(f"    indexed {art_id} artworks...", flush=True)
                         art_id += 1
 
         cat_counts[cat_filter] = len(cat_files)
@@ -132,10 +198,9 @@ def sync():
         fp.write("window.ARTWORKS_DATA = " + json.dumps(artworks) + ";\n")
 
     print(f"[+] Artworks indexed: {len(artworks)} total")
-    print(f"    - Paintings & Illustrations: {cat_counts.get('paintings', 0)}")
-    print(f"    - Custom Figures & MOTU:     {cat_counts.get('figures', 0)}")
-    print(f"    - Game Art & Concepts:       {cat_counts.get('games', 0)}")
-    print(f"    - Trading Cards:             {cat_counts.get('cards', 0)}")
+    for category, label in [('paintings', 'Paintings & Illustrations'), ('figures', 'Custom Figures'),
+                            ('games', 'Game Art & Concepts'), ('cards', 'Cards & Collectibles')]:
+        print(f"    - {label}: {sum(item['category'] == category for item in artworks)}")
 
     # 3. SCAN MUSIC DIRECTORY
     music_dir = os.path.join(art_dir, "Music_Audio")
@@ -198,17 +263,6 @@ def sync():
     labels_dir = os.path.join(site_dir, "Labels") if os.path.exists(os.path.join(site_dir, "Labels")) else os.path.join(websites_dir, "Labels")
     fulls_dir = os.path.join(labels_dir, "fulls")
     thumbs_dir = os.path.join(labels_dir, "thumbs")
-    packs_dir = os.path.join(labels_dir, "packs")
-
-    console_names = {
-        "SNES": "Super Nintendo",
-        "NES": "Nintendo Entertainment System",
-        "N64": "Nintendo 64",
-        "Genesis_MegaDrive": "Sega Genesis & Mega Drive",
-        "GameBoy": "Game Boy Color & Advance",
-        "NeoGeo": "Neo-Geo AES & MVS",
-        "Famicom_SFC": "Famicom & Super Famicom"
-    }
 
     labels_list = []
     console_counts = {}
@@ -221,7 +275,18 @@ def sync():
             
             c_thumb_path = os.path.join(thumbs_dir, console)
             os.makedirs(c_thumb_path, exist_ok=True)
-            
+            thumb_by_stem = {}
+            if os.path.isdir(c_thumb_path):
+                for thumb_name in os.listdir(c_thumb_path):
+                    thumb_ext = os.path.splitext(thumb_name)[1].lower()
+                    if thumb_ext not in valid_img_exts:
+                        continue
+                    stem = os.path.splitext(thumb_name)[0].lower()
+                    # Masters are often PNG while the grid thumb is a JPEG of the same name.
+                    current = thumb_by_stem.get(stem)
+                    if current is None or thumb_ext in (".jpg", ".jpeg"):
+                        thumb_by_stem[stem] = thumb_name
+
             count = 0
             for idx, f in enumerate(sorted(os.listdir(c_full_path))):
                 ext = os.path.splitext(f)[1].lower()
@@ -230,12 +295,22 @@ def sync():
                 
                 title = os.path.splitext(f)[0].replace('_', ' ').replace('-', ' ').strip()
                 download_rel = f"Labels/fulls/{console}/{f}".replace("\\", "/")
-                title = asset_metadata.get(download_rel, {}).get("title", title)
-                
-                if not os.path.exists(os.path.join(c_thumb_path, f)):
+                title = re.sub(r"\s+", " ", asset_metadata.get(download_rel, {}).get("title", title)).strip()
+                thumb_name = thumb_by_stem.get(os.path.splitext(f)[0].lower())
+                if thumb_name:
+                    thumb_rel = f"Labels/thumbs/{console}/{thumb_name}".replace("\\", "/")
+                elif Image is None:
                     thumb_rel = download_rel
                 else:
-                    thumb_rel = f"Labels/thumbs/{console}/{f}".replace("\\", "/")
+                    generated_name = os.path.splitext(f)[0] + ".jpg"
+                    generated_path = os.path.join(c_thumb_path, generated_name)
+                    try:
+                        if not os.path.exists(generated_path) or os.path.getmtime(generated_path) < os.path.getmtime(os.path.join(c_full_path, f)):
+                            save_grid_jpeg(os.path.join(c_full_path, f), generated_path)
+                        thumb_rel = f"Labels/thumbs/{console}/{generated_name}".replace("\\", "/")
+                    except Exception as exc:
+                        print(f"    label thumb skipped: {download_rel} ({exc})")
+                        thumb_rel = download_rel
 
                 labels_list.append({
                     "id": f"{console}_{idx}",
@@ -248,28 +323,10 @@ def sync():
                 count += 1
             console_counts[console] = count
 
-    # Scan packs with exact console matching
-    packs_list = []
-    if os.path.exists(packs_dir):
-        for console, display_name in console_names.items():
-            for zf in sorted(os.listdir(packs_dir)):
-                pack_meta = asset_metadata.get(f"Labels/packs/{zf}", {})
-                if zf.lower().endswith('.zip') and (pack_meta.get("console") == console or f"_{console}_".lower() in zf.lower()):
-                    zpath = os.path.join(packs_dir, zf)
-                    size_mb = os.path.getsize(zpath) / (1024 * 1024)
-                    packs_list.append({
-                        "console": console,
-                        "title": f"{display_name} Pack ({console_counts.get(console, 0)} Labels)",
-                        "count": console_counts.get(console, 0),
-                        "url": f"Labels/packs/{zf}".replace("\\", "/"),
-                        "size": f"{size_mb:.0f} MB" if size_mb >= 1 else f"{size_mb*1024:.0f} KB"
-                    })
-
     labels_data = {
         "counts": console_counts,
         "total": len(labels_list),
-        "labels": labels_list,
-        "packs": packs_list
+        "labels": labels_list
     }
 
     with open(os.path.join(labels_dir, "labels_catalog.json"), "w", encoding="utf-8") as fp:
@@ -280,14 +337,9 @@ def sync():
         fp.write("window.LABELS_DATA = " + json.dumps(labels_data) + ";\n")
 
     print(f"[+] Retro Game Labels indexed: {len(labels_list)} total")
-    print(f"[+] Console Packs indexed: {len(packs_list)} packs")
 
-    # 5. UPDATE HTML FILTER BADGES & COUNTERS
-    total_art = len(artworks)
-    p_cnt = cat_counts.get('paintings', 0)
-    f_cnt = cat_counts.get('figures', 0)
-    g_cnt = cat_counts.get('games', 0)
-    c_cnt = cat_counts.get('cards', 0)
+    # 5. UPDATE COUNTERS OUTSIDE THE ART GALLERY
+    # Art filter counts come from the generated catalog at runtime.
 
     html_files = [
         os.path.join(site_dir, "index.html")
@@ -298,12 +350,6 @@ def sync():
             with open(hpath, 'r', encoding='utf-8') as fp:
                 content = fp.read()
             
-            content = re.sub(r'(data-filter=\"all\">All Works\s*)\(\d+\)', rf'\g<1>({total_art})', content)
-            content = re.sub(r'(data-filter=\"paintings\">Paintings & Illustrations\s*)\(\d+\)', rf'\g<1>({p_cnt})', content)
-            content = re.sub(r'(data-filter=\"figures\">Custom Figures & MOTU\s*)\(\d+\)', rf'\g<1>({f_cnt})', content)
-            content = re.sub(r'(data-filter=\"games\">Game Art & Concepts\s*)\(\d+\)', rf'\g<1>({g_cnt})', content)
-            content = re.sub(r'(data-filter=\"cards\">Trading Cards\s*)\(\d+\)', rf'\g<1>({c_cnt})', content)
-            content = re.sub(r'Over \d+ paintings, dark art illustrations', f'Over {total_art} paintings, dark art illustrations', content)
             label_total = f'{len(labels_list):,}'
             content = re.sub(r'[\d,]+\+?(?= free (?:game cartridge replacement labels|downloadable cartridge labels))', label_total, content)
             content = re.sub(r'(?<=All )[\d,]+\+?(?= (?:cartridge replacement labels|labels are))', label_total, content)

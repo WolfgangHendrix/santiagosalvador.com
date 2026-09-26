@@ -91,12 +91,12 @@ const Lightbox = (function() {
     const item = items[currentIndex];
     
     const cleanUrl = item.url.startsWith('/') ? item.url.slice(1) : item.url;
+    const remote = /^https?:/i.test(cleanUrl);
     img.src = cleanUrl;
     img.onerror = function() {
-      if (!this.dataset.fallback) {
-        this.dataset.fallback = '1';
-        this.src = '../' + cleanUrl;
-      }
+      if (this.dataset.fallback || remote) return;
+      this.dataset.fallback = '1';
+      this.src = '../' + cleanUrl;
     };
     img.alt = item.title || '';
 
@@ -106,7 +106,14 @@ const Lightbox = (function() {
     }
     if (dlBtn) {
       dlBtn.href = cleanUrl;
-      dlBtn.download = item.filename || '';
+      if (remote) {
+        dlBtn.target = '_blank';
+        dlBtn.rel = 'noopener';
+        dlBtn.removeAttribute('download');
+      } else {
+        dlBtn.removeAttribute('target');
+        dlBtn.download = item.filename || '';
+      }
     }
   }
 

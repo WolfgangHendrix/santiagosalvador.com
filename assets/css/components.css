@@ -33,6 +33,7 @@
   align-items: center;
   gap: 12px;
   text-decoration: none;
+  flex-shrink: 0;
 }
 .nav-avatar {
   width: 42px;
@@ -44,22 +45,24 @@
 }
 .nav-title {
   font-family: var(--font-signature);
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--text-bright);
   letter-spacing: 0.5px;
+  white-space: nowrap;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
   list-style: none;
 }
 .nav-link {
   color: var(--text-secondary);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 500;
+  white-space: nowrap;
   transition: var(--transition-fast);
   position: relative;
   padding: 6px 0;
@@ -1023,6 +1026,15 @@
   margin: 0 auto 28px auto;
   line-height: 1.7;
 }
+.nav-actions .btn { white-space: nowrap; }
+.commission-form-prompt {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+  color: var(--text-secondary);
+}
+.commission-form-prompt [hidden] { display: none; }
 .contact-methods {
   display: flex;
   justify-content: center;
@@ -1078,17 +1090,23 @@
 /* ==========================================================================
    RESPONSIVE DESIGN RULES
    ========================================================================== */
+@media (max-width: 1240px) {
+  .nav-links { display: none; }
+  .nav-actions { display: none; }
+  .menu-toggle { display: inline-flex; }
+}
+
 @media (max-width: 992px) {
   .hero-title { font-size: 3.6rem; }
   .about-grid { grid-template-columns: 1fr; }
   .spacechakra-banner { padding: 32px 24px; }
-  .nav-links { display: none; }
-  .nav-actions { display: none; }
-  .menu-toggle { display: inline-flex; }
   .intro-card { padding: 28px 20px; }
 }
 
 @media (max-width: 768px) {
+  .nav-brand { min-width: 0; }
+  .nav-title { font-size: 1.55rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .menu-toggle { flex: none; margin-left: 10px; }
   .hero-title { font-size: 2.8rem; }
   .hero-avatar-wrap { width: 170px; height: 170px; }
   .hero-top-block { bottom: calc(50% + 95px); }

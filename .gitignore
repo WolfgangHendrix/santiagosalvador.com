@@ -5,8 +5,11 @@ PSD_Masters/
 Art/PSD_Masters/
 motu/*.psd
 
-# Large 1-Click Zip Packs (Exceeds GitHub's 100MB single-file hard limit)
+# Console zip packs stay on disk. GitHub rejects files over 100MB, and the site no longer offers them.
 Labels/packs/*.zip
+
+# Built GitHub Pages output
+_site/
 
 # Archived audio & SFX
 _archive*/
@@ -18,6 +21,7 @@ Thumbs.db
 ehthumbs.db
 *.tmp
 *.bak
+__pycache__/
 * - Copy.html
 * - Copy (2).html
 images/*-original.gif

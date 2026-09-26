@@ -2698,7 +2698,7 @@
     "featured": false
   },
   "Art/Paintings_Illustrations/holy-mountain-final-artwork-santiago-salvador.jpg": {
-    "title": "Holy Mountain FINAL",
+    "title": "Carpe Diem",
     "originalFilename": "Holy Mountain FINAL.jpg",
     "titleSource": "existing-name",
     "featured": false
@@ -2944,7 +2944,7 @@
     "featured": false
   },
   "Art/Paintings_Illustrations/mobopoly-template-artwork-santiago-salvador.jpg": {
-    "title": "mobopoly template",
+    "title": "Mobopoly",
     "originalFilename": "mobopoly_template.jpg",
     "titleSource": "existing-name"
   },
@@ -3899,7 +3899,7 @@
     "featured": false
   },
   "Art/Paintings_Illustrations/youth-copy-artwork-santiago-salvador.jpg": {
-    "title": "youth copy",
+    "title": "Youth",
     "originalFilename": "youth copy.jpg",
     "titleSource": "existing-name",
     "featured": false
@@ -18836,5 +18836,9 @@
     "title": "Stained Glass Portfolio Background",
     "originalFilename": "video.mp4",
     "titleSource": "existing-name"
+  },
+  "Art/Paintings_Illustrations/third-eye-vision-artwork-santiago-salvador.png": {
+    "title": "Third Eye Vision",
+    "titleSource": "editorial"
   }
 }

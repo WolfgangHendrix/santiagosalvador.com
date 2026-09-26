@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ArtGallery.init();
   LabelsHub.init();
   MusicPlayer.init();
+  renderGames();
 
   // 3. Navbar scroll effect & Mobile Menu
   const navbar = document.querySelector('.navbar');
@@ -155,3 +156,63 @@ devils do develop deep despair.`
 
   console.log('SantiagoSalvador.com loaded successfully.');
 });
+
+function renderGames() {
+  const grid = document.getElementById('games-grid');
+  const games = window.GAMES_DATA;
+  if (!grid || !Array.isArray(games)) return;
+
+  const badgeClass = {
+    'Top Played': 'badge-gold',
+    'CRT Retro': 'badge-cyan',
+    'Vector Neon': 'badge-purple',
+    'Cozy Arcade': 'badge-emerald',
+    'Experimental': 'badge-purple',
+    'Dark Horror': 'badge-purple',
+    'Audio Tool': 'badge-cyan',
+    'Multiplayer': 'badge-emerald'
+  };
+
+  grid.replaceChildren();
+  games.forEach(game => {
+    const card = document.createElement('div');
+    card.className = 'game-card';
+
+    const thumbWrap = document.createElement('div');
+    thumbWrap.className = 'game-thumb-wrap';
+    const badge = document.createElement('span');
+    badge.className = `badge ${badgeClass[game.badge] || 'badge-cyan'} game-badge`;
+    badge.textContent = game.badge || 'Play';
+    const img = document.createElement('img');
+    img.src = game.capsule;
+    img.alt = game.title;
+    img.className = 'game-thumb';
+    img.loading = 'lazy';
+    thumbWrap.append(badge, img);
+
+    const content = document.createElement('div');
+    content.className = 'game-content';
+    const title = document.createElement('h3');
+    title.className = 'game-title';
+    title.textContent = game.title;
+    const genre = document.createElement('span');
+    genre.className = 'game-genre';
+    genre.textContent = game.genre;
+    const tagline = document.createElement('p');
+    tagline.className = 'game-tagline';
+    tagline.textContent = game.tagline;
+    const actions = document.createElement('div');
+    actions.className = 'game-actions';
+    const play = document.createElement('a');
+    play.href = game.playUrl;
+    play.target = '_blank';
+    play.rel = 'noopener';
+    play.className = 'btn btn-cyan btn-sm';
+    play.style.width = '100%';
+    play.textContent = 'Play in Browser ↗';
+    actions.appendChild(play);
+    content.append(title, genre, tagline, actions);
+    card.append(thumbWrap, content);
+    grid.appendChild(card);
+  });
+}

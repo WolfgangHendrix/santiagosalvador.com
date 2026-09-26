@@ -9,11 +9,10 @@ const LabelsHub = (function() {
   let itemsPerPage = 32;
   let displayedCount = 0;
 
-  let gridEl, packsEl, consoleBtns, searchInput, loadMoreBtn;
+  let gridEl, consoleBtns, searchInput, loadMoreBtn;
 
   function init() {
     gridEl = document.getElementById('labels-grid');
-    packsEl = document.getElementById('label-packs-grid');
     consoleBtns = document.querySelectorAll('.label-filter-btn');
     searchInput = document.getElementById('label-search');
     loadMoreBtn = document.getElementById('label-load-more');
@@ -22,14 +21,12 @@ const LabelsHub = (function() {
 
     if (window.LABELS_DATA && window.LABELS_DATA.labels) {
       allLabels = window.LABELS_DATA.labels;
-      renderPacks(window.LABELS_DATA.packs || []);
       applyFilter();
     } else {
       fetch('assets/data/labels.json')
         .then(r => r.json())
         .then(data => {
           allLabels = data.labels || [];
-          renderPacks(data.packs || []);
           applyFilter();
         })
         .catch(err => console.error('Error loading labels:', err));
@@ -56,26 +53,6 @@ const LabelsHub = (function() {
         renderChunk();
       });
     }
-  }
-
-  function renderPacks(packs) {
-    if (!packsEl) return;
-    packsEl.innerHTML = packs.map(pack => `
-      <div class="pack-card">
-        <div>
-          <div class="pack-header">
-            <span class="badge badge-emerald">${pack.console}</span>
-            <span style="font-size:0.8rem;color:var(--text-muted);">${pack.size}</span>
-          </div>
-          <h3 class="pack-title">${pack.title}</h3>
-          <p class="pack-meta">Complete full collection (${pack.count} replacement labels) in 1-click zip</p>
-        </div>
-        <a href="${pack.url}" class="btn btn-emerald btn-sm" download onerror="if(!this.dataset.fb){this.dataset.fb='1';this.href='../'+'${pack.url}';}">
-          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
-          Download Pack
-        </a>
-      </div>
-    `).join('');
   }
 
   function applyFilter() {
@@ -152,7 +129,7 @@ const LabelsHub = (function() {
       infoWrap.innerHTML = `
         <span class="label-console-tag">${item.console}</span>
         <h4 class="label-title" title="${item.title}">${item.title}</h4>
-        <a href="${item.downloadUrl}" class="btn btn-emerald btn-sm label-dl-btn" download="${item.filename}" onerror="if(!this.dataset.fb){this.dataset.fb='1';this.href='../'+'${item.downloadUrl}';}">
+        <a href="${window.masterUrl(item.downloadUrl)}" class="btn btn-emerald btn-sm label-dl-btn" ${window.masterUrl(item.downloadUrl).startsWith('http') ? 'target="_blank" rel="noopener"' : `download="${item.filename}"`}>
           Download Free
         </a>
       `;
@@ -163,7 +140,7 @@ const LabelsHub = (function() {
       const openModal = () => {
         const lightboxItems = filteredLabels.map(l => ({
           title: l.title,
-          url: l.downloadUrl,
+          url: window.masterUrl(l.downloadUrl),
           console: l.console,
           filename: l.filename
         }));

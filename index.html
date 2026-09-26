@@ -88,12 +88,11 @@
         <li><a href="#music" class="nav-link">Music Lounge</a></li>
         <li><a href="#poetry" class="nav-link">Poetry</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-link">Commissions</a></li>
       </ul>
 
       <div class="nav-actions">
-        <a href="https://ko-fi.com/spacechakra" target="_blank" rel="noopener" class="btn btn-outline btn-sm" title="Drop a one-time tip on Ko-fi">☕ Tip Jar</a>
-        <a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="btn btn-emerald btn-sm" title="Support on Patreon">Patreon</a>
+        <a href="#contact" class="btn btn-primary btn-sm">Discuss a Commission</a>
       </div>
 
       <!-- Mobile Hamburger Button -->
@@ -111,11 +110,10 @@
         <li><a href="#music" class="mobile-nav-link">🎵 Music Lounge</a></li>
         <li><a href="#poetry" class="mobile-nav-link">📜 Poetry & Words</a></li>
         <li><a href="#about" class="mobile-nav-link">👤 About Santiago</a></li>
-        <li><a href="#contact" class="mobile-nav-link">✉️ Contact & Hire Me</a></li>
+        <li><a href="#contact" class="mobile-nav-link">✉️ Commissions & Contact</a></li>
       </ul>
       <div class="mobile-nav-actions">
-        <a href="https://ko-fi.com/spacechakra" target="_blank" rel="noopener" class="btn btn-outline btn-sm">☕ Tip Jar (Ko-fi)</a>
-        <a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="btn btn-emerald btn-sm">Patreon</a>
+        <a href="#contact" class="btn btn-primary btn-sm mobile-nav-link">Discuss a Commission</a>
       </div>
     </div>
   </nav>
@@ -167,7 +165,6 @@
     <div class="hero-footer-bar">
       <ul class="hero-socials">
         <li><a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener" class="hero-social-link" title="YouTube @spacechakra">▶</a></li>
-        <li><a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="hero-social-link" title="Patreon SpaceChakra">P</a></li>
         <li><a href="https://www.instagram.com/spacechakra/?hl=en" target="_blank" rel="noopener" class="hero-social-link" title="Instagram @spacechakra">📸</a></li>
         <li><a href="https://twitter.com/oWellWtvrNvrmnd" target="_blank" rel="noopener" class="hero-social-link" title="Twitter @oWellWtvrNvrmnd">𝕏</a></li>
         <li><a href="https://spacechakra.itch.io" target="_blank" rel="noopener" class="hero-social-link" title="itch.io">🎮</a></li>
@@ -210,7 +207,7 @@
           <a href="https://spacechakra.com" target="_blank" rel="noopener" class="btn btn-cyan btn-sm">
             SpaceChakra Game Studio ↗
           </a>
-          <a href="#contact" class="btn btn-primary btn-sm">Contact & Hire Me</a>
+          <a href="#contact" class="btn btn-primary btn-sm">Discuss a Commission</a>
         </div>
       </div>
     </div>
@@ -225,24 +222,23 @@
         <span class="section-tag">PORTFOLIO & CREATIONS</span>
         <h2 class="section-title">Original <span>Art Archive</span></h2>
         <p class="section-desc">
-          Over 596 paintings, dark art illustrations, custom Masters of the Universe figures, concept designs, and rare trading cards created across more than a decade of artistic exploration.
+          Begin with a small selection across illustration, custom figures, and game art. Explore the full original-art archive by category, or visit the separate cards and collectibles reference collection below.
         </p>
       </div>
 
       <!-- Controls: Categories & Search -->
       <div class="gallery-controls">
         <ul class="filter-pills">
-          <li><button class="filter-btn art-filter-btn active" data-filter="all">All Works (596)</button></li>
-          <li><button class="filter-btn art-filter-btn" data-filter="paintings">Paintings & Illustrations (350)</button></li>
-          <li><button class="filter-btn art-filter-btn" data-filter="figures">Custom Figures & MOTU (17)</button></li>
-          <li><button class="filter-btn art-filter-btn" data-filter="games">Game Art & Concepts (48)</button></li>
-          <li><button class="filter-btn art-filter-btn" data-filter="cards">Trading Cards (181)</button></li>
-          <li><button class="filter-btn art-filter-btn" data-filter="featured">Featured ⭐</button></li>
+          <li><button class="filter-btn art-filter-btn active" data-filter="featured" data-label="Selected Work" aria-pressed="true">Selected Work</button></li>
+          <li><button class="filter-btn art-filter-btn" data-filter="all" data-label="All Original Art" aria-pressed="false">All Original Art</button></li>
+          <li><button class="filter-btn art-filter-btn" data-filter="paintings" data-label="Paintings & Illustrations" aria-pressed="false">Paintings & Illustrations</button></li>
+          <li><button class="filter-btn art-filter-btn" data-filter="figures" data-label="Custom Figures" aria-pressed="false">Custom Figures</button></li>
+          <li><button class="filter-btn art-filter-btn" data-filter="games" data-label="Game Art & Concepts" aria-pressed="false">Game Art & Concepts</button></li>
         </ul>
 
         <div class="search-bar-wrap">
           <svg class="search-icon" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
-          <input type="text" id="art-search" class="search-input" placeholder="Search artwork by title (e.g. Hendrix, Dragon, Coraline, Solice)...">
+          <input type="search" id="art-search" class="search-input" aria-label="Search original art by title" placeholder="Search the original-art archive by title...">
         </div>
       </div>
 
@@ -254,6 +250,24 @@
       <div class="pagination-wrap">
         <button id="art-load-more" class="btn btn-outline">Load More Artworks</button>
       </div>
+      <p class="collection-crosslink">Looking for trading cards and other collectibles? <a href="#cards">Browse the reference collection</a>.</p>
+    </div>
+  </section>
+
+  <section class="section reference-section" id="cards">
+    <div class="container-wide">
+      <div class="section-header">
+        <span class="section-tag">REFERENCE COLLECTION</span>
+        <h2 class="section-title">Cards & <span>Collectibles</span></h2>
+        <p class="section-desc">A separate archive of collected and reference material. These images are not presented as original artwork unless an entry explicitly says so.</p>
+      </div>
+      <div class="gallery-controls">
+        <div class="search-bar-wrap">
+          <input type="search" id="cards-search" class="search-input" aria-label="Search cards and collectibles" placeholder="Search cards and collectibles by title...">
+        </div>
+      </div>
+      <div id="cards-grid" class="art-grid"></div>
+      <div class="pagination-wrap"><button id="cards-load-more" class="btn btn-outline">Load More Cards</button></div>
     </div>
   </section>
 
@@ -266,7 +280,7 @@
         <span class="section-tag emerald">RETRO GAMING RESTORATION</span>
         <h2 class="section-title emerald-grad">Free Game <span>Cartridge Labels</span></h2>
         <p class="section-desc">
-          High-resolution cartridge replacement labels remastered by Santiago Salvador, now <strong>100% free</strong> to the retro gaming preservation community. Browse by console, download individual labels, or grab the full console zip packs below.
+          Each of these cartridge labels is a remaster I drew and rebuilt myself, across more than five years. All <strong>1,306</strong> are free. Browse by console and download any label on its own.
         </p>
       </div>
 
@@ -281,9 +295,6 @@
         <div class="tip-buttons">
           <a href="https://ko-fi.com/spacechakra" target="_blank" rel="noopener" class="btn btn-primary" title="Drop a one-time tip on Ko-fi">
             ☕ Buy Me a Coffee / Tip Jar
-          </a>
-          <a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="btn btn-outline" title="Support indie games and projects monthly on Patreon">
-            ★ SpaceChakra Game Dev Patreon
           </a>
           <a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener" class="btn btn-outline">
             Subscribe on YouTube
@@ -301,16 +312,8 @@
         </a>
       </div>
 
-      <!-- 1-Click Console Download Packs -->
-      <h3 style="font-family:var(--font-heading);font-size:1.5rem;color:var(--text-bright);margin-bottom:20px;">
-        📦 1-Click Console Download Packs
-      </h3>
-      <div id="label-packs-grid" class="label-packs-grid">
-        <!-- Rendered via labels.js -->
-      </div>
-
       <!-- Label Gallery Filters & Search -->
-      <div class="gallery-controls" style="margin-top:40px;">
+      <div class="gallery-controls">
         <ul class="filter-pills">
           <li><button class="filter-btn label-filter-btn active" data-console="all">All Labels (1,306)</button></li>
           <li><button class="filter-btn label-filter-btn" data-console="snes">SNES (443)</button></li>
@@ -364,79 +367,7 @@
           </div>
         </div>
 
-        <div class="games-grid">
-          <!-- Game 1: Bone Cleaver -->
-          <div class="game-card">
-            <div class="game-thumb-wrap">
-              <span class="badge badge-gold game-badge">Top Played</span>
-              <img src="assets/images/games/bonecleaver/bone-cleaver-main-capsule.jpg" alt="Bone Cleaver" class="game-thumb">
-            </div>
-            <div class="game-content">
-              <h3 class="game-title">Bone Cleaver</h3>
-              <span class="game-genre">Hack & Slash / Arcade Action</span>
-              <p class="game-tagline">Hack, slash, and survive the ancient crypts with relentless arcade combat.</p>
-              <div class="game-actions">
-                <a href="https://bonecleaver.vercel.app/" target="_blank" rel="noopener" class="btn btn-cyan btn-sm" style="width:100%;">
-                  Play in Browser ↗
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Game 2: PLEX-78 -->
-          <div class="game-card">
-            <div class="game-thumb-wrap">
-              <span class="badge badge-cyan game-badge">CRT Retro</span>
-              <img src="assets/images/games/plex78/plex-78-main-capsule.jpg" alt="PLEX-78" class="game-thumb">
-            </div>
-            <div class="game-content">
-              <h3 class="game-title">PLEX-78</h3>
-              <span class="game-genre">Terminal Action / Bullet Hell</span>
-              <p class="game-tagline">Old CRT terminal aesthetics combined with chaotic modern browser combat.</p>
-              <div class="game-actions">
-                <a href="https://plex-78.vercel.app/" target="_blank" rel="noopener" class="btn btn-cyan btn-sm" style="width:100%;">
-                  Play in Browser ↗
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Game 3: Vector Interceptor 2600 -->
-          <div class="game-card">
-            <div class="game-thumb-wrap">
-              <span class="badge badge-purple game-badge">Vector Arcade</span>
-              <img src="assets/images/games/vectorinterceptor/vector-interceptor-2600-main-capsule.jpg" alt="Vector Interceptor 2600" class="game-thumb">
-            </div>
-            <div class="game-content">
-              <h3 class="game-title">Vector Interceptor 2600</h3>
-              <span class="game-genre">Arcade / Missile Defense</span>
-              <p class="game-tagline">Defend cities on a razor-sharp neon vector grid. Love letter to classic arcades.</p>
-              <div class="game-actions">
-                <a href="https://missilecommand-tds.vercel.app/" target="_blank" rel="noopener" class="btn btn-cyan btn-sm" style="width:100%;">
-                  Play in Browser ↗
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Game 4: Road Trip Racer -->
-          <div class="game-card">
-            <div class="game-thumb-wrap">
-              <span class="badge badge-emerald game-badge">Cozy Physics</span>
-              <img src="assets/images/games/roadtripracer/road-trip-racer-main-capsule.jpg" alt="Road Trip Racer" class="game-thumb">
-            </div>
-            <div class="game-content">
-              <h3 class="game-title">Road Trip Racer</h3>
-              <span class="game-genre">Physics Racer / Casual</span>
-              <p class="game-tagline">Two pedals, candy-colored hills, gas stations, snack stops, and big adventures.</p>
-              <div class="game-actions">
-                <a href="https://road-trip-racer.vercel.app/hcrr.html" target="_blank" rel="noopener" class="btn btn-cyan btn-sm" style="width:100%;">
-                  Play in Browser ↗
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="games-grid" id="games-grid"></div>
       </div>
     </div>
   </section>
@@ -514,9 +445,7 @@
             Whether hand-restoring classic cartridge labels so vintage games stay alive for future generations, composing chiptunes and acoustic scores, or building interactive web experiences for SpaceChakra, I believe in making things with heart and sharing them with the community.
           </p>
           <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
-            <a href="#contact" class="btn btn-primary">Hire / Contact Me</a>
-            <a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="btn btn-outline">Join on Patreon</a>
-            <a href="https://ko-fi.com/spacechakra" target="_blank" rel="noopener" class="btn btn-outline">☕ Buy Me a Coffee</a>
+            <a href="#contact" class="btn btn-primary">Discuss a Commission</a>
             <a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener" class="btn btn-outline">YouTube Channel</a>
           </div>
         </div>
@@ -539,14 +468,17 @@
   <section class="contact-section" id="contact">
     <div class="container">
       <div class="contact-card">
-        <span class="section-tag">GET IN TOUCH</span>
-        <h2 class="contact-title">Let's Create <span>Something Exceptional</span></h2>
+        <span class="section-tag">COMMISSIONS & CONTACT</span>
+        <h2 class="contact-title">Let's Make <span>Something Together</span></h2>
         <p class="contact-lead">
-          I am actively seeking game development roles, freelance technical contracts, sound design opportunities, and art commissions. Based in California, available worldwide for remote collaborations.
+          I welcome inquiries about original artwork, custom figures, game art, music and sound, and retro game label restoration or custom design. Tell me what you have in mind, your timeline, and any reference images. I also welcome game development roles and technical collaborations.
         </p>
-
+        <div class="commission-form-prompt">
+          <p id="commission-form-status">Email a short brief: the kind of work, what you need, your timeline, and any references. I reply by email.</p>
+          <a id="commission-form-link" class="btn btn-primary" href="#" target="_blank" rel="noopener" hidden>Send a Commission Brief ↗</a>
+        </div>
         <div class="contact-methods">
-          <a href="mailto:salvsantiago@gmail.com" class="contact-email-btn">
+          <a href="mailto:salvsantiago@gmail.com?subject=Commission%20inquiry&amp;body=Name%3A%0AProject%20type%3A%0AWhat%20you%20need%3A%0ATimeline%3A%0AReference%20links%3A%0A" class="contact-email-btn">
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.809-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
             salvsantiago@gmail.com
           </a>
@@ -564,12 +496,6 @@
           </a>
           <a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener" class="contact-social-chip">
             ▶ YouTube @spacechakra
-          </a>
-          <a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="contact-social-chip">
-            ★ Patreon
-          </a>
-          <a href="https://ko-fi.com/spacechakra" target="_blank" rel="noopener" class="contact-social-chip">
-            ☕ Ko-fi Tip Jar
           </a>
           <a href="https://twitter.com/oWellWtvrNvrmnd" target="_blank" rel="noopener" class="contact-social-chip">
             𝕏 Twitter / X
@@ -591,7 +517,7 @@
       <a href="#hero" class="footer-logo">Santiago Salvador</a>
       <ul class="footer-socials">
         <li><a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener" class="hero-social-link">▶</a></li>
-        <li><a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="hero-social-link">P</a></li>
+        <li><a href="https://patreon.com/spacechakra" target="_blank" rel="noopener" class="hero-social-link" aria-label="Support SpaceChakra game development and source code on Patreon">P</a></li>
         <li><a href="https://www.instagram.com/spacechakra/?hl=en" target="_blank" rel="noopener" class="hero-social-link">📸</a></li>
         <li><a href="https://twitter.com/oWellWtvrNvrmnd" target="_blank" rel="noopener" class="hero-social-link">𝕏</a></li>
         <li><a href="https://spacechakra.itch.io" target="_blank" rel="noopener" class="hero-social-link">🎮</a></li>
@@ -690,10 +616,12 @@
   <script src="assets/data/games.js"></script>
 
   <!-- Controllers -->
+  <script src="assets/js/hosts.js"></script>
   <script src="assets/js/lightbox.js"></script>
   <script src="assets/js/gallery.js"></script>
   <script src="assets/js/labels.js"></script>
   <script src="assets/js/player.js"></script>
+  <script src="assets/js/commission.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
 </html>
