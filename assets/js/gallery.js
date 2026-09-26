@@ -142,15 +142,17 @@ const ArtGallery = (function() {
     };
   }
 
-  function init() {
+  function init(options = {}) {
     const portfolio = createGallery({
       gridId: 'art-grid', searchId: 'art-search', moreId: 'art-load-more',
-      filterSelector: '.art-filter-btn', initialFilter: 'featured'
+      filterSelector: '.art-filter-btn', initialFilter: options.initialFilter || 'featured'
     });
     const useData = data => {
       portfolio.setItems(data.filter(item => item.category !== 'cards'));
     };
-    if (Array.isArray(window.ARTWORKS_DATA)) {
+    if (Array.isArray(options.items)) {
+      useData(options.items);
+    } else if (Array.isArray(window.ARTWORKS_DATA)) {
       useData(window.ARTWORKS_DATA);
     } else {
       fetch('assets/data/artworks.json').then(response => response.json()).then(useData)

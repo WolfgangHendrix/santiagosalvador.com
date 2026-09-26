@@ -216,3 +216,12 @@ function renderGames() {
     grid.appendChild(card);
   });
 }
+
+// Unlisted personal archive shortcut. This is navigation, not access control.
+document.addEventListener('keydown', event => {
+  if (event.repeat || event.target.closest('input, textarea, select, [contenteditable]')) return;
+  if (event.altKey && event.shiftKey && !event.ctrlKey && !event.metaKey && event.code === 'KeyM') {
+    event.preventDefault();
+    window.location.assign('marvel-archive.html');
+  }
+});

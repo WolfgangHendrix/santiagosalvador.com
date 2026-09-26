@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noimageindex">
+  <title>Marvel Card Archive | Santiago Salvador</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+  <link rel="stylesheet" href="assets/css/lightbox.css">
+</head>
+<body>
+  <main class="section">
+    <div class="container-wide">
+      <a class="btn btn-outline btn-sm" href="./">Back to portfolio</a>
+      <div class="section-header">
+        <span class="section-tag">PERSONAL COLLECTION</span>
+        <h1 class="section-title">Marvel <span>Card Archive</span></h1>
+        <p class="section-desc">Marvel Universe Series 1 trading cards and card sheets from my personal collection.</p>
+      </div>
+      <div class="gallery-controls">
+        <ul class="filter-pills">
+          <li><button class="filter-btn art-filter-btn active" data-filter="all" data-label="All Cards & Sheets" aria-pressed="true">All Cards & Sheets</button></li>
+        </ul>
+        <div class="search-bar-wrap">
+          <input type="search" id="art-search" class="search-input" aria-label="Search Marvel cards" placeholder="Search by card number or title...">
+        </div>
+      </div>
+      <div id="art-grid" class="art-grid"></div>
+      <div class="pagination-wrap"><button id="art-load-more" class="btn btn-outline">Load More Cards</button></div>
+      <noscript>Enable JavaScript to browse the card archive.</noscript>
+    </div>
+  </main>
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true">
+    <button class="lightbox-btn lightbox-btn-close" aria-label="Close">✕</button>
+    <button class="lightbox-btn lightbox-btn-prev" aria-label="Previous">❮</button>
+    <button class="lightbox-btn lightbox-btn-next" aria-label="Next">❯</button>
+
+    <div class="lightbox-content">
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" class="lightbox-img">
+      </div>
+      <div class="lightbox-caption">
+        <div>
+          <h3 class="lightbox-title">Artwork Title</h3>
+          <span class="badge badge-gold lightbox-meta" style="margin-top:4px;">Category</span>
+        </div>
+        <div class="lightbox-actions">
+          <a href="" class="btn btn-primary btn-sm lightbox-btn-dl" download>
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
+            Download High-Res Master
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/data/marvel-archive.js"></script>
+  <script src="assets/js/hosts.js"></script>
+  <script src="assets/js/lightbox.js"></script>
+  <script src="assets/js/gallery.js"></script>
+  <script>
+    Lightbox.init();
+    ArtGallery.init({ items: window.MARVEL_ARCHIVE_DATA, initialFilter: 'all' });
+  </script>
+</body>
+</html>

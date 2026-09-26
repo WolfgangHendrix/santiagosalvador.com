@@ -35,7 +35,7 @@ def main():
         shutil.rmtree(SITE)
     SITE.mkdir()
 
-    for name in ("index.html", "favicon.ico", "santiago-salvador-stained-glass-background.mp4"):
+    for name in ("index.html", "marvel-archive.html", "favicon.ico", "santiago-salvador-stained-glass-background.mp4"):
         copy_rel(name)
 
     for path in (ROOT / "assets").rglob("*"):
@@ -44,6 +44,13 @@ def main():
 
     art = load_js_or_json(ROOT / "assets" / "data" / "artworks.js")
     for item in art:
+        copy_rel(item.get("thumb") or item["url"])
+
+    # Only the Marvel subfolder belongs in the unlisted personal archive.
+    marvel = load_js_or_json(ROOT / "assets" / "data" / "marvel-archive.js")
+    for item in marvel:
+        if not item["url"].startswith("Art/Cards_Collectibles/Marvel_Universe_Series_1/"):
+            raise ValueError("Non-Marvel image in the personal archive")
         copy_rel(item.get("thumb") or item["url"])
 
     music = load_js_or_json(ROOT / "assets" / "data" / "music.js")
