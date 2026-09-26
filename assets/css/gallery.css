@@ -78,14 +78,6 @@
   margin-bottom: 50px;
 }
 
-.collection-crosslink {
-  text-align: center;
-  color: var(--text-secondary);
-  margin-top: 16px;
-}
-.collection-crosslink a { color: var(--accent-gold); }
-.reference-section { background: #07090d; }
-.reference-section .art-card-overlay { opacity: 1; }
 .pagination-wrap [hidden] { display: none; }
 
 .art-card {

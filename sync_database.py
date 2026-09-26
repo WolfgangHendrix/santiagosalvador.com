@@ -130,8 +130,7 @@ def sync():
     categories = [
         ("Paintings_Illustrations", "paintings", "Paintings & Illustrations"),
         ("Custom_Figures_Toys", "figures", "Custom Figures & MOTU"),
-        ("Game_Art_Screenshots", "games", "Game Art & Concepts"),
-        ("Cards_Collectibles", "cards", "Trading Cards")
+        ("Game_Art_Screenshots", "games", "Game Art & Concepts")
     ]
 
     artworks = []
@@ -199,7 +198,7 @@ def sync():
 
     print(f"[+] Artworks indexed: {len(artworks)} total")
     for category, label in [('paintings', 'Paintings & Illustrations'), ('figures', 'Custom Figures'),
-                            ('games', 'Game Art & Concepts'), ('cards', 'Cards & Collectibles')]:
+                            ('games', 'Game Art & Concepts')]:
         print(f"    - {label}: {sum(item['category'] == category for item in artworks)}")
 
     # 3. SCAN MUSIC DIRECTORY

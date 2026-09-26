@@ -1,4 +1,4 @@
-/** Art portfolio and separate cards reference collection. */
+/** Original art portfolio. */
 const ArtGallery = (function() {
   const PAGE_SIZE = 36;
 
@@ -147,13 +147,8 @@ const ArtGallery = (function() {
       gridId: 'art-grid', searchId: 'art-search', moreId: 'art-load-more',
       filterSelector: '.art-filter-btn', initialFilter: 'featured'
     });
-    const cards = createGallery({
-      gridId: 'cards-grid', searchId: 'cards-search', moreId: 'cards-load-more',
-      filterSelector: '.cards-filter-btn', initialFilter: 'all'
-    });
     const useData = data => {
       portfolio.setItems(data.filter(item => item.category !== 'cards'));
-      cards.setItems(data.filter(item => item.category === 'cards'));
     };
     if (Array.isArray(window.ARTWORKS_DATA)) {
       useData(window.ARTWORKS_DATA);
