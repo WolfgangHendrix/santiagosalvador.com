@@ -218,10 +218,32 @@ function renderGames() {
 }
 
 // Unlisted personal archive shortcut. This is navigation, not access control.
+let archiveKeys = '';
+let archiveKeyTime = 0;
 document.addEventListener('keydown', event => {
-  if (event.repeat || event.target.closest('input, textarea, select, [contenteditable]')) return;
-  if (event.altKey && event.shiftKey && !event.ctrlKey && !event.metaKey && event.code === 'KeyM') {
+  if (event.repeat || event.isComposing) return;
+  const key = event.key.toLowerCase();
+  const isM = event.code === 'KeyM' || key === 'm';
+  if (event.altKey && event.shiftKey && !event.ctrlKey && !event.metaKey && isM) {
     event.preventDefault();
+    window.location.assign('marvel-archive.html');
+    return;
+  }
+
+  // A modifier-free fallback for browsers or systems that intercept Alt+Shift.
+  const target = event.target;
+  const editing = target instanceof Element &&
+    (target.closest('input, textarea, select, [role="textbox"]') || target.isContentEditable);
+  if (editing || event.altKey || event.ctrlKey || event.metaKey || key.length !== 1) {
+    archiveKeys = '';
+    return;
+  }
+  const now = Date.now();
+  archiveKeys = (now - archiveKeyTime > 2000 ? '' : archiveKeys) + key;
+  archiveKeys = archiveKeys.slice(-6);
+  archiveKeyTime = now;
+  if (archiveKeys === 'marvel') {
+    archiveKeys = '';
     window.location.assign('marvel-archive.html');
   }
 });
