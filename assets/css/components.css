@@ -174,6 +174,7 @@
   min-height: 600px;
   overflow: hidden;
   display: block;
+  background: #050507;
 }
 
 .prints-grid {
@@ -204,37 +205,6 @@
 .prints-actions { text-align: center; }
 @media (max-width: 1000px) { .prints-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 540px) { .prints-grid { grid-template-columns: 1fr; } }
-
-.video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  overflow: hidden;
-}
-.video-container video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center center;
-}
-.color-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(6, 7, 9, 0.58);
-  z-index: 2;
-}
 
 /* 1. Dead-Center Rosette Avatar: Anchored at exact (50%, 50%) */
 .hero-avatar-wrap {
@@ -382,36 +352,6 @@
   animation: bounce 2s infinite;
 }
 .scroll-indicator:hover { color: var(--accent-gold); }
-
-.video-controls-wrap {
-  position: absolute;
-  bottom: 24px;
-  right: 24px;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.video-ctrl-btn {
-  background: rgba(10, 11, 16, 0.7);
-  border: 1px solid var(--border-subtle);
-  color: var(--text-secondary);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: var(--transition-fast);
-  backdrop-filter: blur(8px);
-}
-.video-ctrl-btn:hover {
-  color: var(--accent-gold);
-  border-color: var(--accent-gold);
-  transform: scale(1.08);
-}
-
 
 /* Responsive Adjustments for Mobile / Small Displays */
 @media (max-width: 768px), (max-height: 720px) {
@@ -1206,16 +1146,6 @@
     left: 8px;
     width: auto;
     bottom: 66px;
-  }
-
-  /* Video controls on mobile */
-  .video-controls-wrap {
-    bottom: 78px;
-    right: 12px;
-  }
-  .video-ctrl-btn {
-    width: 36px;
-    height: 36px;
   }
 }
 

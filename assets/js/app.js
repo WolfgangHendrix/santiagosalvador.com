@@ -44,35 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 4. Hero Video Controls & Reduced Motion
-  const heroVideo = document.getElementById('hero-video');
-  const videoPlayBtn = document.getElementById('video-play-btn');
-
-  if (heroVideo && videoPlayBtn) {
-    const updatePlayBtn = (paused) => {
-      videoPlayBtn.setAttribute('title', paused ? 'Play Background Video' : 'Pause Background Video');
-      videoPlayBtn.setAttribute('aria-label', paused ? 'Play Background Video' : 'Pause Background Video');
-      videoPlayBtn.innerHTML = paused ? 
-        '<svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>' :
-        '<svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/></svg>';
-    };
-
-    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      heroVideo.pause();
-      updatePlayBtn(true);
-    }
-
-    videoPlayBtn.addEventListener('click', () => {
-      if (heroVideo.paused) {
-        heroVideo.play().then(() => updatePlayBtn(false)).catch(e => console.log('Video play error:', e));
-      } else {
-        heroVideo.pause();
-        updatePlayBtn(true);
-      }
-    });
-  }
-
-  // 5. Poetry Tab Switcher
+  // 4. Poetry Tab Switcher
   const poemTabs = document.querySelectorAll('.poetry-tab-btn');
   const poemTitle = document.getElementById('active-poem-title');
   const poemBody = document.getElementById('active-poem-body');
