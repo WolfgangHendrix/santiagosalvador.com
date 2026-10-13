@@ -67,7 +67,7 @@ def main():
         shutil.rmtree(SITE)
     SITE.mkdir()
 
-    for name in ("index.html", "marvel-archive.html", "favicon.ico", "santiago-salvador-stained-glass-background.mp4", "santiago-salvador-stained-glass-background-mobile.mp4"):
+    for name in ("index.html", "marvel-archive.html", "favicon.ico"):
         copy_rel(name)
 
     for path in (ROOT / "assets").rglob("*"):
