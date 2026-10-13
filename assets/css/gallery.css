@@ -73,16 +73,15 @@
    MASONRY ART GALLERY GRID
    ========================================================================== */
 .art-grid {
-  columns: 4 280px;
-  column-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
   margin-bottom: 50px;
 }
 
 .pagination-wrap [hidden] { display: none; }
 
 .art-card {
-  break-inside: avoid;
-  margin-bottom: 20px;
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
@@ -99,7 +98,8 @@
 
 .art-card-img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   display: block;
   transition: var(--transition-normal);
   background: #0a0b10;
@@ -257,7 +257,7 @@
    EMPTY SEARCH & FILTER STATES
    ========================================================================== */
 .empty-state {
-  column-span: all;
+  grid-column: 1 / -1;
   text-align: center;
   padding: 60px 24px;
   background: var(--bg-card);
