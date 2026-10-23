@@ -3,12 +3,16 @@
  */
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Initialize Lightbox
-  Lightbox.init();
+  // Each page loads only the scripts for its own section.
+  if (window.Lightbox) Lightbox.init();
 
   // 2. Initialize Galleries & Music
-  ArtGallery.init();
-  LabelsHub.init();
-  MusicPlayer.init();
+  if (window.ArtGallery) ArtGallery.init();
+  if (window.LabelsHub) LabelsHub.init();
+  if (window.MusicPlayer) {
+    MusicPlayer.init();
+    renderTrackList();
+  }
   renderGames();
 
   // 3. Navbar scroll effect & Mobile Menu
@@ -116,6 +120,24 @@ devils do develop deep despair.`
 
   console.log('SantiagoSalvador.com loaded successfully.');
 });
+
+function renderTrackList() {
+  const list = document.getElementById('track-list');
+  const tracks = window.MUSIC_DATA;
+  if (!list || !Array.isArray(tracks)) return;
+  tracks.forEach((track, i) => {
+    const item = document.createElement('li');
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'track-btn';
+    btn.innerHTML = `<span class="track-no">${String(i + 1).padStart(2, '0')}</span><span class="track-title"></span><span class="track-album"></span>`;
+    btn.querySelector('.track-title').textContent = track.title;
+    btn.querySelector('.track-album').textContent = track.album || '';
+    btn.addEventListener('click', () => MusicPlayer.loadTrack(i));
+    item.appendChild(btn);
+    list.appendChild(item);
+  });
+}
 
 function renderGames() {
   const grid = document.getElementById('games-grid');

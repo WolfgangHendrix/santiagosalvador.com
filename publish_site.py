@@ -8,6 +8,7 @@ from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parent
 SITE = ROOT / "_site"
+PAGES = ("art.html", "games.html", "music.html", "words.html", "shop.html", "labels.html")
 
 
 def publish_thumbnail(rel):
@@ -41,7 +42,7 @@ def publish_thumbnails(items, field):
 
 
 def copy_rel(rel):
-    rel = str(rel).replace("\\", "/").split("?", 1)[0]
+    rel = re.split(r"[?#]", str(rel).replace("\\", "/"), maxsplit=1)[0]
     if not rel or rel.startswith(("#", "mailto:", "http://", "https://", "data:")):
         return
     src = ROOT / rel
@@ -67,7 +68,7 @@ def main():
         shutil.rmtree(SITE)
     SITE.mkdir()
 
-    for name in ("index.html", "marvel-archive.html", "favicon.ico"):
+    for name in ("index.html", *PAGES, "marvel-archive.html", "favicon.ico"):
         copy_rel(name)
 
     for path in (ROOT / "assets").rglob("*"):
@@ -97,9 +98,10 @@ def main():
     publish_thumbnails(labels["labels"], "thumbUrl")
     publish_catalog("labels", "LABELS_DATA", labels)
 
-    html = (ROOT / "index.html").read_text(encoding="utf-8")
-    for match in re.findall(r'(?:src|href)="([^"]+)"', html):
-        copy_rel(match)
+    for page in ("index.html", *PAGES):
+        html = (ROOT / page).read_text(encoding="utf-8")
+        for match in re.findall(r'(?:src|href)="([^"]+)"', html):
+            copy_rel(match)
 
     total = sum(path.stat().st_size for path in SITE.rglob("*") if path.is_file())
     files = sum(1 for path in SITE.rglob("*") if path.is_file())

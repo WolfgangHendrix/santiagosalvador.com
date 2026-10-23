@@ -28,6 +28,11 @@ const MusicPlayer = (function() {
 
     if (!playBtn) return;
 
+    // The bar stays hidden until something actually plays.
+    audio.addEventListener('play', () => {
+      document.getElementById('music-player-bar')?.classList.add('is-active');
+    });
+
     if (window.MUSIC_DATA && Array.isArray(window.MUSIC_DATA) && window.MUSIC_DATA.length > 0) {
       playlist = window.MUSIC_DATA;
       loadTrack(0, false);
@@ -201,7 +206,7 @@ const MusicPlayer = (function() {
     });
   }
 
-  return { init, togglePlay };
+  return { init, togglePlay, loadTrack };
 })();
 
 if (typeof window !== 'undefined') {
