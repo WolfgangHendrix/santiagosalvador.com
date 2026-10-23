@@ -1,31 +1,61 @@
-/* Collage home: a paper "cover" band above the dark archive sections */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,800;1,9..144,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
+/* Collage identity: black ground, bone-white type, Fraunces display + Plex Mono labels,
+   one burnt-orange accent. Loaded last so it restyles the archive sections too. */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,800;1,9..144,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
 :root {
-  --paper: #efe9df;
-  --paper-ink: #1b1a17;
-  --paper-muted: #5f5a52;
+  --ink: #0b0b0c;
+  --ink-raised: #151517;
+  --bone: #efe9df;
+  --bone-muted: #a39d93;
+  --rule: #2a2927;
+  --orange: #e2541b;
   --font-display: 'Fraunces', Georgia, serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* Re-point the old site's tokens at the new palette */
+  --bg-black: var(--ink);
+  --bg-deep: var(--ink);
+  --bg-card: var(--ink-raised);
+  --bg-card-hover: #1c1c1f;
+  --bg-glass: rgba(11, 11, 12, 0.92);
+  --border-subtle: var(--rule);
+  --border-light: #3a3936;
+  --border-gold: var(--orange);
+  --accent-gold: var(--orange);
+  --accent-gold-hover: #f06a33;
+  --accent-gold-glow: transparent;
+  --accent-cyan: var(--bone);
+  --accent-cyan-glow: transparent;
+  --accent-purple: var(--orange);
+  --accent-emerald: var(--orange);
+  --text-primary: var(--bone);
+  --text-secondary: var(--bone-muted);
+  --text-bright: var(--bone);
+  --font-heading: var(--font-display);
+  --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+  --radius-sm: 3px;
+  --radius-md: 3px;
+  --radius-lg: 4px;
+  --shadow-gold: none;
+  --shadow-cyan: none;
 }
 
-.collage-home {
-  background: var(--paper);
-  color: var(--paper-ink);
-  padding-block: 112px 40px;
-}
+body { background: var(--ink); color: var(--bone); }
+
+/* ---------- Collage home ---------- */
+.collage-home { background: var(--ink); color: var(--bone); padding-block: 112px 40px; }
 
 .collage-name {
   font: 800 clamp(48px, 9vw, 120px)/0.88 var(--font-display);
   letter-spacing: -0.02em;
-  color: var(--paper-ink);
+  color: var(--bone);
 }
 
 .collage-lead {
   font: italic 400 clamp(17px, 2vw, 21px)/1.45 var(--font-display);
   max-width: 48ch;
   margin-block: 14px 28px;
-  color: var(--paper-muted);
+  color: var(--bone-muted);
 }
 
 .collage-grid {
@@ -40,7 +70,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 3px;
-  background: var(--paper-ink);
+  background: var(--ink-raised);
   color: #fff;
   text-decoration: none;
   display: flex;
@@ -50,23 +80,19 @@
   transition: transform 0.18s ease;
 }
 .tile:hover, .tile:focus-visible { transform: rotate(-1deg) scale(1.02); z-index: 1; }
-.tile:focus-visible { outline: 3px solid var(--paper-ink); outline-offset: 3px; }
+.tile:focus-visible { outline: 3px solid var(--bone); outline-offset: 3px; }
 .tile.w2 { grid-column: span 2; }
 .tile.h2 { grid-row: span 2; }
 
-.tile img {
+.tile img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.tile:has(img)::after {
+  content: '';
   position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  inset: 40% 0 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
 }
 
-.tile-label {
-  position: relative;
-  font: 800 18px/1.1 var(--font-display);
-  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.7);
-}
+.tile-label { position: relative; z-index: 1; font: 800 18px/1.1 var(--font-display); text-shadow: 0 1px 8px rgba(0, 0, 0, 0.7); }
 .tile small {
   display: block;
   font: 500 11px var(--font-mono);
@@ -76,8 +102,8 @@
 }
 
 .tile-quote { font: italic 400 clamp(18px, 2vw, 24px)/1.25 var(--font-display); margin-bottom: 8px; }
-.tile-poem { background: #fffaf0; color: var(--paper-ink); border: 1px solid var(--paper-ink); justify-content: center; }
-.tile-shop { background: #c2410c; justify-content: center; }
+.tile-poem { background: var(--bone); color: var(--ink); justify-content: center; }
+.tile-shop { background: var(--orange); justify-content: center; }
 .tile-shop .tile-quote { font-style: normal; font-weight: 800; font-size: clamp(26px, 3vw, 36px); }
 .tile-labels { background: #0f766e; }
 .tile-labels .tile-quote { font-style: normal; font-weight: 800; font-size: 40px; margin-bottom: 0; }
@@ -92,21 +118,63 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
-.collage-socials a { color: var(--paper-ink); text-decoration: none; border-bottom: 1px solid currentColor; }
+.collage-socials a { color: var(--bone); text-decoration: none; border-bottom: 1px solid currentColor; }
 
-/* Nav sits on the paper band until it scrolls into the dark archive */
-.navbar:not(.scrolled) .nav-title,
-.navbar:not(.scrolled) .menu-toggle { color: var(--paper-ink); }
-.navbar:not(.scrolled) .nav-link { color: var(--paper-muted); }
-.navbar:not(.scrolled) .nav-link:hover { color: var(--paper-ink); }
+/* ---------- Archive sections restyled to match ---------- */
+#labels, #music, #about, .section, .contact-section { background: var(--ink) !important; border-top: 1px solid var(--rule); }
 
-.tile:has(img)::after {
-  content: '';
-  position: absolute;
-  inset: 40% 0 0;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+.section-header { text-align: left; max-width: 760px; margin: 0 0 40px; }
+.section-tag,
+.section-tag.cyan, .section-tag.emerald, .section-tag.purple {
+  background: none;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  color: var(--orange);
+  font: 500 12px var(--font-mono);
+  letter-spacing: 0.1em;
 }
-.tile-label { z-index: 1; }
+.section-title { font: 800 clamp(34px, 5vw, 60px)/1 var(--font-display); letter-spacing: -0.02em; }
+.section-title span,
+.section-title.cyan-grad span,
+.section-title.emerald-grad span {
+  background: none;
+  -webkit-text-fill-color: currentColor;
+  color: var(--bone);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.btn { border-radius: 3px; box-shadow: none !important; font-family: var(--font-body); }
+.btn-primary, .btn-emerald, .btn-cyan { background: var(--orange); color: #fff; border: 1px solid var(--orange); }
+.btn-primary:hover, .btn-emerald:hover, .btn-cyan:hover { background: var(--bone); color: var(--ink); border-color: var(--bone); transform: none; }
+.btn-outline { border: 1px solid var(--bone); color: var(--bone); background: transparent; }
+.btn-outline:hover { background: var(--bone); color: var(--ink); }
+.label-dl-btn { background: transparent !important; color: var(--bone) !important; border: 1px solid var(--rule) !important; }
+.label-dl-btn:hover { border-color: var(--orange) !important; color: var(--orange) !important; }
+
+.filter-btn, .art-filter-btn, .label-filter-btn, .poetry-tab-btn, .contact-social-chip {
+  border-radius: 3px !important;
+  font-family: var(--font-mono) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 12px !important;
+  box-shadow: none !important;
+}
+.filter-btn.active, .art-filter-btn.active, .label-filter-btn.active, .poetry-tab-btn.active {
+  background: var(--bone) !important;
+  color: var(--ink) !important;
+  border-color: var(--bone) !important;
+}
+
+.badge { border-radius: 2px; font-family: var(--font-mono); background: var(--rule) !important; color: var(--bone) !important; }
+.search-input { border-radius: 3px !important; background: var(--ink-raised) !important; border-color: var(--rule) !important; }
+
+/* Kill the old glow/gradient flourishes */
+[class*="card"], [class*="banner"] { box-shadow: none !important; border-radius: 4px !important; }
+.nav-avatar { box-shadow: none; border-color: var(--bone); }
+.nav-title { font-family: var(--font-display); font-weight: 800; font-size: 1.35rem; }
+.poem-title { font-family: var(--font-display); }
 
 .lightbox-btn-shop[hidden] { display: none !important; }
 
