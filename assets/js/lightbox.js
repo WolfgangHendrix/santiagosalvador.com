@@ -2,7 +2,7 @@
  * Zero-dependency Modern Lightbox Modal
  */
 const Lightbox = (function() {
-  let modal, img, titleEl, metaEl, dlBtn, lastFocusedEl;
+  let modal, img, titleEl, metaEl, dlBtn, shopBtn, lastFocusedEl;
   let items = [];
   let currentIndex = 0;
   let touchStartX = 0;
@@ -15,6 +15,7 @@ const Lightbox = (function() {
     titleEl = modal.querySelector('.lightbox-title');
     metaEl = modal.querySelector('.lightbox-meta');
     dlBtn = modal.querySelector('.lightbox-btn-dl');
+    shopBtn = modal.querySelector('.lightbox-btn-shop');
 
     const closeBtn = modal.querySelector('.lightbox-btn-close');
     closeBtn.addEventListener('click', close);
@@ -115,6 +116,8 @@ const Lightbox = (function() {
         dlBtn.download = item.filename || '';
       }
     }
+    // Only original paintings are listed on Redbubble.
+    if (shopBtn) shopBtn.hidden = item.category !== 'paintings';
   }
 
   function prev() {

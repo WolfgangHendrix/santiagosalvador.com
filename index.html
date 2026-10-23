@@ -68,6 +68,7 @@
   <link rel="stylesheet" href="assets/css/components.css">
   <link rel="stylesheet" href="assets/css/gallery.css">
   <link rel="stylesheet" href="assets/css/lightbox.css">
+  <link rel="stylesheet" href="assets/css/home.css">
 </head>
 <body>
 
@@ -83,7 +84,7 @@
 
       <ul class="nav-links">
         <li><a href="#gallery" class="nav-link">Art Gallery</a></li>
-        <li><a href="#prints" class="nav-link">Prints</a></li>
+        <li><a href="#prints" class="nav-link">Shop</a></li>
         <li><a href="#labels" class="nav-link">Free Game Labels</a></li>
         <li><a href="#spacechakra" class="nav-link">SpaceChakra Games</a></li>
         <li><a href="#music" class="nav-link">Music Lounge</a></li>
@@ -93,7 +94,7 @@
       </ul>
 
       <div class="nav-actions">
-        <a href="#contact" class="btn btn-primary btn-sm">Discuss a Commission</a>
+        <a href="https://www.redbubble.com/people/playatech/shop" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Shop the Art</a>
       </div>
 
       <!-- Mobile Hamburger Button -->
@@ -106,7 +107,7 @@
     <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
       <ul class="mobile-nav-links">
         <li><a href="#gallery" class="mobile-nav-link">🎨 Art Gallery</a></li>
-        <li><a href="#prints" class="mobile-nav-link">Studio Prints</a></li>
+        <li><a href="#prints" class="mobile-nav-link">Shop</a></li>
         <li><a href="#labels" class="mobile-nav-link">🏷️ Free Game Labels</a></li>
         <li><a href="#spacechakra" class="mobile-nav-link">🎮 SpaceChakra Games</a></li>
         <li><a href="#music" class="mobile-nav-link">🎵 Music Lounge</a></li>
@@ -121,75 +122,36 @@
   </nav>
 
   <!-- ========================================================================
-       HERO SECTION (Atmospheric Video Header with Centered Rosette Alignment)
+       COLLAGE HOME: one tile per medium, sized by how much it matters
        ======================================================================== -->
-  <header class="hero-section" id="hero">
-    <!-- Top Block: Title & Tagline sitting gracefully above the rosette circle -->
-    <div class="hero-top-block">
-      <h1 class="hero-title">Santiago Salvador</h1>
-      <p class="hero-tagline">Creator & Arranger of Art, Music, Words and Programs</p>
-    </div>
-
-    <!-- Dead Center Rosette: Circular Avatar anchored at 50% 50% matching video aperture -->
-    <div class="hero-avatar-wrap">
-      <a href="#gallery" class="hero-avatar-link" title="Enter Portfolio">
-        <img src="images/santiago-salvador-portrait.webp" alt="Santiago Salvador Avatar" class="hero-avatar">
-      </a>
-    </div>
-
-    <!-- Bottom Block: Buttons sitting gracefully below the rosette circle -->
-    <div class="hero-bottom-block">
-      <div class="hero-buttons">
-        <a href="#gallery" class="btn btn-primary">
-          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/><path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/></svg>
-          Explore Art Gallery
-        </a>
-        <a href="#labels" class="btn btn-emerald">
-          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
-          Free Game Labels
-        </a>
+  <header class="collage-home" id="hero">
+    <div class="container-wide">
+      <h1 class="collage-name">Santiago<br>Salvador</h1>
+      <p class="collage-lead">I paint, program, compose, and write. Mostly I make the things I can't find anywhere else.</p>
+      <div class="collage-grid">
+        <a class="tile w2 h2" href="#gallery"><img src="Art/thumbs/Paintings_Illustrations/dancing-dragon-artwork-santiago-salvador.jpg" alt="Dancing Dragon painting" loading="eager"><span class="tile-label"><small>Painting</small>Dancing Dragon</span></a>
+        <a class="tile h2" href="#spacechakra"><img src="assets/images/games/bonecleaver/bone-cleaver-main-capsule.jpg" alt="Bone Cleaver game art"><span class="tile-label"><small>Game</small>Bone Cleaver</span></a>
+        <a class="tile tile-poem w2" href="#poetry"><span class="tile-quote">&ldquo;Consolation to the Angels That Slipped Through the Cracks of Time&rdquo;</span><small>Poem</small></a>
+        <a class="tile" href="#gallery"><img src="Art/thumbs/Paintings_Illustrations/anarchist-gorilla-artwork-santiago-salvador-2.jpg" alt="Anarchist Gorilla painting"><span class="tile-label"><small>Painting</small>Anarchist Gorilla</span></a>
+        <a class="tile" href="#spacechakra"><img src="assets/images/games/plex78/plex-78-main-capsule.jpg" alt="PLEX-78 synthesizer"><span class="tile-label"><small>Synth</small>PLEX-78</span></a>
+        <a class="tile tile-shop w2" href="https://www.redbubble.com/people/playatech/shop" target="_blank" rel="noopener"><span class="tile-quote">Wear the art.</span><small>Shirts, stickers &amp; prints on Redbubble &#8599;</small></a>
+        <a class="tile h2" href="#gallery"><img src="Art/Custom_Figures_Toys/battle-cat-white-tiger-artwork-santiago-salvador.jpg" alt="Battle Cat White Tiger custom figure"><span class="tile-label"><small>Custom figure</small>Battle Cat</span></a>
+        <a class="tile tile-labels" href="#labels"><span class="tile-quote">1,306</span><small>Free cartridge labels</small></a>
+        <a class="tile" href="#music"><img src="assets/images/games/cosmicvibes/cosmic-vibes-main-capsule.jpg" alt="Cosmic Vibes sound tool"><span class="tile-label"><small>Sound</small>Cosmic Vibes</span></a>
+        <a class="tile" href="#gallery"><img src="Art/thumbs/Paintings_Illustrations/afrowoman-artwork-santiago-salvador.jpg" alt="Afrowoman painting"><span class="tile-label"><small>Painting</small>Afrowoman</span></a>
+        <a class="tile" href="#spacechakra"><img src="assets/images/games/roadtripracer/road-trip-racer-main-capsule.jpg" alt="Road Trip Racer game art"><span class="tile-label"><small>Kids game</small>Road Trip Racer</span></a>
+        <a class="tile" href="#spacechakra"><img src="assets/images/games/neighborwars/neighbor-wars-main-capsule.jpg" alt="Neighbor Wars game art"><span class="tile-label"><small>Game</small>Neighbor Wars</span></a>
       </div>
-    </div>
-
-    <!-- Footer Bar: Social links pinned at the bottom, just like original backup -->
-    <div class="hero-footer-bar">
-      <ul class="hero-socials">
-        <li><a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener" class="hero-social-link" title="YouTube @spacechakra">▶</a></li>
-        <li><a href="https://www.instagram.com/spacechakra/?hl=en" target="_blank" rel="noopener" class="hero-social-link" title="Instagram @spacechakra">📸</a></li>
-        <li><a href="https://twitter.com/oWellWtvrNvrmnd" target="_blank" rel="noopener" class="hero-social-link" title="Twitter @oWellWtvrNvrmnd">𝕏</a></li>
-        <li><a href="https://spacechakra.itch.io" target="_blank" rel="noopener" class="hero-social-link" title="itch.io">🎮</a></li>
-        <li><a href="https://github.com/SpaceChakra" target="_blank" rel="noopener" class="hero-social-link" title="GitHub SpaceChakra">🐙</a></li>
-        <li><a href="mailto:salvsantiago@gmail.com" class="hero-social-link" title="Email Santiago">✉</a></li>
+      <ul class="collage-socials">
+        <li><a href="https://www.youtube.com/@spacechakra" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://www.instagram.com/spacechakra/?hl=en" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://spacechakra.itch.io" target="_blank" rel="noopener">itch.io</a></li>
+        <li><a href="https://www.redbubble.com/people/playatech/shop" target="_blank" rel="noopener">Redbubble</a></li>
+        <li><a href="https://spacechakra.com" target="_blank" rel="noopener">SpaceChakra studio</a></li>
+        <li><a href="#contact">Commissions</a></li>
       </ul>
-      <a href="#intro" class="scroll-indicator" title="Scroll to Introduction">
-        <span>Explore</span>
-        <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>
-      </a>
     </div>
   </header>
-
-  <!-- ========================================================================
-       ARTIST STATEMENT & INTRODUCTION BANNER
-       ======================================================================== -->
-  <section class="intro-section" id="intro">
-    <div class="container">
-      <div class="intro-card">
-        <div class="intro-badge">
-          <span class="pulse-dot"></span> Available for Work & Commissions
-        </div>
-        <h2 class="intro-heading">Welcome to the Creative Archive of Santiago Salvador</h2>
-        <p class="intro-lead">
-          A decade of art, games, labels, and sound — browse the archive below. For my professional dev portfolio, visit <a href="https://spacechakra.com" target="_blank" rel="noopener" style="color:var(--accent-cyan);font-weight:600;text-decoration:underline;">SpaceChakra.com</a>.
-        </p>
-        <div class="intro-links">
-          <a href="https://spacechakra.com" target="_blank" rel="noopener" class="btn btn-cyan btn-sm">
-            SpaceChakra Game Studio ↗
-          </a>
-          <a href="#contact" class="btn btn-primary btn-sm">Discuss a Commission</a>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- ========================================================================
        SECTION 1: ORIGINAL ART ARCHIVE
@@ -241,7 +203,8 @@
       <div id="prints-grid" class="prints-grid"></div>
       <p class="prints-note">Signed, unframed prints on high-quality inkjet paper, made to order and dispatched within 5–7 business days. U.S. shipping is $7, plus $1 per additional print. International orders: ask for a shipping quote before purchasing. Artwork proportions are preserved with a white border.</p>
       <div class="prints-actions">
-        <a class="btn btn-primary" href="mailto:salvsantiago@gmail.com?subject=Studio%20print%20inquiry&amp;body=Artwork%20title%3A%0APreferred%20size%3A%0AQuantity%3A%0AShipping%20country%20and%20postal%20code%3A%0A">Ask About a Print</a>
+        <a class="btn btn-primary" href="https://www.redbubble.com/people/playatech/shop" target="_blank" rel="noopener">Shirts, Stickers &amp; More on Redbubble &#8599;</a>
+        <a class="btn btn-outline" href="mailto:salvsantiago@gmail.com?subject=Studio%20print%20inquiry&amp;body=Artwork%20title%3A%0APreferred%20size%3A%0AQuantity%3A%0AShipping%20country%20and%20postal%20code%3A%0A">Ask About a Signed Print</a>
       </div>
     </div>
   </section>
@@ -580,6 +543,7 @@
             <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
             Download High-Res Master
           </a>
+          <a href="https://www.redbubble.com/people/playatech/shop" target="_blank" rel="noopener" class="btn btn-outline btn-sm lightbox-btn-shop" hidden>Get it on a shirt or print &#8599;</a>
         </div>
       </div>
     </div>
